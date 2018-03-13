@@ -173,6 +173,7 @@ $fsg_awards = array(
   ),
   "Mr. White" => array(
     array('Neutral Density Photography Awards • 2017 • USA • Salon HM', 'ndawards_hm.png', '', '75', '72', '0', '5'),
+    array('International Photographer of the Year • 2018 • GB • HM', 'ipoty_2017_hm.png', '', '93', '72', '0', '5'),
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
   ),
@@ -305,6 +306,7 @@ $fsg_awards = array(
     array('1st Queensland International Digital Circuit – Townsville • 2014 • Australia • Salon Silver', 'silver_qidc.png', '', '72', '72', '0', '5'),
     array('1st International Salon of Photography "MNE OPEN" • 2013 • Montenegro • Salon Bronze', 'bronze_montenegro.png', '', '72', '72', '0', '5'),
     array('8° French Digital Tour - 16° Salon International de Bagnols / Marcoule • 2013 • France • Salon Bronze', 'bronze_fpf.png', '', '72', '72', '0', '5'),
+    array('Caucasus Carpathians circuit – 2nd International Photo Salon • 2018 • Ukraine • Salon Bronze', 'bronze.svg', '', '72', '72', '0', '5'),
     array('SKsL 5. Seuracup • 2014 • Finland • HM', 'hm_seuracup_men.jpg', '', '51', '72', '0', '5'),
     array('Travel Digital Photo Salon • 2013 • Hungary • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('51° Salào Jauense Internacional de Arte Fotografica • 2015 • Brazil • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
@@ -383,6 +385,7 @@ $fsg_awards = array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
     array('500px • 2017 • Editors\' Choice', '500px_editors_choice.svg', '', '72', '72', '0', '5'),
+    array('SKsL vuosinäyttely • 2018 • Finland • HM', 'hm_vuosi_bloodthirsty.jpg', '', '51', '72', '0', '5'),
   ),
   "Butterfly dreams" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -543,9 +546,11 @@ $fsg_awards = array(
     array('Fotofinlandia • 2016 • Finland • Finalist', 'fotofinlandia.png', '', '51', '72', '0', '5'),
     array('PX3 • 2016 • France • Gold', 'px3_seal_2016.png', '', '72', '72', '0', '5'),
     array('Neutral Density Photography Awards • 2017 • USA • Salon Bronze', 'ndawards_bronze.png', '', '75', '72', '0', '5'),
+    array('ONE EYELAND AWARDS 2017 • 2018 • India • Bronze', 'oneeyeland-bronze.jpg', '', '48', '72', '0', '5'),
     array('Moscow International Foto Awards • 2016 • Russia • HM', 'mifa_seal_2016.png', '', '72', '72', '0', '5'),
     array('Int\'l photography awards • 2016 • USA • HM', 'ipa_seal_2016.png', '', '68', '72', '0', '5'),
     array('Fine Art Photography Awards • 2017 • Great Britain • Nominee', 'fapa-nominee.png', '', '52', '72', '0', '5'),
+    array('International Photographer of the Year • 2018 • GB • HM', 'ipoty_2017_hm.png', '', '93', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 34° Trofeo Arno • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 14° Trofeo Colline del Chianti • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('PX3 • 2016 • France • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -576,6 +581,7 @@ $fsg_awards = array(
     array('AC Foto German Mega Circuit - 12th Swabian International • 2015 • Germany • PSA Gold (Best of Show)', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('1st Miroc Exhibition - Penza • 2016 • Russia • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('1st Nordic International Digital Circuit – Oslo • 2016 • Norway • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
+    array('Caucasus Carpathians circuit – 2nd International Photo Salon • 2018 • Ukraine • Salon Gold', 'gold.svg', '', '72', '72', '0', '5'),
     array('2nd Bandung International Salon of Photography • 2015 • Indonesia • FIAP Silver', 'silver_fiap.png', '', '72', '72', '0', '5'),
     array('Photo Winner • 2016 • Serbia • Salon Bronze', 'bronze.svg', '', '72', '72', '0', '5'),
     array('Perspective Four - International Salon of Fine Art Photography • 2016 • India • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
@@ -811,6 +817,9 @@ $fsg_awards = array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015 • Magazine Highlights', 'pentaprism_r_choice.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Deep Thoughts" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Rough" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
