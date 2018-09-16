@@ -17,6 +17,9 @@ $fsg_awards = array(
   "Sweat Dreams" => array(
     array('One Eyeland • 2014', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Master of Time" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Behind the Mask" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
@@ -28,6 +31,7 @@ $fsg_awards = array(
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
   ),
   "Business Portrait" => array(
+    array('International Color Awards • 2018 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -132,6 +136,10 @@ $fsg_awards = array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2014', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Viking Stare" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Movember" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014 • Cover Image', 'pentaprism_r_choice.svg', '', '72', '72', '0', '5'),
@@ -232,6 +240,7 @@ $fsg_awards = array(
     array('2nd Danube Digital Circuit – Romania • 2017 • Romania • ICS HM', 'ics_hm_wf.jpg', '', '145', '72', '0', '5'),
   ),
   "And then he arrived..." => array(
+    array('International Color Awards • 2018 • USA • HM', 'intl_color_awards_winner_2017.png', '', '72', '72', '0', '5'),
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "The Duel" => array(
@@ -343,6 +352,10 @@ $fsg_awards = array(
   "My mirror image" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Creative Competition 4 • 2018 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Skullhead" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "All that remains" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -363,6 +376,7 @@ $fsg_awards = array(
   ),
   "Freedom" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Nordiskt fotomästerskap • 2018 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
   ),
   "Possessed" => array(
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -393,6 +407,7 @@ $fsg_awards = array(
   ),
   "Judgement Day" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('Trierenberg Super Circuit – Graz • 2018 • Austria • Salon Silver', 'silver.svg', '', '72', '72', '0', '5'),
   ),
   "Not Quite William Tell" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -415,6 +430,7 @@ $fsg_awards = array(
     array('3rd Queensland International Digital Circuit – Maryborough • 2016 • Australia • FIAP Gold', 'gold_fiap.png', '', '72', '72', '0', '5'),
     array('5th Port Talbot International Salon • 2016 • GB/Wales • PSA Gold (Best of Show)', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('PID Individual Creative Competition End of Year • 2017 • USA • PSA medal HM', 'hm_medal_psa.png', '', '72', '72', '0', '5'),
+    array('Nordiskt fotomästerskap • 2018 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
     array('3e Salon International Photographique Le Catalan • 2014 • France • Salon HM', 'hm_lc_finger.jpg', '', '47', '72', '0', '5'),
     array('PID Individual Creative Competition 2 • 2017 • USA • Judge\'s Choice', 'judgeschoice_psa_creative.png', '', '18', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -471,6 +487,7 @@ $fsg_awards = array(
   "Burning breakfast" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Creative Competition 3 • 2018 • USA • HM', 'hm_psa_creative.png', '', '18', '72', '0', '5'),
   ),
   "Separated" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -479,6 +496,10 @@ $fsg_awards = array(
   "Looking at the Moon" => array(
     array('Uzbekistan Photo Salon • 2017 • Uzbekistan • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
     array('3rd Taichung International Exhibition of Photography • 2013 • Taiwan • Salon HM', 'hm_taichung_individual.jpg', '', '49', '72', '0', '5'),
+  ),
+  "Imperfect" => array(
+    array('Tokyo International Foto Awards • 2018 • Japan • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Moscow International Foto Awards • 2018 • Russia • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Shoots People for Fun" => array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
@@ -565,6 +586,15 @@ $fsg_awards = array(
     array('1st Exhibition of Photography "Rock" - Cacak • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
     array('1st Exhibition of Photography "Rock" - Knjazevac • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
   ),
+  "Story of a Vampire" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
+  ),
+  "Egghead" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PID Individual Creative Competition 4 • 2018 • USA • Merit', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Creative Competition – End of Year • 2018 • USA • Gold – Best of Show', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
   "Kalloflex" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -594,6 +624,9 @@ $fsg_awards = array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Viking Challenge" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Evil Look" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
@@ -608,6 +641,10 @@ $fsg_awards = array(
   ),
   "5 minutes to midnight" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "A Little Snack" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Ha Ha!" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -625,8 +662,19 @@ $fsg_awards = array(
   "Skull Bug" => array(
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Empty Frames" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Meditation" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Kuopio" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Master of Many Tools" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Cheltenham International Salon of Photography • 2018 • GB/England • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "Mmm, Chocolate" => array(
     array('Moscow International Foto Awards • 2016 • Russia • HM', 'mifa_seal_2016.png', '', '72', '72', '0', '5'),
@@ -650,6 +698,7 @@ $fsg_awards = array(
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('SKsL vuosinäyttely • 2017 • Finland • HM', 'hm_vuosi_bloodthirsty.jpg', '', '51', '72', '0', '5'),
     array('Sydney Harbour International • 2017 • Australia • IUP Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PSA PID Image of the Year 2017 Competition • 2018 • USA • Award of Merit', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "I Surrender" => array(
     array('1x.com • 2013', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -690,6 +739,9 @@ $fsg_awards = array(
   "Airhead" => array(
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
   ),
+  "Viking" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Don't Look, Don't Tell" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
@@ -703,6 +755,7 @@ $fsg_awards = array(
   "Disagreement" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PID Individual Creative Competition 1 • 2017 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Creative Competition – End of Year • 2018 • USA • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Yin and Yang" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -764,6 +817,9 @@ $fsg_awards = array(
     array('Intercontinental Circuit - VI Saló Internacional Fotogràfic Digital - Andorra la Vella • 2016 • Andorra • Salon HM', 'hm_faf_blind_justice.jpg', '', '51', '72', '0', '5'),
     array('Kazakhstan Diagama • 2016 • Kazakhstan • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('1st Nordic International Digital Circuit – Helsinki • 2016 • Finland • Judge\'s Choice', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Just a Little Trim" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Crystal Ball World" => array(
     array('2nd Queensland International Digital Circuit - Townsville • 2015 • Australia • Salon HM', 'hm_psq.png', '', '16', '72', '0', '5'),
