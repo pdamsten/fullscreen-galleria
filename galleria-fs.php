@@ -28,7 +28,7 @@ if (file_exists(dirname(__FILE__).'/description.php')) {
   include 'description.php';
 }
 
-function fsg_remove_settings() 
+function fsg_remove_settings()
 {
   global $fsg_db_key;
 	delete_option($fsg_db_key);
@@ -49,13 +49,13 @@ class FSGPlugin {
   {
     return (strncmp($str, $starts, strlen($starts)) == 0);
   }
-  
+
   function endswith(&$str, &$ends)
   {
     return (substr($str, -strlen($ends)) === $ends);
   }
-  
-  function get_attachment_id_from_src($src) 
+
+  function get_attachment_id_from_src($src)
   {
 		global $wpdb;
 		$id = $wpdb->get_var("SELECT ID FROM {$wpdb->posts} WHERE guid='$src'");
@@ -110,7 +110,7 @@ class FSGPlugin {
     $links = $links[0];
     return $links;
   }
-  
+
   function gps_to_float($value)
   {
     $a = explode('/', $value);
@@ -166,10 +166,10 @@ class FSGPlugin {
     add_action('admin_init', array(&$this, 'admin_init'));
     add_action('admin_menu', array(&$this, 'admin_menu'));
     register_uninstall_hook(__FILE__, 'fsg_remove_settings');
-    $plugin = plugin_basename(__FILE__); 
+    $plugin = plugin_basename(__FILE__);
     add_filter('plugin_action_links_'.$plugin, array(&$this, 'settings_link'));
-    
-    $this->defaults = array(); 
+
+    $this->defaults = array();
     foreach ($this->settings as $key => $setting) {
       $this->defaults[$key] = $this->settings[$key]['default'];
     }
@@ -198,124 +198,124 @@ class FSGPlugin {
   // Settings
   protected $settings = array(
   	'theme' => array(
-      'title' => 'Theme', 
+      'title' => 'Theme',
       'type' => 'combobox',
       'default' => 'b',
     	'items' => array('Black' => 'b', 'White' => 'w')
     ),
   	'transition' => array(
-      'title' => 'Transition Type', 
+      'title' => 'Transition Type',
       'type' => 'combobox',
       'default' => 'slide',
-    	'items' => array('Slide' => 'slide', 'Fade' => 'fade', 'Flash' => 'flash', 'Pulse' => 'pulse', 
+    	'items' => array('Slide' => 'slide', 'Fade' => 'fade', 'Flash' => 'flash', 'Pulse' => 'pulse',
                        'Fade and Slide' => 'fadeslide')
     ),
   	'overlay_time' => array(
-      'title' => 'Show Overlay', 
+      'title' => 'Show Overlay',
       'type' => 'combobox',
       'default' => 2000,
-    	'items' => array('Never' => 0, '1s' => 1000, '2s' => 2000, '4s' => 4000, '8s' => 8000, 
+    	'items' => array('Never' => 0, '1s' => 1000, '2s' => 2000, '4s' => 4000, '8s' => 8000,
                        'Allways' => 1000000)
     ),
   	'show_title' => array(
-      'title' => 'Show Title', 
+      'title' => 'Show Title',
       'type' => 'checkbox',
       'note' => '',
       'default' => 'on'
     ),
   	'show_caption' => array(
-      'title' => 'Show Caption', 
+      'title' => 'Show Caption',
       'type' => 'checkbox',
       'note' => '',
       'default' => ''
     ),
   	'show_description' => array(
-      'title' => 'Show Description', 
+      'title' => 'Show Description',
       'type' => 'checkbox',
       'note' => '',
       'default' => 'on'
     ),
   	'show_camera_info' => array(
-      'title' => 'Show Camera Info', 
+      'title' => 'Show Camera Info',
       'type' => 'checkbox',
       'note' => '',
       'default' => 'on'
     ),
   	'show_thumbnails' => array(
-      'title' => 'Show Thumbnails', 
+      'title' => 'Show Thumbnails',
       'type' => 'checkbox',
       'note' => '',
       'default' => 'on'
     ),
   	'show_permalink' => array(
-      'title' => 'Show Permalink', 
+      'title' => 'Show Permalink',
       'type' => 'checkbox',
       'note' => '',
       'default' => 'on'
     ),
   	'show_sharing' => array(
-      'title' => 'Show Sharing Buttons', 
+      'title' => 'Show Sharing Buttons',
       'type' => 'checkbox',
       'note' => 'Needs Jetpack to work. Use "Icon + Text" or "Icon Only" for button style.',
       'default' => ''
     ),
   	'show_attachment' => array(
-      'title' => 'Open FSG for Attachments pages', 
+      'title' => 'Open FSG for Attachments pages',
       'type' => 'checkbox',
       'note' => 'Useful for sharing links so all attachment pages show fullscreen galleria.',
       'default' => 'on'
     ),
   	'show_map' => array(
-      'title' => 'Show Map Button', 
+      'title' => 'Show Map Button',
       'type' => 'checkbox',
       'note' => 'if GPS coordinates are present',
       'default' => 'on'
     ),
   	'image_nav' => array(
-      'title' => 'Disable Image Navigation', 
+      'title' => 'Disable Image Navigation',
       'type' => 'checkbox',
       'note' => 'Show only one image at the time.',
       'default' => ''
     ),
   	'auto_start_slideshow' => array(
-      'title' => 'Autostart slideshow', 
+      'title' => 'Autostart slideshow',
       'type' => 'checkbox',
       'note' => '',
       'default' => ''
     ),
   	'true_fullscreen' => array(
-      'title' => 'True fullscreen', 
+      'title' => 'True fullscreen',
       'type' => 'checkbox',
       'note' => 'Experimental',
       'default' => ''
     ),
   	'load_on_demand' => array(
-      'title' => 'Load FSG only when needed.', 
+      'title' => 'Load FSG only when needed.',
       'type' => 'checkbox',
       'note' => 'Experimental. Seems to break some installations',
       'default' => ''
     )
   );
-      
+
   function admin_init()
   {
     global $fsg_db_key;
-  	register_setting($fsg_db_key, $fsg_db_key, 
+  	register_setting($fsg_db_key, $fsg_db_key,
                      array(&$this, 'plugin_settings_validate'));
   	add_settings_section('main_section', 'Main Settings', NULL, __FILE__);
     foreach ($this->settings as $key => $setting) {
-      add_settings_field($key, $setting['title'], array(&$this, $setting['type']), 
+      add_settings_field($key, $setting['title'], array(&$this, $setting['type']),
                          __FILE__, 'main_section', $key);
     }
   }
 
-  function admin_menu() 
+  function admin_menu()
   {
-  	add_options_page('Fullscreen Galleria Settings', 'Fullscreen Galleria', 
+  	add_options_page('Fullscreen Galleria Settings', 'Fullscreen Galleria',
                      'administrator', __FILE__, array(&$this, 'settings_page'));
   }
-  
-  function settings_page() 
+
+  function settings_page()
   {
     global $fsg_ver;
     global $fsg_db_key;
@@ -327,12 +327,12 @@ class FSGPlugin {
   		<?php settings_fields($fsg_db_key); ?>
   		<?php do_settings_sections(__FILE__); ?>
   		<p class="submit">
-  			<input name="submit" type="submit" id="submit" class="button-primary" 
+  			<input name="submit" type="submit" id="submit" class="button-primary"
                value="<?php esc_attr_e('Save Changes'); ?>" />
   		</p>
   		</form>
       <div style="text-align: center; width: 256px; line-height: 175%;">
-        
+
       <img width=256 height=28 src="<?php echo plugins_url('hr.png', __FILE__); ?>"><br>
       Version <?php echo $fsg_ver; ?><br>
       <div style="font-size: 12pt;">
@@ -344,12 +344,12 @@ class FSGPlugin {
   <?php
   }
 
-  function plugin_settings_validate($input) 
+  function plugin_settings_validate($input)
   {
   	return $input;
   }
 
-  function combobox($key) 
+  function combobox($key)
   {
     global $fsg_db_key;
   	$options = get_option($fsg_db_key, $this->defaults);
@@ -362,12 +362,12 @@ class FSGPlugin {
   	echo '</select>';
   }
 
-  function checkbox($key) 
+  function checkbox($key)
   {
     global $fsg_db_key;
   	$options = get_option($fsg_db_key, $this->defaults);
-  	if (array_key_exists($key, $options) && $options[$key] == 'on') { 
-      $checked = ' checked="checked" '; 
+  	if (array_key_exists($key, $options) && $options[$key] == 'on') {
+      $checked = ' checked="checked" ';
     } else {
       $checked = '';
     }
@@ -375,12 +375,12 @@ class FSGPlugin {
     echo '&nbsp;&nbsp;&nbsp;<i>'.$this->settings[$key]['note'].'</i>';
   }
 
-  function settings_link($links) 
-  { 
+  function settings_link($links)
+  {
     $settings_link = '<a href="options-general.php?page=fullscreen-galleria/galleria-fs.php">'.
-                     'Settings</a>'; 
-    array_unshift($links, $settings_link); 
-    return $links; 
+                     'Settings</a>';
+    array_unshift($links, $settings_link);
+    return $links;
   }
 
   // Rest of the plugin
@@ -404,7 +404,7 @@ class FSGPlugin {
     global $fsg_my_serial;
     global $fsg_my_model;
     global $fsg_my_lenses;
-  
+
     $name = 'fsg_my_'.$type;
     $value = preg_replace('/[\x00-\x1F]/', '', $value); # Remove non printable characters
     if (isset($$name)) {
@@ -413,7 +413,7 @@ class FSGPlugin {
       }
     }
     return is_null($default) ? $value : $default;
-  }  
+  }
 
   function camera_round($v, $limit)
   {
@@ -423,7 +423,7 @@ class FSGPlugin {
       return round($v, 1);
     }
   }
-  
+
   function camera_info($exif)
   {
     global $fsg_my_lenses;
@@ -531,7 +531,7 @@ class FSGPlugin {
   {
       if (!empty($postid)) {
       		  $photos = get_children(array('post_parent' => $postid, 'post_status' => 'inherit',
-         		    'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 
+         		    'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order,
                 'orderby' => $orderby));
       } else {
         if (!empty($include)) {
@@ -540,10 +540,10 @@ class FSGPlugin {
               'include' => $include));
         } else {
           $photos = get_children(array('post_parent' => $post->ID, 'post_status' => 'inherit',
-              'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 
+              'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order,
               'orderby' => $orderby));
         }
-      }  
+      }
       $images = array();
       foreach ($photos as $key => $val) {
         $images[$this->href(wp_get_attachment_link($val->ID, 'full'))] =
@@ -552,7 +552,7 @@ class FSGPlugin {
       }
       return $images;
   }
-  
+
   function photobox_shortcode($attr, $content = null)
   {
     global $post;
@@ -617,7 +617,7 @@ class FSGPlugin {
 
     if (!empty($postid)) {
 		  $photos = get_children(array('post_parent' => $postid, 'post_status' => 'inherit',
-   		    'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order, 
+   		    'post_type' => 'attachment', 'post_mime_type' => 'image', 'order' => $order,
           'orderby' => $orderby));
       $id = "fsg_post_".$postid;
       if (!empty($photos)) {
@@ -644,7 +644,7 @@ class FSGPlugin {
           $imgid = 0;
         }
       }
-    }  
+    }
     $images = array();
     foreach ($photos as $key => $val) {
       $images[$this->href(wp_get_attachment_link($val->ID, 'full'))] =
@@ -742,7 +742,7 @@ class FSGPlugin {
       wp_enqueue_style('galleria-fs');
     }
   }
-  
+
   function header()
   {
     //error_log('header');
@@ -810,9 +810,11 @@ class FSGPlugin {
     $str = str_replace("\r", "", $str);
     $str = str_replace("\n", "<br/>", $str);
     $str = str_replace("\t", " ", $str);
+    $str = str_replace("\xE2\x80\xA8", "<br/>", $str);
+    $str = str_replace("\x3F", "<br/>", $str);
     return $str;
   }
-    
+
   function append_json($id, &$images, $extra = false)
   {
     global $fsg_sites;
@@ -869,7 +871,7 @@ class FSGPlugin {
             $layer_has_info = true;
             $links = explode(';', $meta['image_meta']['link']);
             $link = '';
-            foreach ($links as $l) { 
+            foreach ($links as $l) {
               $t = $l;
               $c = 'galleria-link';
               foreach ($fsg_sites as $url => $sitedata) {
@@ -964,12 +966,12 @@ class FSGPlugin {
   function content($content)
   {
     //error_log('content');
-    
+
     // do not apply gallery to feed content
     if (is_feed()) {
       return $content;
     }
-    
+
     global $post;
     if ($this->firstpostid == -1) {
       $this->firstpostid = $post->ID;
