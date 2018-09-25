@@ -32,7 +32,7 @@ Galleria.addTheme({
     },
     init: function(options) {
         Galleria.requires(1.5, 'This version of theme requires Galleria 1.5 or later');
-      
+
         // add some elements
         this.addElement('info-link','info-close');
         this.append({
@@ -44,6 +44,7 @@ Galleria.addTheme({
         this.appendChild('container', 'map');
         this.appendChild('map', 'map-close');
 
+        var timer = 0;
         // cache some stuff
         var info = this.$('info-link,info-close,info-text'),
             close = this.$('close'),
@@ -92,6 +93,18 @@ Galleria.addTheme({
         });
 
         // bind some stuff
+        if ( touch ) {
+          this.bind('image', function(e) {
+            clearTimeout(timer);
+            timer = setTimeout(function(e) {
+              $('.galleria-infolayer').fadeOut(1000);
+            }, 300);
+          });
+          $('#galleria').bind('click', function() {
+            clearTimeout(timer);
+            $('.galleria-infolayer').fadeIn(300);
+          });
+        }
         this.bind('thumbnail', function(e) {
 
             if (! touch ) {
