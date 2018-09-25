@@ -850,10 +850,9 @@ class FSGPlugin {
             }
             if (function_exists('fsg_description')) {
               $d = $this->js_string(fsg_description($val['data']->post_title));
-              if ($description != '' and $d != '') {
-                $description .= '<br/>';
+              if ($d != '') {
+                $description .= '<p class="galleria-info-extra">'.$d.'</p>';
               }
-              $description .= $this->js_string(fsg_description($val['data']->post_title));
             }
             if (!empty($description)) {
               $layer_has_info = true;

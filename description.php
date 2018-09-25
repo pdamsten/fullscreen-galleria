@@ -442,6 +442,9 @@ $fsg_awards = array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('1st CAPA International Salon of Photography • 2014 • Taiwan • Salon HM', 'hm_capa_sleep.jpg', '', '87', '72', '0', '5'),
   ),
+  "Weights" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Crap from the Sky" => array(
     array('11° French Digital Tour - 3° Saint Martin de la Crau • 2016 • France • Salon Gold', 'gold_fdt.png', '', '72', '72', '0', '5'),
   ),
@@ -585,6 +588,9 @@ $fsg_awards = array(
   "Keyboards" => array(
     array('1st Exhibition of Photography "Rock" - Cacak • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
     array('1st Exhibition of Photography "Rock" - Knjazevac • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
+  ),
+  "Roar" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Story of a Vampire" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),

@@ -178,6 +178,10 @@
     font: 8pt 'Open Sans', sans-serif;
     margin: 0;
 }
+.galleria-info-extra {
+  max-height: 72px;
+  overflow: hidden;
+}
 .galleria-layeritem {
   display: table-cell;
   vertical-align: middle;
