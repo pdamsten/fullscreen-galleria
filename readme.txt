@@ -98,6 +98,9 @@ Adds link to group of images. eg. [fsg_link class="btn" include="112,113,114,115
 3. Showing map for photos that have gps coordinates
 
 == Changelog ==
+= 1.6.5 =
+* Hide info also in mobile devices
+
 = 1.6.4 =
 * Rounder design
 
