@@ -53,6 +53,9 @@ $fsg_awards = array(
   "Hell Fire" => array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
   ),
+  "Levitation" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Mist Rising" => array(
     array('Strom Ružomberok • 2014 • Slovakia • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
     array('The 6th Great British Small Print Circuit - Penrith • 2017 • GB/England • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -209,6 +212,10 @@ $fsg_awards = array(
   "Nearsighted Gnome" => array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
   ),
+  "The Chamber" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Key to My Heart" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
@@ -298,6 +305,9 @@ $fsg_awards = array(
   "Through the Branches" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Markku's Vmax" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Communicating" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -323,12 +333,12 @@ $fsg_awards = array(
     array('2nd International Western Ligurian Circuit - 3° Cervo Prize • 2013 • Italy • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
     array('Middle East Grand Circuit • 2015 • Egypt • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
     array('Cyprus International Digital Photo Competition • 2015 • Cyprus • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
+    array('PID Individual Portrait Competition 3 • 2017 • USA • PSA Portrait Best Male', 'best_male_psa_portrait.png', '', '18', '72', '0', '5'),
     array('German International DVF-Photocup – Hessen • 2014 • Germany • Salon HM', 'hm_dvf_men.jpg', '', '51', '72', '0', '5'),
     array('The 4th Golden Digital Salon • 2014 • Denmark • Salon HM', 'hm_tgd_men.jpg', '', '50', '72', '0', '5'),
     array('2nd International Salon of Art Photo - Carpathian Drag • 2016 • Ukraine • NSPAU HM', 'hm_carpathian_men.jpg', '', '50', '72', '0', '5'),
     array('Nowruz International Salon of Photography • 2016 • Tajikistan • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Victor Polynsky Award • 2016 • Kyrgyzstan • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('PID Individual Portrait Competition 3 • 2017 • USA • HM (Best Male)', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Two-Face" => array(
     array('"This is life" 1st International Digital Salon of Photography • 2014 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
@@ -339,8 +349,8 @@ $fsg_awards = array(
   "Can I play with madness" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PID Individual Creative Competition 2 • 2017 • USA • PSA Creative HM Green', 'hm_psa_creative_green.png', '', '18', '72', '0', '5'),
     array('PID Individual Creative Competition End of Year • 2017 • USA • PSA medal HM', 'hm_medal_psa.png', '', '72', '72', '0', '5'),
-    array('PID Individual Creative Competition 2 • 2017 • USA • HM', 'hm_psa_creative.png', '', '18', '72', '0', '5'),
   ),
   "Superman Exercise" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -352,7 +362,7 @@ $fsg_awards = array(
   "My mirror image" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('PID Individual Creative Competition 4 • 2018 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Creative Competition 4 • 2018 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
   ),
   "Skullhead" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -392,8 +402,8 @@ $fsg_awards = array(
   ),
   "Self Caricature" => array(
     array('One Eyeland • 2016 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
+    array('PID Individual Creative Competition 4 • 2017 • USA • PSA Creative HM Green', 'hm_psa_creative_green.png', '', '18', '72', '0', '5'),
     array('5th Port Talbot International Salon • 2016 • GB/Wales • Highly Commented', 'hm_talbot.png', '', '23', '72', '0', '5'),
-    array('PID Individual Creative Competition 4 • 2017 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "And the Winner Is..." => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -429,11 +439,15 @@ $fsg_awards = array(
     array('One Eyeland • 2014', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('3rd Queensland International Digital Circuit – Maryborough • 2016 • Australia • FIAP Gold', 'gold_fiap.png', '', '72', '72', '0', '5'),
     array('5th Port Talbot International Salon • 2016 • GB/Wales • PSA Gold (Best of Show)', 'gold_psa.png', '', '72', '72', '0', '5'),
+    array('PID Individual Creative Competition 2 • 2017 • USA • PSA Creative Judge\'s Choice', 'judgeschoice_psa_creative.png', '', '18', '72', '0', '5'),
     array('PID Individual Creative Competition End of Year • 2017 • USA • PSA medal HM', 'hm_medal_psa.png', '', '72', '72', '0', '5'),
+    array('PSA PID Image of the Year 2016 Competition • 2017 • USA • PSA IOY HM', 'hm_psa_ioy.png', '', '19', '72', '0', '5'),
     array('Nordiskt fotomästerskap • 2018 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
     array('3e Salon International Photographique Le Catalan • 2014 • France • Salon HM', 'hm_lc_finger.jpg', '', '47', '72', '0', '5'),
-    array('PID Individual Creative Competition 2 • 2017 • USA • Judge\'s Choice', 'judgeschoice_psa_creative.png', '', '18', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Markku's Portrait" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Escape" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -481,7 +495,7 @@ $fsg_awards = array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('EUROPA XIV Salo Internacional de Fotografia Digital • 2015 • Spain • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
-    array('PID Individual Creative Competition 3 • 2017 • USA • HM', 'hm_psa_creative.png', '', '18', '72', '0', '5'),
+    array('PID Individual Creative Competition 3 • 2017 • USA • PSA Creative HM Green', 'hm_psa_creative_green.png', '', '18', '72', '0', '5'),
   ),
   "Denied" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -490,7 +504,7 @@ $fsg_awards = array(
   "Burning breakfast" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('PID Individual Creative Competition 3 • 2018 • USA • HM', 'hm_psa_creative.png', '', '18', '72', '0', '5'),
+    array('PID Individual Creative Competition 3 • 2018 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
   ),
   "Separated" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -501,6 +515,7 @@ $fsg_awards = array(
     array('3rd Taichung International Exhibition of Photography • 2013 • Taiwan • Salon HM', 'hm_taichung_individual.jpg', '', '49', '72', '0', '5'),
   ),
   "Imperfect" => array(
+    array('Int\'l photography awards • 2018 • USA • HM', 'ipa_seal_2016.png', '', '68', '72', '0', '5'),
     array('Tokyo International Foto Awards • 2018 • Japan • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2018 • Russia • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -598,8 +613,9 @@ $fsg_awards = array(
   ),
   "Egghead" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PID Individual Creative Competition 4 • 2018 • USA • Merit', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('PID Individual Creative Competition – End of Year • 2018 • USA • Gold – Best of Show', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Creative Competition – End of Year • 2018 • USA • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
+    array('PID Individual Creative Competition 4 • 2018 • USA • PSA Creative Merit', 'merit_psa_creative.png', '', '19', '72', '0', '5'),
+    array('PID Individual Creative Competition – End of Year • 2018 • USA • PSA Creative Best of Show', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Kalloflex" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -664,6 +680,9 @@ $fsg_awards = array(
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Hoylake International Exhibition • 2017 • GB/England • Salon Gold (Best Botany)', 'gold_hoylake.png', '', '61', '72', '0', '5'),
     array('Photo Winner • 2016 • Serbia • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "The Undead" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Skull Bug" => array(
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -760,8 +779,8 @@ $fsg_awards = array(
   ),
   "Disagreement" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PID Individual Creative Competition 1 • 2017 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('PID Individual Creative Competition – End of Year • 2018 • USA • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Creative Competition – End of Year • 2018 • USA • PSA Silver', 'silver_psa.png', '', '72', '72', '0', '5'),
+    array('PID Individual Creative Competition 1 • 2017 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
   ),
   "Yin and Yang" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -882,6 +901,9 @@ $fsg_awards = array(
   ),
   "Deep Thoughts" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Peacemaker" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Rough" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
