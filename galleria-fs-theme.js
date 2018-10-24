@@ -97,8 +97,8 @@ Galleria.addTheme({
           this.bind('image', function(e) {
             clearTimeout(timer);
             timer = setTimeout(function(e) {
-              $('.galleria-infolayer').fadeOut(1000);
-            }, 300);
+              $('.galleria-infolayer').fadeOut(750);
+            }, 750);
           });
           $('#galleria').bind('click', function() {
             clearTimeout(timer);
