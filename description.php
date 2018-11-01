@@ -271,6 +271,10 @@ $fsg_awards = array(
   "Eyes Wide & Shut" => array(
     array('One Eyeland • 2014', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Pick Your Poison" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Overthinking" => array(
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
