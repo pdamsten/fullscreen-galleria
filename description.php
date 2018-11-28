@@ -142,6 +142,7 @@ $fsg_awards = array(
   "Viking Stare" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Portrait Competition – End of Year • 2018 • USA • PSA Bronze', 'bronze_psa.png', '', '72', '72', '0', '5'),
   ),
   "Movember" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -462,6 +463,9 @@ $fsg_awards = array(
   ),
   "Weights" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Paint Swirl" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Crap from the Sky" => array(
     array('11° French Digital Tour - 3° Saint Martin de la Crau • 2016 • France • Salon Gold', 'gold_fdt.png', '', '72', '72', '0', '5'),
