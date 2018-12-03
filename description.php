@@ -371,6 +371,7 @@ $fsg_awards = array(
   ),
   "Skullhead" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('This is life 4th International Digital salon of Photography • 2018 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "All that remains" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -614,6 +615,7 @@ $fsg_awards = array(
   ),
   "Roar" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('This is life 4th International Digital salon of Photography • 2018 • Finland • AFCC HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Story of a Vampire" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
