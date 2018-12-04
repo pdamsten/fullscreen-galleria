@@ -466,7 +466,7 @@ $fsg_awards = array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Paint Swirl" => array(
-    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
   ),
   "Crap from the Sky" => array(
     array('11° French Digital Tour - 3° Saint Martin de la Crau • 2016 • France • Salon Gold', 'gold_fdt.png', '', '72', '72', '0', '5'),
