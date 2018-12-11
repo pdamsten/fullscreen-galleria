@@ -5,9 +5,9 @@ $fsg_awards = array(
     array('1x.com • 2013', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('2nd Greek Photographic Circuit - Crete • 2014 • Greece • FIAP Gold', 'gold_fiap.png', '', '72', '72', '0', '5'),
-    array('4th Exhibition of Photography "Portrait" – Zajecar • 2014 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
+    array('4th Exhibition of Photography Portrait – Zajecar • 2014 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
     array('Pohjois-Savon Kameraseurojen Piirikilpailu • 2013 • Finland • HM', 'piiri_individual.jpg', '', '50', '72', '0', '5'),
-    array('3rd International Salon of Photography "Animals" • 2013 • Serbia • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
+    array('3rd International Salon of Photography Animals • 2013 • Serbia • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('12° Salón Internacional de Imagen Virtual • 2013 • Argentina • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('3rd Taichung International Exhibition of Photography • 2013 • Taiwan • Salon HM', 'hm_taichung_individual.jpg', '', '49', '72', '0', '5'),
   ),
@@ -83,11 +83,11 @@ $fsg_awards = array(
     array('124th Toronto International Salon of Photography • 2017 • Canada • CAPA HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Forgive Me" => array(
-    array('"This is life" 1st International Digital Salon of Photography • 2014 • Finland • UPI HM', 'hm_upi.png', '', '21', '72', '0', '5'),
+    array('This is life 1st International Digital Salon of Photography • 2014 • Finland • UPI HM', 'hm_upi.png', '', '21', '72', '0', '5'),
   ),
   "Facepalm" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('3rd International Salon of Photography "Photo Artist" • 2016 • Switzerland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('3rd International Salon of Photography Photo Artist • 2016 • Switzerland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Sydney Harbour International • 2017 • Australia • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Brownie" => array(
@@ -153,8 +153,8 @@ $fsg_awards = array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Curvy Road" => array(
-    array('1st Exhibition of Photography "Rock" - Cacak • 2013 • Serbia • Salon Bronze', 'bronze_rock.png', '', '72', '72', '0', '5'),
-    array('1st Exhibition of Photography "Rock" - Vidin • 2013 • Bulgaria • UPI Praise', 'hm_upi.png', '', '21', '72', '0', '5'),
+    array('1st Exhibition of Photography Rock - Cacak • 2013 • Serbia • Salon Bronze', 'bronze_rock.png', '', '72', '72', '0', '5'),
+    array('1st Exhibition of Photography Rock - Vidin • 2013 • Bulgaria • UPI Praise', 'hm_upi.png', '', '21', '72', '0', '5'),
   ),
   "All Good Things Come to an End" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -175,7 +175,7 @@ $fsg_awards = array(
     array('500px • 2016 • Editors\' Choice', '500px_editors_choice.svg', '', '72', '72', '0', '5'),
   ),
   "Star Max" => array(
-    array('1st Exhibition of Photography "Rock" - Vidin • 2015 • Bulgaria • Salon Silver', 'silver_bulgaria.png', '', '72', '72', '0', '5'),
+    array('1st Exhibition of Photography Rock - Vidin • 2015 • Bulgaria • Salon Silver', 'silver_bulgaria.png', '', '72', '72', '0', '5'),
   ),
   "Mood Dial" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -297,7 +297,7 @@ $fsg_awards = array(
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "My Lake" => array(
-    array('11th International Salon "Mask 2015" • 2016 • Slovenia • Salon Silver', 'silver_slovenie.png', '', '72', '72', '0', '5'),
+    array('11th International Salon Mask 2015 • 2016 • Slovenia • Salon Silver', 'silver_slovenie.png', '', '72', '72', '0', '5'),
     array('2nd My Favourite Circuit - 12th Laupheim International • 2015 • Germany • Salon HM', 'hm_dvf.jpg', '', '51', '72', '0', '5'),
   ),
   "The Gaze" => array(
@@ -328,7 +328,7 @@ $fsg_awards = array(
     array('Obsession of Light - 2nd Vantaa Photoclub International Salon • 2013 • Finland • PSA Silver', 'silver_psa.png', '', '72', '72', '0', '5'),
     array('1st Queensland International Digital Circuit – Mount Gravatt • 2014 • Australia • UPI Silver', 'silver_upi.png', '', '71', '72', '0', '5'),
     array('1st Queensland International Digital Circuit – Townsville • 2014 • Australia • Salon Silver', 'silver_qidc.png', '', '72', '72', '0', '5'),
-    array('1st International Salon of Photography "MNE OPEN" • 2013 • Montenegro • Salon Bronze', 'bronze_montenegro.png', '', '72', '72', '0', '5'),
+    array('1st International Salon of Photography MNE OPEN • 2013 • Montenegro • Salon Bronze', 'bronze_montenegro.png', '', '72', '72', '0', '5'),
     array('8° French Digital Tour - 16° Salon International de Bagnols / Marcoule • 2013 • France • Salon Bronze', 'bronze_fpf.png', '', '72', '72', '0', '5'),
     array('Caucasus Carpathians circuit – 2nd International Photo Salon • 2018 • Ukraine • Salon Bronze', 'bronze.svg', '', '72', '72', '0', '5'),
     array('SKsL 5. Seuracup • 2014 • Finland • HM', 'hm_seuracup_men.jpg', '', '51', '72', '0', '5'),
@@ -346,7 +346,7 @@ $fsg_awards = array(
     array('Victor Polynsky Award • 2016 • Kyrgyzstan • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Two-Face" => array(
-    array('"This is life" 1st International Digital Salon of Photography • 2014 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
+    array('This is life 1st International Digital Salon of Photography • 2014 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "Light in the Dark" => array(
     array('Obsession of Light 5th Vantaa Photoclub International Salon • 2016 • Finland • FIAP Silver', 'silver_fiap.png', '', '72', '72', '0', '5'),
@@ -514,10 +514,11 @@ $fsg_awards = array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 3 • 2018 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
+    array('SKsL 9. Seuracup • 2018 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Separated" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('International Circuit "8 Marzo Fotografia" - 2° Trofeo Francesco Mochi di Montevarchi • 2014 • Italy • UPI HM', 'hm_upi.png', '', '21', '72', '0', '5'),
+    array('International Circuit 8 Marzo Fotografia - 2° Trofeo Francesco Mochi di Montevarchi • 2014 • Italy • UPI HM', 'hm_upi.png', '', '21', '72', '0', '5'),
   ),
   "Looking at the Moon" => array(
     array('Uzbekistan Photo Salon • 2017 • Uzbekistan • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
@@ -573,7 +574,7 @@ $fsg_awards = array(
     array('The 6th Great British Small Print Circuit - Solway • 2017 • GB/England • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Got It" => array(
-    array('3rd International Salon of Photography "Animals" • 2013 • Serbia • Salon HM', 'hm_fkns_got_it.jpg', '', '69', '72', '0', '5'),
+    array('3rd International Salon of Photography Animals • 2013 • Serbia • Salon HM', 'hm_fkns_got_it.jpg', '', '69', '72', '0', '5'),
   ),
   "Jail Time" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -602,6 +603,7 @@ $fsg_awards = array(
     array('20° Gran Tour delle Colline - 34° Trofeo Arno • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 14° Trofeo Colline del Chianti • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('PX3 • 2016 • France • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('SKsL 9. Seuracup • 2018 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Standard of Beauty" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -610,8 +612,8 @@ $fsg_awards = array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Keyboards" => array(
-    array('1st Exhibition of Photography "Rock" - Cacak • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
-    array('1st Exhibition of Photography "Rock" - Knjazevac • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
+    array('1st Exhibition of Photography Rock - Cacak • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
+    array('1st Exhibition of Photography Rock - Knjazevac • 2013 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
   ),
   "Roar" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -648,7 +650,7 @@ $fsg_awards = array(
     array('Photo Winner • 2016 • Serbia • Salon Bronze', 'bronze.svg', '', '72', '72', '0', '5'),
     array('Perspective Four - International Salon of Fine Art Photography • 2016 • India • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
     array('122nd Toronto International Salon of Photography • 2015 • Canada • Salon HM', 'hm_tcp.png', '', '19', '72', '0', '5'),
-    array('International Circuit "8 Marzo Fotografia" – 4° Trofeo Francesco Mochi di Montevarchi • 2016 • Italy • ISF HM', 'hm_isf_blind_justice.jpg', '', '103', '72', '0', '5'),
+    array('International Circuit 8 Marzo Fotografia – 4° Trofeo Francesco Mochi di Montevarchi • 2016 • Italy • ISF HM', 'hm_isf_blind_justice.jpg', '', '103', '72', '0', '5'),
     array('Intercontinental Circuit - VI Saló Internacional Fotogràfic Digital - Andorra la Vella • 2016 • Andorra • Salon HM', 'hm_faf_blind_justice.jpg', '', '51', '72', '0', '5'),
     array('1st Danube Digital Circuit – Belarus • 2017 • Belarus • Salon HM', 'danube_hm_bj.jpg', '', '69', '72', '0', '5'),
   ),
@@ -827,7 +829,7 @@ $fsg_awards = array(
     array('1st International Digital Exhibition Vision • 2017 • Finland • PSA Silver (Best Creative)', 'silver_psa.png', '', '72', '72', '0', '5'),
     array('Estonia Photo Salon • 2017 • Estonia • PSA Silver', 'silver_psa.png', '', '72', '72', '0', '5'),
     array('123rd Toronto International Salon of Photography • 2016 • Canada • IAAP HM', 'hm_iaap.png', '', '18', '72', '0', '5'),
-    array('International Circuit "8 Marzo Fotografia" – 7° Trofeo Citta di Montevarchi • 2016 • Italy • ISF HM', 'hm_isf_tyranny.jpg', '', '103', '72', '0', '5'),
+    array('International Circuit 8 Marzo Fotografia – 7° Trofeo Citta di Montevarchi • 2016 • Italy • ISF HM', 'hm_isf_tyranny.jpg', '', '103', '72', '0', '5'),
     array('Uzbekistan Photo Salon • 2017 • Uzbekistan • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Rock & Roll" => array(
