@@ -740,6 +740,9 @@ $fsg_awards = array(
   "I Surrender" => array(
     array('1x.com • 2013', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
+  "Rendezvous at the Station" => array(
+    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Arm Wrestling" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
