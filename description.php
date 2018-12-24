@@ -632,6 +632,9 @@ $fsg_awards = array(
   "Kalloflex" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Why so Serious?" => array(
+    array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Blind Justice" => array(
     array('International Color Awards • 2016 • USA • HM', 'intl_color_awards_winner_2017.png', '', '72', '72', '0', '5'),
     array('1x.com • 2015 • Yearbook Memento', 'memento.jpg', '', '95', '72', '0', '5'),
@@ -741,7 +744,7 @@ $fsg_awards = array(
     array('1x.com • 2013', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Rendezvous at the Station" => array(
-    array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
   ),
   "Arm Wrestling" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
