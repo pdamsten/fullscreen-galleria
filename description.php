@@ -20,6 +20,9 @@ $fsg_awards = array(
   "Master of Time" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Thinking with Myself" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Behind the Mask" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
@@ -303,6 +306,9 @@ $fsg_awards = array(
   "The Gaze" => array(
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
   ),
+  "Hang on to Your Hat" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
   "VW Kleinbus - Full" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -405,6 +411,9 @@ $fsg_awards = array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Modelling It" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Self Caricature" => array(
     array('One Eyeland • 2016 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
@@ -712,6 +721,9 @@ $fsg_awards = array(
   "Kuopio" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Use your Brain" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Master of Many Tools" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Cheltenham International Salon of Photography • 2018 • GB/England • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
@@ -752,6 +764,9 @@ $fsg_awards = array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('2nd Danube Digital Circuit – Romania • 2017 • Romania • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('DPW Three Country Grand Circuit - Podgorica • 2015 • Montenegro • Salon HM', 'hm_dpa.png', '', '24', '72', '0', '5'),
+  ),
+  "I Do It My Way" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Reflecting Rays" => array(
     array('SKsL 3. Seuracup • 2012 • Finland • HM', 'hm_seuracup_reflecting.jpg', '', '51', '72', '0', '5'),
@@ -821,6 +836,7 @@ $fsg_awards = array(
   "Nightmare that follows" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Creative Competition 2 • 2018 • USA • Merit Award', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Gnome's Home" => array(
     array('One Eyeland • 2014', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -866,6 +882,9 @@ $fsg_awards = array(
   ),
   "Crystal Ball World" => array(
     array('2nd Queensland International Digital Circuit - Townsville • 2015 • Australia • Salon HM', 'hm_psq.png', '', '16', '72', '0', '5'),
+  ),
+  "The Woman with the Red Coat" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Reaching for the Sky" => array(
     array('One Eyeland • 2013 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
