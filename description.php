@@ -577,6 +577,9 @@ $fsg_awards = array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
   ),
+  "Out of the Darkness" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Badass" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
