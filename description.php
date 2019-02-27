@@ -382,6 +382,10 @@ $fsg_awards = array(
   "All that remains" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
+  "Oops!... I Did It Again" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PID Individual Portrait Competition 2 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
+  ),
   "Behave Little Piggy" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
@@ -634,6 +638,7 @@ $fsg_awards = array(
   "Story of a Vampire" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
+    array('ONE EYELAND AWARDS 2018 • 2019 • India • Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Egghead" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
