@@ -167,6 +167,7 @@ $fsg_awards = array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Obsession of Light 6th Vantaa Photoclub International Salon • 2017 • Finland • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Portrait Competition 1 • 2018 • USA • Best Male', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Opposite Directions" => array(
     array('500px • 2012 • Editors\' Choice', '500px_editors_choice.svg', '', '72', '72', '0', '5'),
@@ -377,6 +378,7 @@ $fsg_awards = array(
   ),
   "Skullhead" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('SKsL vuosinäyttely • 2019 • Finland • HM', 'hm_vuosi_bloodthirsty.jpg', '', '51', '72', '0', '5'),
     array('This is life 4th International Digital salon of Photography • 2018 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "All that remains" => array(
@@ -807,6 +809,7 @@ $fsg_awards = array(
   ),
   "Viking" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Portrait Competition 1 • 2018 • USA • Third', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Don't Look, Don't Tell" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
