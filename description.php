@@ -722,6 +722,7 @@ $fsg_awards = array(
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Empty Frames" => array(
+    array('International Color Awards • 2019 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -959,6 +960,10 @@ $fsg_awards = array(
   "The Dictator" => array(
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Ice Fishing" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Two Directions" => array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
