@@ -52,7 +52,7 @@ fsg_set_keyboard = function(event) {
         $('.galleria-close').click();
       }
     },
-    left: function() { 
+    left: function() {
       if (fsg_settings['image_nav']) {
         return;
       }
@@ -106,7 +106,7 @@ fsg_set_keyboard = function(event) {
 
 fsg_on_show = function(event) {
   var gallery = $("#galleria").data('galleria');
-  
+
   if (fsg_settings['true_fullscreen']) {
     gallery.enterFullscreen();
   }
@@ -117,7 +117,7 @@ fsg_on_show = function(event) {
 
 fsg_on_close = function(event) {
   var gallery = $("#galleria").data('galleria');
-  
+
   if (gallery.isFullscreen()) {
     gallery.exitFullscreen();
   }
@@ -154,12 +154,12 @@ fsg_show_galleria = function(event) {
       fsg_on_show();
     } else {
       // Init galleria
-      if  (!fsg_settings['show_thumbnails']) { 
+      if  (!fsg_settings['show_thumbnails']) {
         var sheet = document.createElement('style')
         sheet.innerHTML = ".galleria-stage {bottom: 10px !important; } \
                            .galleria-thumbnails-container {height: 0px !important;}";
-        document.body.appendChild(sheet); 
-      } 
+        document.body.appendChild(sheet);
+      }
       elem.galleria({
         css: (fsg_settings['w3tc']) ? $('link').attr('href') : 'galleria-fs-' + fsg_settings['theme'] + '.css',
         dataSource: fsg_json[postid],
@@ -230,26 +230,28 @@ list_photos = function()
       var BORDER = fsg_photolist[ID]['border'];
       var COLS = fsg_photolist[ID]['cols'];
       var TILE = fsg_photolist[ID]['tile'];
+      var EXTLINKS = fsg_photolist[ID]['extlinks'];
       var width = $(this).parent().width();
       var height = $(this).parent().height();
       var box = (width - BORDER) / COLS - BORDER;
       var left = 0;
-      
+
       if (box < TILE) {
           COLS = Math.floor(width / (TILE + BORDER));
           box = TILE;
       }
       left = (width - (COLS * (box + BORDER)) + BORDER) / 2;
-      
+
       var col_bottoms = new Array(COLS);
       col_bottoms.fill(0);
-      
+
       for (i = 0; i < fsg_json[ID].length; ++i) {
           var img = fsg_json[ID][i]['image'];
           var imgid = fsg_json[ID][i]['id'];
           var w = fsg_json[ID][i]['full'][1];
           var h = fsg_json[ID][i]['full'][2];
-          
+          var extlink = fsg_json[ID][i]['extlink'];
+
           var min = 1000000;
           var mini = 0;
           for (j = 0; j < COLS; ++j) {
@@ -272,11 +274,15 @@ list_photos = function()
           var imgx = left + (mini * (box + BORDER));
           var imgy = col_bottoms[mini];
           col_bottoms[mini] += (box / w) * h + BORDER;
-          
-          var $a = $('<a data-postid="' + ID + '" data-imgid="' + imgid + '" href="' + img + '">');
-          $($a).click(fsg_show_galleria);
+
+          if (EXTLINKS) {
+            var $a = $('<a href="' + extlink + '">');
+          } else {
+            var $a = $('<a data-postid="' + ID + '" data-imgid="' + imgid + '" href="' + img + '">');
+            $($a).click(fsg_show_galleria);
+          }
           var $img = $('<img style="left: ' + imgx + 'px; top: ' + imgy + 'px;" width="' + box +
-            '" src="' + img + '">');
+          '" src="' + img + '">');
           $a.append($img);
           $(this).append($a);
       }
@@ -370,7 +376,7 @@ randomize_photos = function()
       tiles[d] = [box, x, y];
       ++d;
     }
-    
+
     /* print array
     for (var i = 0; i < ROWS; i++) {
       s = i + '. - ';
@@ -450,4 +456,4 @@ randomize_photos = function()
   //$(window).resize();
 }
 
-}(jQuery)); 
+}(jQuery));

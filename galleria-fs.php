@@ -589,6 +589,7 @@ class FSGPlugin {
       'border'     => 2,
       'tile'       => 50,
       'postid'     => '',
+      'extlinks'   => 'false',
       'order'      => 'ASC',
       'orderby'    => 'post__in',
       'include'    => '',
@@ -597,7 +598,7 @@ class FSGPlugin {
     $images = $this->photo_images($post, $postid, $order, $orderby, $include);
     $id = 'fsg_photobox_'.$post->ID.'_'.$this->photoboxid;
     $photolist = "fsg_photolist['".$id."'] = {cols: ".$cols.", border: ".
-                       $border.", tile: ".$tile."};";
+                       $border.", tile: ".$tile.", extlinks: ".$extlinks."};";
     $this->append_json($id, $images, true);
     ++$this->photoboxid;
     return "<div id='".$id."' class='galleria-photolist'></div><script>".$photolist."</script>";
@@ -869,6 +870,7 @@ class FSGPlugin {
           if (!empty($meta['image_meta']['link'])) {
             $layer_has_info = true;
             $links = explode(';', $meta['image_meta']['link']);
+            $firstlink = $links[0];
             $link = '';
             foreach ($links as $l) {
               $t = $l;
@@ -889,6 +891,7 @@ class FSGPlugin {
             }
           } else {
             $link = '';
+            $firstlink = '';
           }
           if ($this->options['show_map'] && !empty($meta['image_meta']['longitude'])) {
             $layer_has_info = true;
@@ -936,6 +939,7 @@ class FSGPlugin {
         }
         $json .= "{id: ".$val['post_id'].
                        ", image: '".$key.
+                       "', extlink: '".$firstlink.
                        "', thumb: '".$thumb.
                        "', permalink: '".$bookmark."'";
         if ($layer_has_info) {
