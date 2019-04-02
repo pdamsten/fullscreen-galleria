@@ -167,7 +167,7 @@ $fsg_awards = array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Obsession of Light 6th Vantaa Photoclub International Salon • 2017 • Finland • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('PID Individual Portrait Competition 1 • 2018 • USA • Best Male', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Portrait Competition 1 • 2018 • USA • PSA Best Male', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Opposite Directions" => array(
     array('500px • 2012 • Editors\' Choice', '500px_editors_choice.svg', '', '72', '72', '0', '5'),
@@ -810,7 +810,7 @@ $fsg_awards = array(
   ),
   "Viking" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('PID Individual Portrait Competition 1 • 2018 • USA • Third', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PID Individual Portrait Competition 1 • 2018 • USA • PSA Bronze', 'bronze_psa.png', '', '72', '72', '0', '5'),
   ),
   "Don't Look, Don't Tell" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
