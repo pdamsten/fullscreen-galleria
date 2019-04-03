@@ -366,6 +366,7 @@ $fsg_awards = array(
   ),
   "Superman Exercise" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Creative Competition 3 • 2019 • USA • PSA Merit Award', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Linel #1" => array(
     array('1x.com • 2013', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -964,6 +965,7 @@ $fsg_awards = array(
   "Ice Fishing" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Creative Competition 3 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
   ),
   "Two Directions" => array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
