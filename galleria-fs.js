@@ -263,7 +263,7 @@ list_photos = function()
           // - Find best img
           var a = ["thumbnail", "medium", "large", "full"];
           for (var s in a) {
-            if (fsg_json[ID][i][a[s]][1] > box) {
+            if (fsg_json[ID][i][a[s]][1] > box * window.devicePixelRatio) {
               img = fsg_json[ID][i][a[s]][0];
               w = fsg_json[ID][i][a[s]][1];
               h = fsg_json[ID][i][a[s]][2];
