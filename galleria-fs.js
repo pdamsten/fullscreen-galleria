@@ -231,34 +231,63 @@ list_photos = function()
       var COLS = fsg_photolist[ID]['cols'];
       var TILE = fsg_photolist[ID]['tile'];
       var EXTLINKS = fsg_photolist[ID]['extlinks'];
+      var FIXED = fsg_photolist[ID]['fixed'];
       var width = $(this).parent().width();
       var height = $(this).parent().height();
-      var box = (width - BORDER) / COLS - BORDER;
-      var left = 0;
+      var box = 0;
+      var left = BORDER;
+      var imgx = 0;
+      var imgy = 0;
+      var prev = 0;
 
-      if (box < TILE) {
+      if (FIXED == 'width') {
+        box = (width - BORDER) / COLS - BORDER;
+        if (box < TILE) {
           COLS = Math.floor(width / (TILE + BORDER));
           box = TILE;
-      }
-      left = (width - (COLS * (box + BORDER)) + BORDER) / 2;
+        }
+        left = (width - (COLS * (box + BORDER)) + BORDER) / 2;
+      } // TODO: TILE for FIXED == 'height'
 
       var col_bottoms = new Array(COLS);
       col_bottoms.fill(0);
 
-      for (i = 0; i < fsg_json[ID].length; ++i) {
+      for (var i = 0; i < fsg_json[ID].length; ++i) {
           var img = fsg_json[ID][i]['image'];
           var imgid = fsg_json[ID][i]['id'];
           var w = fsg_json[ID][i]['full'][1];
           var h = fsg_json[ID][i]['full'][2];
           var extlink = fsg_json[ID][i]['extlink'];
 
-          var min = 1000000;
-          var mini = 0;
-          for (j = 0; j < COLS; ++j) {
+          if (FIXED == 'width') {
+            var min = 1000000;
+            var mini = 0;
+            for (j = 0; j < COLS; ++j) {
               if (col_bottoms[j] < min) {
-                  mini = j;
-                  min = col_bottoms[j];
+                mini = j;
+                min = col_bottoms[j];
               }
+            }
+            imgx = left + (mini * (box + BORDER));
+          } else {
+            var row = Math.floor(i / COLS);
+            for (var fullwidth = 0, j = row * COLS;
+                 j < (row + 1) * COLS && j < fsg_json[ID].length; ++j) {
+              fullwidth += fsg_json[ID][j]['full'][1] / fsg_json[ID][j]['full'][2];
+            }
+            if ((row + 1) * COLS > fsg_json[ID].length) {
+              n = (row + 1) * COLS - fsg_json[ID].length;
+              fullwidth += n;
+            }
+            box = (width - ((COLS + 1) * BORDER)) * (w / h / fullwidth);
+            mini = i % COLS;
+            min = col_bottoms[mini];
+            if (mini == 0) {
+              imgx = BORDER;
+            } else {
+              imgx += BORDER + prev;
+            }
+            prev = box;
           }
           // - Find best img
           var a = ["thumbnail", "medium", "large", "full"];
@@ -271,8 +300,7 @@ list_photos = function()
             }
           }
 
-          var imgx = left + (mini * (box + BORDER));
-          var imgy = col_bottoms[mini];
+          imgy = col_bottoms[mini];
           col_bottoms[mini] += (box / w) * h + BORDER;
 
           if (EXTLINKS) {
