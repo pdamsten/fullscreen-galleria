@@ -590,6 +590,7 @@ class FSGPlugin {
       'tile'       => 50,
       'postid'     => '',
       'extlinks'   => 'false',
+      'fixed'      => 'width',
       'order'      => 'ASC',
       'orderby'    => 'post__in',
       'include'    => '',
@@ -597,8 +598,8 @@ class FSGPlugin {
 
     $images = $this->photo_images($post, $postid, $order, $orderby, $include);
     $id = 'fsg_photobox_'.$post->ID.'_'.$this->photoboxid;
-    $photolist = "fsg_photolist['".$id."'] = {cols: ".$cols.", border: ".
-                       $border.", tile: ".$tile.", extlinks: ".$extlinks."};";
+    $photolist = "fsg_photolist['".$id."'] = {cols: ".$cols.", border: ".$border.
+                 ", tile: ".$tile.", extlinks: ".$extlinks.", fixed: '".$fixed."'};";
     $this->append_json($id, $images, true);
     ++$this->photoboxid;
     return "<div id='".$id."' class='galleria-photolist'></div><script>".$photolist."</script>";
