@@ -205,6 +205,9 @@ $fsg_awards = array(
   "In the Middle" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Patched Childhood" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Party Off" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -486,6 +489,9 @@ $fsg_awards = array(
   ),
   "Crap from the Sky" => array(
     array('11° French Digital Tour - 3° Saint Martin de la Crau • 2016 • France • Salon Gold', 'gold_fdt.png', '', '72', '72', '0', '5'),
+  ),
+  "Birdwatching" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Heart on a Noose" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
