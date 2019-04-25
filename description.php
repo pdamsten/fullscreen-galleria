@@ -206,7 +206,9 @@ $fsg_awards = array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Patched Childhood" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Fstoppers • 2019 • Editor\'s Pick', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Party Off" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -320,6 +322,9 @@ $fsg_awards = array(
   "Through the Branches" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "You do what I tell you" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Markku's Vmax" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -379,6 +384,10 @@ $fsg_awards = array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 4 • 2018 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
+  ),
+  "The Man and the Rose" => array(
+    array('Fstoppers • 2019 • Photo of the Day', 'fstoppers.png', '', '82', '72', '0', '5'),
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Skullhead" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -942,6 +951,10 @@ $fsg_awards = array(
   "The Pinch" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+  ),
+  "The Scream" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Customs Inspection" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
