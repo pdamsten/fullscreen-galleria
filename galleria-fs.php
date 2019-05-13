@@ -11,7 +11,7 @@ License: MIT
 
 ******************************************************************************/
 
-$fsg_ver = '1.6.4';
+$fsg_ver = '1.6.6';
 $fsg_db_key = 'fsg_plugin_settings';
 
 $fsg_sites = array(

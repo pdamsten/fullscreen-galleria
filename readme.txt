@@ -5,7 +5,7 @@ Author URI: http://petridamsten.com/
 Plugin URI: http://petridamsten.com/misc-media/
 Tags: galleria, gallery, photography, images
 Requires at least: 4.0
-Tested up to: 5.0
+Tested up to: 5.2
 Stable tag: trunk
 License: MIT
 
@@ -60,7 +60,7 @@ Adds random photobox to the page. eg. [fsg_photobox include="244, 243,242,241,20
 * **order** - ASC or DESC (default is ASC)
 * **orderby** - See wordpress doc for all the options (default is post__in)
 
-= fsg_photobox keyword =
+= fsg_photolist keyword =
 
 Adds photo list/grid to the page. eg. [fsg_photolist include="244, 243,242,241,208,207,206,205,204" cols="4"] See live example [here](http://petridamsten.com/photos/).
 
@@ -71,6 +71,8 @@ Adds photo list/grid to the page. eg. [fsg_photolist include="244, 243,242,241,2
 * **postid** - use photos of this post. (no default)
 * **order** - ASC or DESC (default is ASC)
 * **orderby** - See wordpress doc for all the options (default is post__in)
+* **extlinks** - Use 'Custom link' field link instead of showing the image (default false)
+* **fixed** - width/height select if width or height is fixed in photo list (default width)
 
 = fsg_link keyword =
 
@@ -98,6 +100,11 @@ Adds link to group of images. eg. [fsg_link class="btn" include="112,113,114,115
 3. Showing map for photos that have gps coordinates
 
 == Changelog ==
+= 1.6.6 =
+* fixed = width/height option to photolist
+* retina display support in photolist
+* support for external links in photolist
+
 = 1.6.5 =
 * Hide info also in mobile devices
 
