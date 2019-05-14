@@ -319,10 +319,14 @@ $fsg_awards = array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Bullies" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Through the Branches" => array(
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "You do what I tell you" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Markku's Vmax" => array(
@@ -406,6 +410,9 @@ $fsg_awards = array(
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('3rd Swedish International Small Print Exhibition • 2017 • Sweden • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
+  ),
+  "Background Shadows" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Surrogate" => array(
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
@@ -545,6 +552,7 @@ $fsg_awards = array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 3 • 2018 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
+    array('Nordiskt fotomästerskap • 2019 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
     array('SKsL 9. Seuracup • 2018 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Separated" => array(
