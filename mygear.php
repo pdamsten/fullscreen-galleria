@@ -1,8 +1,9 @@
 <?php
 
 $fsg_my_serial = array(
+  '8209384' => 'Nikon D850',
   '6039556' => 'Nikon D800',
-  '6009569' => 'Nikon D3300',
+  '6009569' => 'Nikon D3300 IR630',
   'dad0b7d7fc6378aeed29e6bfcb815c8c' => 'DJI Phantom 4 Pro',
 );
 
@@ -23,6 +24,7 @@ $fsg_my_lenses = array(
   '150.0-500.0 mm f/5-6.3' => 'Sigma APO 150-500mm F5-6.3 DG OS HSM',
   '16.0 mm f/2.8' => 'Nikon AF Fisheye-Nikkor 16mm f/2.8D',
   '85.0 mm f/1.4' => 'Nikon AF Nikkor 85mm f/1.4D IF',
+  '18.0-55.0 mm f/3.5-5.6' => 'Nikon AF-S DX Zoom-Nikkor 18-55mm f/3.5-5.6G ED',
   '24.0 mm' => '', # DJI
 );
 
