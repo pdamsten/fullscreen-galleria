@@ -328,6 +328,7 @@ $fsg_awards = array(
   "You do what I tell you" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PID Individual Creative Competition 4 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
   ),
   "Markku's Vmax" => array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -677,6 +678,7 @@ $fsg_awards = array(
   ),
   "Why so Serious?" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PID Individual Portrait Competition 3 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
   ),
   "Blind Justice" => array(
     array('International Color Awards • 2016 • USA • HM', 'intl_color_awards_winner_2017.png', '', '72', '72', '0', '5'),
@@ -982,6 +984,9 @@ $fsg_awards = array(
   "Peacemaker" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
+  "Calmness" => array(
+    array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
   "Rough" => array(
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -993,6 +998,7 @@ $fsg_awards = array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 3 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
+    array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
   ),
   "Two Directions" => array(
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
