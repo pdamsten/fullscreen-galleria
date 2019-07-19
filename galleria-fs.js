@@ -228,7 +228,7 @@ list_photos = function()
   $(".galleria-photolist").each(function() {
       var ID = $(this).attr("id");
       var BORDER = fsg_photolist[ID]['border'];
-      var COLS = fsg_photolist[ID]['cols'];
+      var COLS = fsg_photolist[ID]['cols'].split(',');
       var TILE = fsg_photolist[ID]['tile'];
       var EXTLINKS = fsg_photolist[ID]['extlinks'];
       var FIXED = fsg_photolist[ID]['fixed'];
@@ -239,6 +239,12 @@ list_photos = function()
       var imgx = 0;
       var imgy = 0;
       var prev = 0;
+      var max_col = 0;
+
+      for(var i = 0; i < COLS.length; i++) {
+        COLS[i] = +COLS[i];
+        max_col = Math.max(COLS[i], max_col);
+      }
 
       if (FIXED == 'width') {
         box = (width - BORDER) / COLS - BORDER;
@@ -248,10 +254,13 @@ list_photos = function()
         }
         left = (width - (COLS * (box + BORDER)) + BORDER) / 2;
       } // TODO: TILE for FIXED == 'height'
+      //console.log(max_col, COLS);
 
-      var col_bottoms = new Array(COLS);
+      var col_bottoms = new Array(max_col);
       col_bottoms.fill(0);
 
+      var row = 0;
+      var pic = 0;
       for (var i = 0; i < fsg_json[ID].length; ++i) {
           var img = fsg_json[ID][i]['image'];
           var imgid = fsg_json[ID][i]['id'];
@@ -259,10 +268,16 @@ list_photos = function()
           var h = fsg_json[ID][i]['full'][2];
           var extlink = fsg_json[ID][i]['extlink'];
 
+          if (row < COLS.length) {
+            columns = COLS[row];
+          } else {
+            columns = COLS[COLS.length - 1];
+          }
+
           if (FIXED == 'width') {
             var min = 1000000;
             var mini = 0;
-            for (j = 0; j < COLS; ++j) {
+            for (j = 0; j < columns; ++j) {
               if (col_bottoms[j] < min) {
                 mini = j;
                 min = col_bottoms[j];
@@ -270,18 +285,19 @@ list_photos = function()
             }
             imgx = left + (mini * (box + BORDER));
           } else {
-            var row = Math.floor(i / COLS);
-            for (var fullwidth = 0, j = row * COLS;
-                 j < (row + 1) * COLS && j < fsg_json[ID].length; ++j) {
+            var first = i - pic;
+            var last = first + columns;
+            for (var fullwidth = 0, j = first; j < last && j < fsg_json[ID].length; ++j) {
               fullwidth += fsg_json[ID][j]['full'][1] / fsg_json[ID][j]['full'][2];
             }
-            if ((row + 1) * COLS > fsg_json[ID].length) {
-              n = (row + 1) * COLS - fsg_json[ID].length;
+            if (last > fsg_json[ID].length) {
+              n = last - fsg_json[ID].length;
               fullwidth += n;
             }
-            box = (width - ((COLS + 1) * BORDER)) * (w / h / fullwidth);
-            mini = i % COLS;
+            box = (width - ((columns + 1) * BORDER)) * (w / h / fullwidth);
+            mini = pic;
             min = col_bottoms[mini];
+            //console.log(row, pic, columns, box, fsg_json[ID][i]);
             if (mini == 0) {
               imgx = BORDER;
             } else {
@@ -313,6 +329,16 @@ list_photos = function()
           '" src="' + img + '">');
           $a.append($img);
           $(this).append($a);
+
+          if (pic == columns - 1) {
+            ++row;
+            for (var j = pic; j < max_col; ++j) {
+              col_bottoms[j] = col_bottoms[pic - 1];
+            }
+            pic = 0;
+          } else {
+            ++pic;
+          }
       }
   });
 }
