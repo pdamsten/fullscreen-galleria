@@ -598,7 +598,7 @@ class FSGPlugin {
 
     $images = $this->photo_images($post, $postid, $order, $orderby, $include);
     $id = 'fsg_photobox_'.$post->ID.'_'.$this->photoboxid;
-    $photolist = "fsg_photolist['".$id."'] = {cols: ".$cols.", border: ".$border.
+    $photolist = "fsg_photolist['".$id."'] = {cols: '".$cols."', border: ".$border.
                  ", tile: ".$tile.", extlinks: ".$extlinks.", fixed: '".$fixed."'};";
     $this->append_json($id, $images, true);
     ++$this->photoboxid;
