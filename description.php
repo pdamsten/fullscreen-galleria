@@ -1014,6 +1014,12 @@ $fsg_awards = array(
   "A Small Bridge" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "How I Move: Jake - Portrait" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Jake - Transportation" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Calmness" => array(
     array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
