@@ -366,6 +366,7 @@ $fsg_awards = array(
     array('AC Foto German Mega Circuit - 12th Swabian International • 2015 • Germany • PSA Gold (Best of Show)', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('1st Miroc Exhibition - Penza • 2016 • Russia • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('1st Nordic International Digital Circuit – Oslo • 2016 • Norway • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
+    array('1st Nordic International Digital Circuit – Oslo • 2016 • Norway • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
     array('Caucasus Carpathians circuit – 2nd International Photo Salon • 2018 • Ukraine • Salon Gold', 'gold.svg', '', '72', '72', '0', '5'),
     array('2nd Bandung International Salon of Photography • 2015 • Indonesia • FIAP Silver', 'silver_fiap.png', '', '72', '72', '0', '5'),
     array('Photo Winner • 2016 • Serbia • Salon Bronze', 'bronze.svg', '', '72', '72', '0', '5'),
@@ -490,6 +491,7 @@ $fsg_awards = array(
   "Lost" => array(
     array('Saoud Al-Thani Award for Photography • 2015 • Austria • Al-Thani Gold Medal - 4th Award', 'al-thani.png', '', '72', '72', '0', '5'),
     array('One Eyeland • 2015 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
+    array('1st Nordic International Digital Circuit – Helsinki • 2016 • Finland • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('1st Nordic International Digital Circuit – Helsinki • 2016 • Finland • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('1st International Digital Exhibition Vision • 2017 • Finland • PSA Silver (Best Creative)', 'silver_psa.png', '', '72', '72', '0', '5'),
     array('Obsession of Light 5th Vantaa Photoclub International Salon • 2016 • Finland • FIAP Bronze', 'bronze_fiap.png', '', '72', '72', '0', '5'),
@@ -1018,6 +1020,12 @@ $fsg_awards = array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Jake - Transportation" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Olli - Transportation" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Lauri - Transportation" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Calmness" => array(
