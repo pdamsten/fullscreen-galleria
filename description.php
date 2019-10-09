@@ -959,6 +959,7 @@ $fsg_awards = array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 3 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
     array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
+    array('SKsL teemanäyttely “Tila” • 2019 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Patched Childhood" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1038,6 +1039,9 @@ $fsg_awards = array(
   ),
   "Calmness" => array(
     array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Birds and Branches" => array(
+    array('SKsL teemanäyttely “Tila” • 2019 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
 );
 
