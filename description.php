@@ -736,7 +736,9 @@ $fsg_awards = array(
   ),
   "Judgement Day" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('4th Nordic International Digital Circuit – Helsinki • 2019 • Finland • GPU Gold', 'gold_gpu.png', '', '87', '72', '0', '5'),
     array('Trierenberg Super Circuit – Graz • 2018 • Austria • Salon Silver', 'silver.svg', '', '72', '72', '0', '5'),
+    array('4th Nordic International Digital Circuit – Malmö • 2019 • Sweden • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
   ),
   "All that remains" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -757,6 +759,8 @@ $fsg_awards = array(
     array('Photographize Magazine • 2017', 'photographize.svg', '', '72', '72', '0', '5'),
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('4th Nordic International Digital Circuit – Malmö • 2019 • Sweden • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
+    array('4th Nordic International Digital Circuit – Copenhagen • 2019 • Denmark • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('124th Toronto International Salon of Photography • 2017 • Canada • CAPA HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "VW Kleinbus - Full" => array(
@@ -823,6 +827,7 @@ $fsg_awards = array(
     array('PID Individual Creative Competition 3 • 2018 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
     array('Nordiskt fotomästerskap • 2019 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
     array('SKsL 9. Seuracup • 2018 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('4th Nordic International Digital Circuit – Helsinki • 2019 • Finland • SDF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "My mirror image" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -964,6 +969,7 @@ $fsg_awards = array(
   "Patched Childhood" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('4th Nordic International Digital Circuit – Oslo • 2019 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('Fstoppers • 2019 • Editor\'s Pick', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Scream" => array(
@@ -994,6 +1000,9 @@ $fsg_awards = array(
   "Dead Memories" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Agony" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Thinking with Myself" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -1036,6 +1045,30 @@ $fsg_awards = array(
   ),
   "How I Move: Lauri - Transportation" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Finnish View" => array(
+    array('One Eyeland • 2019 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
+  ),
+  "Kuopio from Above" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Silence" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Mill and The River" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Bonfire" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Life of an Artist" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Jump in the Deep End" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Masculinity" => array(
+    array('Bifa • 2019 • Hungary • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Calmness" => array(
     array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
