@@ -1084,7 +1084,7 @@ function fsg_description($title)
   if (array_key_exists($title, $fsg_awards)) {
     $s = '';
     foreach ($fsg_awards[$title] as &$value) {
-      $s .= '<img style="margin-left:' . $value[5] . 'px; margin-right:' . $value[6] . 'px;" title="' . $value[0] . '" width=' . $value[3] . ' height=' . $value[4] . ' src="/statistics/awards/' . $value[1] . '">';
+      $s .= '<img style="margin-left:' . $value[5] . 'px; margin-right:' . $value[6] . 'px;" title="' . $value[0] . '" width=' . $value[3] . ' height=' . $value[4] . ' src="/stats/awards/' . $value[1] . '">';
       if ($value[5] != '') {
         $s = '<a href="' . $value[5] . '">' . $s . '</a>';
       }
