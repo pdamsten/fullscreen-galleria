@@ -77,11 +77,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+/*
 .galleria-thumbnails img {
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   border-radius: 40px;
 }
+*/
 .galleria-container {
     position: relative;
     overflow: hidden;
