@@ -5,7 +5,7 @@ Author URI: http://petridamsten.com/
 Plugin URI: http://petridamsten.com/misc-media/
 Tags: galleria, gallery, photography, images
 Requires at least: 4.0
-Tested up to: 5.2
+Tested up to: 5.3
 Stable tag: trunk
 License: MIT
 
@@ -84,6 +84,16 @@ Adds link to group of images. eg. [fsg_link class="btn" include="112,113,114,115
 * **orderby** - See wordpress doc for all the options (default is post__in)
 * **postid** - use photos of this post. (no default)
 
+= fsg_dlmngr keyword =
+
+Show files in docs folder. eg. [fsg_dlmngr class="btn" path="/docs/"]
+
+* **title** - Page title
+* **path** - Path to glob
+* **filter** - File filter
+* **order** - ASC or DESC (default is ASC)
+* **orderby** - See wordpress doc for all the options (default is post__in)
+
 = keyboard shortcuts =
 
 * esc - closes map/gallery
@@ -100,6 +110,9 @@ Adds link to group of images. eg. [fsg_link class="btn" include="112,113,114,115
 3. Showing map for photos that have gps coordinates
 
 == Changelog ==
+= 1.6.7 =
+* fsg_dlmngr keyword added
+
 = 1.6.6 =
 * fixed = width/height option to photolist
 * retina display support in photolist
