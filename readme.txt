@@ -92,7 +92,7 @@ Show files in docs folder. eg. [fsg_dlmngr class="btn" path="/docs/"]
 * **path** - Path to glob
 * **filter** - File filter
 * **order** - ASC or DESC (default is ASC)
-* **orderby** - See wordpress doc for all the options (default is post__in)
+* **orderby** - filename | filesize | title | time
 
 = keyboard shortcuts =
 
