@@ -90,9 +90,11 @@ Show files in docs folder. eg. [fsg_dlmngr class="btn" path="/docs/"]
 
 * **title** - Page title
 * **path** - Path to glob
-* **filter** - File filter
+* **filter** - File filter eg. "*.{pdf,svg}"
 * **order** - ASC or DESC (default is ASC)
 * **orderby** - filename | filesize | title | time
+
+Tip: If you have a folder /docs/ for files and you want to add page /docs/ comment out the #RewriteCond %{REQUEST_FILENAME} !-d in wp /.htaccess file to do that.
 
 = keyboard shortcuts =
 
