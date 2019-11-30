@@ -383,3 +383,34 @@
 .galleria-carousel .galleria-thumb-nav-right {
     display: block;
 }
+
+.galleria-dm-file {
+  display: inline-block;
+  margin: 20px;
+}
+.galleria-dm-img {
+  width: 200px;
+  height: 250px;
+  position: relative;
+}
+.galleria-dm-img img {
+  max-width: 200px;
+  max-height: 250px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.galleria-dm {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  max-width: 1200px;
+}
+.galleria-dm div, .galleria-dm-name {
+  text-align: center;
+  margin: 10px;
+}

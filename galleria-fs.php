@@ -163,6 +163,7 @@ class FSGPlugin {
     add_shortcode('fsg_photobox', array(&$this, 'photobox_shortcode'));
     add_shortcode('fsg_photolist', array(&$this, 'photolist_shortcode'));
     add_shortcode('fsg_link', array(&$this, 'link_shortcode'));
+    add_shortcode('fsg_dlmngr', array(&$this, 'dlmngr_shortcode'));
     add_action('admin_init', array(&$this, 'admin_init'));
     add_action('admin_menu', array(&$this, 'admin_menu'));
     register_uninstall_hook(__FILE__, 'fsg_remove_settings');
@@ -605,6 +606,74 @@ class FSGPlugin {
     return "<div id='".$id."' class='galleria-photolist'></div><script>".$photolist."</script>";
   }
 
+  function file2title($filename)
+  {
+    $s = pathinfo($filename, PATHINFO_FILENAME);
+    $s = str_replace('_', ' ', $s);
+    $s = str_replace('-', ' ', $s);
+    $s = ucwords($s);
+    return $s;
+  }
+
+  function img4file($filename)
+  {
+    $s = pathinfo($filename, PATHINFO_FILENAME);
+    $id = attachment_url_to_postid($s.'.jpg');
+    $s = wp_get_attachment_image_src($id, [200, 250])[0];
+    if ($s == '') {
+      $type = wp_ext2type(pathinfo($filename, PATHINFO_EXTENSION));
+      $s = wp_mime_type_icon($type);
+    }
+    return $s;
+  }
+
+  function dlmngr_shortcode($attr, $content = null)
+  {
+    global $post;
+
+    extract(shortcode_atts(array(
+      'title'      => 'Downloads',
+      'path'       => '/downloads/',
+      'filter'     => '*.pdf',
+      'order'      => 'ASC',
+      'orderby'    => 'title',
+    ), $attr));
+
+    $files = [];
+    $html = '<div class="galleria-dm"><div><h1>'.$title.'</h1></div>';
+
+    chdir(ABSPATH.$path);
+    foreach (glob($filter) as $filename) {
+      $files[] = [$filename, filesize($filename), $this->file2title($filename),
+                  $this->img4file($filename), filemtime($filename)];
+    }
+
+    usort($files, function($a, $b) use ($order, $orderby) {
+      if ($orderby == 'filename') {
+        $result = strcmp($a[0], $b[0]);
+      } elseif ($orderby == 'filesize') {
+        $result = $b[1] - $a[1];
+      } elseif ($orderby == 'title') {
+        $result = strcmp($a[2], $b[2]);
+      } elseif ($orderby == 'time') {
+        $result = $b[4] - $a[4];
+      }
+      if ($order != 'ASC') {
+        $result = $result * -1;
+      }
+      return $result;
+    });
+
+    foreach ($files as $f) {
+      $html .= '<div class="galleria-dm-file"><div class="galleria-dm-img">';
+      $html .= '<a href="'.$path.$f[0].'"><img src="'.$f[3].'"></a>';
+      $html .= '</div><div class="galleria-dm-name">';
+      $html .= '<a href="'.$path.$f[0].'">'.$f[2].'</a></div></div>';
+    }
+    $html .= '</div>';
+    return $html;
+  }
+
   function link_shortcode($attr, $content = null)
   {
     global $post;
@@ -732,6 +801,7 @@ class FSGPlugin {
         has_shortcode($post->post_content, 'gallery') ||
         has_shortcode($post->post_content, 'fsg_photobox') ||
         has_shortcode($post->post_content, 'fsg_photolist') ||
+        has_shortcode($post->post_content, 'fsg_dlmngr') ||
         has_shortcode($post->post_content, 'fsg_link')) {
       $in_footer = !$this->options['load_in_header'];
 
