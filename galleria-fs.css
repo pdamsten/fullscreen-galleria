@@ -389,6 +389,8 @@
 .galleria-dm-file {
   display: inline-block;
   margin: 20px;
+  max-width: 240px;
+  max-height: 290px;
 }
 .galleria-dm-img {
   width: 200px;
@@ -411,6 +413,7 @@
   padding: 0;
   width: auto;
   max-width: 1200px;
+  text-align: center;
 }
 .galleria-dm div, .galleria-dm-name {
   text-align: center;
