@@ -643,7 +643,7 @@ class FSGPlugin {
     $html = '<div class="galleria-dm"><div><h1>'.$title.'</h1></div>';
 
     chdir(ABSPATH.$path);
-    foreach (glob($filter) as $filename) {
+    foreach (glob($filter, GLOB_BRACE) as $filename) {
       $files[] = [$filename, filesize($filename), $this->file2title($filename),
                   $this->img4file($filename), filemtime($filename)];
     }
