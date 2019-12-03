@@ -1004,6 +1004,10 @@ $fsg_awards = array(
   "Agony" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
+  "Creative Block" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Thinking with Myself" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -1065,6 +1069,12 @@ $fsg_awards = array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Jump in the Deep End" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Finding the Red Thread" => array(
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Idea" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Masculinity" => array(
