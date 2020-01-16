@@ -610,7 +610,9 @@ $fsg_awards = array(
   ),
   "Bäd Santa" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "The Pinch" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1008,6 +1010,21 @@ $fsg_awards = array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Social Media" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Believe in yourself" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Be careful..." => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Ready for takeoff" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Time to Chill" => array(
+    array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Thinking with Myself" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -1079,6 +1096,10 @@ $fsg_awards = array(
   ),
   "Masculinity" => array(
     array('Bifa • 2019 • Hungary • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Neutral Density Photography Awards • 2019 • USA • ND HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "How I Move" => array(
+    array('Neutral Density Photography Awards • 2019 • USA • ND HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Calmness" => array(
     array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
