@@ -615,14 +615,22 @@ class FSGPlugin {
     return $s;
   }
 
-  function img4file($filename)
+  function img4file($filename, $path)
   {
+    $ext = pathinfo($filename, PATHINFO_EXTENSION);
+    if ($ext == 'jpg') {
+      return $path.$filename;
+    }
     $s = pathinfo($filename, PATHINFO_FILENAME);
     $id = attachment_url_to_postid($s.'.jpg');
     $s = wp_get_attachment_image_src($id, [200, 250])[0];
     if ($s == '') {
-      $type = wp_ext2type(pathinfo($filename, PATHINFO_EXTENSION));
-      $s = wp_mime_type_icon($type);
+      $id = attachment_url_to_postid($ext.'.png');
+      $s = wp_get_attachment_image_src($id, [200, 250])[0];
+      if ($s == '') {
+        $type = wp_ext2type($ext);
+        $s = wp_mime_type_icon($type);
+      }
     }
     return $s;
   }
@@ -632,43 +640,57 @@ class FSGPlugin {
     global $post;
 
     extract(shortcode_atts(array(
-      'title'      => 'Downloads',
-      'path'       => '/downloads/',
+      'title'      => '',
+      'path'       => '/download/',
       'filter'     => '*.pdf',
       'order'      => 'ASC',
       'orderby'    => 'title',
     ), $attr));
 
-    $files = [];
-    $html = '<div class="galleria-dm"><div><h1>'.$title.'</h1></div>';
-
+    $html = '';
     chdir(ABSPATH.$path);
-    foreach (glob($filter, GLOB_BRACE) as $filename) {
-      $files[] = [$filename, filesize($filename), $this->file2title($filename),
-                  $this->img4file($filename), filemtime($filename)];
+    if ($title != '') {
+      $html .= '<div class="galleria-dm"><div><h1>'.$title.'</h1></div>';
     }
 
-    usort($files, function($a, $b) use ($order, $orderby) {
-      if ($orderby == 'filename') {
-        $result = strcmp($a[0], $b[0]);
-      } elseif ($orderby == 'filesize') {
-        $result = $b[1] - $a[1];
-      } elseif ($orderby == 'title') {
-        $result = strcmp($a[2], $b[2]);
-      } elseif ($orderby == 'time') {
-        $result = $b[4] - $a[4];
+    $filters = explode(';', $filter);
+    foreach ($filters as $nf) {
+      $pair = explode(':', $nf);
+      if (sizeof($pair) > 1) {
+        $html .= '<div><h2>'.$pair[0].'</h2></div>';
+        $f = $pair[1];
+      } else {
+        $f = $pair[0];
       }
-      if ($order != 'ASC') {
-        $result = $result * -1;
-      }
-      return $result;
-    });
 
-    foreach ($files as $f) {
-      $html .= '<div class="galleria-dm-file"><div class="galleria-dm-img">';
-      $html .= '<a href="'.$path.$f[0].'"><img src="'.$f[3].'"></a>';
-      $html .= '</div><div class="galleria-dm-name">';
-      $html .= '<a href="'.$path.$f[0].'">'.$f[2].'</a></div></div>';
+      $files = [];
+      foreach (glob($f, GLOB_BRACE) as $filename) {
+        $files[] = [$filename, filesize($filename), $this->file2title($filename),
+                    $this->img4file($filename, $path), filemtime($filename)];
+      }
+
+      usort($files, function($a, $b) use ($order, $orderby) {
+        if ($orderby == 'filename') {
+          $result = strcmp($a[0], $b[0]);
+        } elseif ($orderby == 'filesize') {
+          $result = $b[1] - $a[1];
+        } elseif ($orderby == 'title') {
+          $result = strcmp($a[2], $b[2]);
+        } elseif ($orderby == 'time') {
+          $result = $b[4] - $a[4];
+        }
+        if ($order != 'ASC') {
+          $result = $result * -1;
+        }
+        return $result;
+      });
+
+      foreach ($files as $f) {
+        $html .= '<div class="galleria-dm-file"><div class="galleria-dm-img">';
+        $html .= '<a href="'.$path.$f[0].'"><img src="'.$f[3].'"></a>';
+        $html .= '</div><div class="galleria-dm-name">';
+        $html .= '<a href="'.$path.$f[0].'">'.$f[2].'</a></div></div>';
+      }
     }
     $html .= '</div>';
     return $html;
