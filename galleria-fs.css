@@ -415,6 +415,9 @@
   max-width: 1200px;
   text-align: center;
 }
+.galleria-dm h2 {
+  padding-top: 20px;
+}
 .galleria-dm div, .galleria-dm-name {
   text-align: center;
   margin: 10px;
