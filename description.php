@@ -21,6 +21,7 @@ $fsg_awards = array(
   "The Individual?" => array(
     array('1x.com • 2013', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('2nd Greek Photographic Circuit - Crete • 2014 • Greece • FIAP Gold', 'gold_fiap.png', '', '72', '72', '0', '5'),
     array('4th Exhibition of Photography Portrait – Zajecar • 2014 • Serbia • UPI Gold', 'gold_upi.png', '', '72', '72', '0', '5'),
     array('Pohjois-Savon Kameraseurojen Piirikilpailu • 2013 • Finland • HM', 'piiri_individual.jpg', '', '50', '72', '0', '5'),
@@ -31,6 +32,7 @@ $fsg_awards = array(
   "Men" => array(
     array('1x.com • 2015 • Curator\'s Choice', '1x_choice.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2013', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Intercontinental Circuit - GaudiRfoto IV Saló Internacional de Fotografia Reu - Catalunya • 2016 • Spain • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('Nordiskt fotomästerskap • 2017 • Nordic • NSFF Gold', 'nsff_gold.png', '', '33', '72', '0', '5'),
@@ -163,6 +165,7 @@ $fsg_awards = array(
   "Finger Puppets" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2014', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('3rd Queensland International Digital Circuit – Maryborough • 2016 • Australia • FIAP Gold', 'gold_fiap.png', '', '72', '72', '0', '5'),
     array('5th Port Talbot International Salon • 2016 • GB/Wales • PSA Gold (Best of Show)', 'gold_psa.png', '', '72', '72', '0', '5'),
@@ -206,6 +209,7 @@ $fsg_awards = array(
   "Badass" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('The 6th Great British Small Print Circuit - Solway • 2017 • GB/England • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Double Guns" => array(
@@ -653,6 +657,7 @@ $fsg_awards = array(
   ),
   "Life Decisions" => array(
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('SKsL vuosinäyttely • 2017 • Finland • HM', 'hm_vuosi_bloodthirsty.jpg', '', '51', '72', '0', '5'),
     array('Sydney Harbour International • 2017 • Australia • IUP Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('PSA PID Image of the Year 2017 Competition • 2018 • USA • Award of Merit', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -701,6 +706,7 @@ $fsg_awards = array(
     array('Int\'l photography awards • 2016 • USA • HM', 'ipa_seal_2016.png', '', '68', '72', '0', '5'),
     array('Fine Art Photography Awards • 2017 • Great Britain • Nominee', 'fapa-nominee.png', '', '52', '72', '0', '5'),
     array('International Photographer of the Year • 2018 • GB • HM', 'ipoty_2017_hm.png', '', '93', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 34° Trofeo Arno • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 14° Trofeo Colline del Chianti • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('PX3 • 2016 • France • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -738,6 +744,8 @@ $fsg_awards = array(
   ),
   "Judgement Day" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('6th Swedish International Small Print Exhibition • 2020 • Sweden • FIAP Gold', 'gold_fiap.png', '', '72', '72', '0', '5'),
     array('4th Nordic International Digital Circuit – Helsinki • 2019 • Finland • GPU Gold', 'gold_gpu.png', '', '87', '72', '0', '5'),
     array('Trierenberg Super Circuit – Graz • 2018 • Austria • Salon Silver', 'silver.svg', '', '72', '72', '0', '5'),
     array('4th Nordic International Digital Circuit – Malmö • 2019 • Sweden • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
@@ -747,6 +755,7 @@ $fsg_awards = array(
   ),
   "Future Ahead" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Obsession of Light 6th Vantaa Photoclub International Salon • 2017 • Finland • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -847,6 +856,7 @@ $fsg_awards = array(
   ),
   "The Rubidus Brothers" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Egghead" => array(
@@ -859,11 +869,14 @@ $fsg_awards = array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Portrait Competition – End of Year • 2018 • USA • PSA Bronze', 'bronze_psa.png', '', '72', '72', '0', '5'),
+    array('4th International Digital Exhibition Vision • 2020 • Finland • VISION Gold - The strongest individual photo', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Story of a Vampire" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
     array('ONE EYELAND AWARDS 2018 • 2019 • India • Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('6th Swedish International Small Print Exhibition • 2020 • Sweden • PSA Ribbon', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Empty Frames" => array(
     array('International Color Awards • 2019 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
@@ -883,6 +896,7 @@ $fsg_awards = array(
   ),
   "Peacemaker" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "The Chamber" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -894,6 +908,7 @@ $fsg_awards = array(
   ),
   "Why so Serious?" => array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('PID Individual Portrait Competition 3 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
   ),
   "Ladders of escape" => array(
@@ -910,6 +925,7 @@ $fsg_awards = array(
     array('Cheltenham International Salon of Photography • 2018 • GB/England • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "Viking" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Portrait Competition 1 • 2018 • USA • PSA Bronze', 'bronze_psa.png', '', '72', '72', '0', '5'),
     array('PID Individual Portrait Competition – End of Year • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
@@ -941,6 +957,7 @@ $fsg_awards = array(
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Paint Swirl" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
   ),
   "Rendezvous at the Station" => array(
@@ -948,6 +965,7 @@ $fsg_awards = array(
   ),
   "Imperfect" => array(
     array('Int\'l photography awards • 2018 • USA • HM', 'ipa_seal_2016.png', '', '68', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('Tokyo International Foto Awards • 2018 • Japan • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2018 • Russia • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -963,6 +981,7 @@ $fsg_awards = array(
   ),
   "Ice Fishing" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 3 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
     array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
@@ -994,7 +1013,9 @@ $fsg_awards = array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Markus - Author Portrait 1" => array(
+    array('International Color Awards • 2020 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Stranger in the Doorway" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1095,6 +1116,7 @@ $fsg_awards = array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Masculinity" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('Bifa • 2019 • Hungary • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Neutral Density Photography Awards • 2019 • USA • ND HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -1106,6 +1128,59 @@ $fsg_awards = array(
   ),
   "Birds and Branches" => array(
     array('SKsL teemanäyttely “Tila” • 2019 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Rough Grind - Doors" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Rough Grind - Music Chair" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "10 years" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Two forks" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "Ha Ha Ha" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Shadow of Batman" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Sign of the horns" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Headstone and the Coffin" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Life of Helmut" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "Number 10" => array(
+    array('PiART • 2020 • Photo of the Day', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Fitness" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "Broken Doll" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "VW Kleinbus" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "Mushroom on Moss" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "Rest in Peace" => array(
+    array('PID Individual Portrait Competition 1 • 2020 • USA • Best Indoor', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Xmas is Cancelled" => array(
+    array('PID Individual Portrait Competition 2 • 2020 • USA • Judge\'s Choice', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
 );
 
