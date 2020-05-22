@@ -593,6 +593,7 @@ $fsg_awards = array(
   "Car Chase" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Behave Little Piggy" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1156,6 +1157,12 @@ $fsg_awards = array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Headstone and the Coffin" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "We can do it!" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Today's Heroes" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Life of Helmut" => array(
