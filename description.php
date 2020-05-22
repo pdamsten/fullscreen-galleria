@@ -777,6 +777,7 @@ $fsg_awards = array(
   ),
   "VW Kleinbus - Full" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Capitalist Pig" => array(
@@ -1175,9 +1176,6 @@ $fsg_awards = array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Broken Doll" => array(
-    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
-  ),
-  "VW Kleinbus" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Mushroom on Moss" => array(
