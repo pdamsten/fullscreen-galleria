@@ -155,6 +155,7 @@ $fsg_awards = array(
   "The Duel" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014 • Penta\'s Choice', 'pentaprism_r_choice.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('6th Finland International Digital Circuit - 1st Vihti Salon • 2014 • Finland • UPI HM', 'hm_upi.png', '', '21', '72', '0', '5'),
   ),
   "Duality" => array(
@@ -285,6 +286,7 @@ $fsg_awards = array(
   "Machette" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('Portrait Circuit - HAIFA • 2017 • Israel • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
   ),
   "Dead Roses and a Fly" => array(
@@ -294,6 +296,7 @@ $fsg_awards = array(
   "True Nature" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Mood Dial" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -308,6 +311,7 @@ $fsg_awards = array(
   "Hot Chili" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Business Portrait" => array(
     array('International Color Awards • 2018 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
@@ -326,11 +330,13 @@ $fsg_awards = array(
   "The Last Second" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015 • Magazine Highlights', 'pentaprism_r_choice.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Arm Wrestling" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('2nd Danube Digital Circuit – Romania • 2017 • Romania • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('DPW Three Country Grand Circuit - Podgorica • 2015 • Montenegro • Salon HM', 'hm_dpa.png', '', '24', '72', '0', '5'),
@@ -350,6 +356,7 @@ $fsg_awards = array(
   "Brownie" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('2nd Queensland International Digital Circuit - Mount Gravatt • 2015 • Australia • Salon Silver', 'silver_qidc.png', '', '72', '72', '0', '5'),
   ),
@@ -396,6 +403,7 @@ $fsg_awards = array(
   ),
   "Every Last Drop of Ideas" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('10° French Digital Tour - 4° Salon International de Legé • 2015 • France • RPS Silver', 'silver_rps.png', '', '72', '72', '0', '5'),
     array('2nd Digital Composing Contest Austria • 2015 • Austria • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
@@ -554,6 +562,7 @@ $fsg_awards = array(
   "Man's Best Friend" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('This is life 3rd International Digital salon of Photography • 2016 • Finland • FIAP Bronze', 'bronze_fiap.png', '', '72', '72', '0', '5'),
     array('11° French Digital Tour - 3° Saint Martin de la Crau • 2016 • France • IUP Bronze', 'bronze_iup.png', '', '72', '72', '0', '5'),
@@ -581,6 +590,7 @@ $fsg_awards = array(
   "Winter Frost" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2016', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('2nd Danube Digital Circuit – Serbia • 2017 • Serbia • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('2nd New Bi-Continental Photo Circuit - Mediterranean Salon • 2016 • Greece • GAP Silver', 'silver_gap.png', '', '72', '72', '0', '5'),
@@ -777,8 +787,8 @@ $fsg_awards = array(
   ),
   "VW Kleinbus - Full" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PiART • 2020 • Photo of the Day', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Capitalist Pig" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1148,6 +1158,25 @@ $fsg_awards = array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
+  "We can do it!" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Our Minds" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "The Red Gloves" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "The Welder" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Gone with a Wind" => array(
+    array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Ha Ha Ha" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -1160,10 +1189,20 @@ $fsg_awards = array(
   "Headstone and the Coffin" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "We can do it!" => array(
+  "Today's Heroes" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Today's Heroes" => array(
+  "Neon Lights" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Sitting on a Chair" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Highlander - The Cave" => array(
+    array('Fstoppers • 2020 • Photo of the Day', 'fstoppers.png', '', '82', '72', '0', '5'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Highlander - Throne" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Life of Helmut" => array(
@@ -1179,6 +1218,9 @@ $fsg_awards = array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Mushroom on Moss" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "Badass Nun" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Rest in Peace" => array(
