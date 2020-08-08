@@ -627,6 +627,7 @@ class FSGPlugin {
     }
     if ($ext == 'zip') {
       $filename = pathinfo($filename, PATHINFO_FILENAME);
+      $ext = pathinfo($filename, PATHINFO_EXTENSION);
     }
     $s = pathinfo($filename, PATHINFO_FILENAME);
     $id = attachment_url_to_postid($s.'.jpg');
