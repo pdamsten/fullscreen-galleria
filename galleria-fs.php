@@ -608,6 +608,10 @@ class FSGPlugin {
 
   function file2title($filename)
   {
+    $ext = pathinfo($filename, PATHINFO_EXTENSION);
+    if ($ext == 'zip') {
+      $filename = pathinfo($filename, PATHINFO_FILENAME);
+    }
     $s = pathinfo($filename, PATHINFO_FILENAME);
     $s = str_replace('_', ' ', $s);
     $s = str_replace('-', ' ', $s);
@@ -620,6 +624,9 @@ class FSGPlugin {
     $ext = pathinfo($filename, PATHINFO_EXTENSION);
     if ($ext == 'jpg') {
       return $path.$filename;
+    }
+    if ($ext == 'zip') {
+      $filename = pathinfo($filename, PATHINFO_FILENAME);
     }
     $s = pathinfo($filename, PATHINFO_FILENAME);
     $id = attachment_url_to_postid($s.'.jpg');
