@@ -5,7 +5,7 @@ Author URI: http://petridamsten.com/
 Plugin URI: http://petridamsten.com/misc-media/
 Tags: galleria, gallery, photography, images
 Requires at least: 4.0
-Tested up to: 5.3
+Tested up to: 5.5
 Stable tag: trunk
 License: MIT
 
