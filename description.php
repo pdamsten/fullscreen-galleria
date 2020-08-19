@@ -151,6 +151,7 @@ $fsg_awards = array(
   "Don't Look, Don't Tell" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2014', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "The Duel" => array(
     array('1x.com • 2014', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -393,6 +394,7 @@ $fsg_awards = array(
   "Denied" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2015', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('PiART • 2020 • Photo of the Day', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Jail Time" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1205,6 +1207,16 @@ $fsg_awards = array(
   "Highlander - Throne" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "The Last Ninja" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Hacker" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Nutcase in a Spotlight" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Life of Helmut" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
@@ -1221,6 +1233,9 @@ $fsg_awards = array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Badass Nun" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+  ),
+  "The Detective" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Rest in Peace" => array(
