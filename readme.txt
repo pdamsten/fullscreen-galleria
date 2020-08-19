@@ -112,6 +112,9 @@ Tip: If you have a folder /docs/ for files and you want to add page /docs/ comme
 3. Showing map for photos that have gps coordinates
 
 == Changelog ==
+= 1.6.8 =
+* Update galleria.io to 1.6.1
+
 = 1.6.7 =
 * fsg_dlmngr keyword added
 

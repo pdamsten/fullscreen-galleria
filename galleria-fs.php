@@ -4,14 +4,14 @@
 Plugin Name: Fullscreen Galleria
 Plugin URI: http://petridamsten.com/
 Description: Fullscreen gallery for Wordpress
-Version: 1.6.4
+Version: 1.6.8
 Author: Petri Damstén
 Author URI: http://petridamsten.com/
 License: MIT
 
 ******************************************************************************/
 
-$fsg_ver = '1.6.7';
+$fsg_ver = '1.6.8';
 $fsg_db_key = 'fsg_plugin_settings';
 
 $fsg_sites = array(
@@ -835,7 +835,7 @@ class FSGPlugin {
         has_shortcode($post->post_content, 'fsg_link')) {
       $in_footer = !$this->options['load_in_header'];
 
-      wp_enqueue_script('galleria', plugins_url('galleria-1.5.7.min.js', __FILE__), array('jquery'), '1.5.7', $in_footer);
+      wp_enqueue_script('galleria', plugins_url('galleria-1.6.1.min.js', __FILE__), array('jquery'), '1.6.1', $in_footer);
       wp_enqueue_script('galleria-fs', plugins_url('galleria-fs.js', __FILE__), array('galleria'), $fsg_ver, $in_footer);
       wp_enqueue_script('galleria-fs-theme', plugins_url('galleria-fs-theme.js', __FILE__), array('galleria-fs'), $fsg_ver, $in_footer);
       // register here and print conditionally
