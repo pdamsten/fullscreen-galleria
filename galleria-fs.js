@@ -7,6 +7,9 @@
 (function($) {
 
 var fsg_last_post_id = "";
+var fsg_map = undefined;
+var fsg_map_layer = undefined;
+var fsg_map_marker = undefined;
 
 $(document).ready(function() { // DOM ready
   $("[data-imgid]", this).each(function() {
@@ -193,34 +196,46 @@ fsg_show_galleria = function(event) {
 open_map = function(lat, long)
 {
   $('#galleria-map').show();
-  if (typeof open_map.map == 'undefined') {
-    open_map.proj = new OpenLayers.Projection('EPSG:4326');
-    OpenLayers.ImgPath = fullscreen_galleria_url;
-    open_map.map = new OpenLayers.Map('galleria-map', {
-        controls:[
-            new OpenLayers.Control.Navigation(),
-            new OpenLayers.Control.PanZoomBar(),
-            new OpenLayers.Control.Attribution()]
+  if (typeof fsg_map == 'undefined') {
+    fsg_map = new ol.Map({
+        target: 'galleria-map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([long, lat]),
+          zoom: 16
+        })
     });
-    open_map.map.addLayer(new OpenLayers.Layer.OSM());
-  }
-
-  var lonLat = new OpenLayers.LonLat(long, lat).transform(
-      open_map.proj, open_map.map.getProjectionObject());
-  open_map.map.setCenter(lonLat, 16);
-
-  if (typeof open_map.marker == 'undefined') {
-    var markers = new OpenLayers.Layer.Markers('Markers');
-    open_map.map.addLayer(markers);
-    var size = new OpenLayers.Size(35, 52);
-    var offset = new OpenLayers.Pixel(-(size.w / 2), -size.h);
-    var icon = new OpenLayers.Icon(fullscreen_galleria_url + 'marker.png', size, offset);
-    open_map.marker = new OpenLayers.Marker(lonLat, icon);
-    markers.addMarker(open_map.marker);
   } else {
-    var px = open_map.map.getLayerPxFromLonLat(lonLat);
-    open_map.marker.moveTo(px);
+    fsg_map.getView().setZoom(16);
+    fsg_map.getView().setCenter(ol.proj.fromLonLat([long, lat]));
   }
+
+  if (typeof fsg_map_layer == 'undefined') {
+    style = new ol.style.Style({
+      image: new ol.style.Icon({
+        anchor: [0.5, 1.0],
+        src: '/wp-content/plugins/fullscreen-galleria/marker.png'
+      })
+    });
+
+    fsg_map_marker  = new ol.Feature({
+      geometry: new ol.geom.Point(ol.proj.fromLonLat([long, lat]))
+    });
+
+    fsg_map_layer = new ol.layer.Vector({
+      source: new ol.source.Vector({
+        features: [fsg_map_marker],
+      }),
+      style: style,
+   });
+   fsg_map.addLayer(fsg_map_layer);
+ } else {
+   fsg_map_marker.setGeometry(new ol.geom.Point(ol.proj.fromLonLat([long, lat])));
+ }
 }
 
 list_photos = function()
