@@ -7,6 +7,45 @@
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic,700,700italic);
 
+#galleria-map .ol-zoom .ol-zoom-out {
+  margin-top: 204px;
+}
+#galleria-map .ol-zoom {
+  border-radius: 20px;
+}
+#galleria-map .ol-zoomslider {
+  background-color: transparent;
+  top: 2.3em;
+}
+#galleria-map .ol-zoom-out, #galleria-map .ol-zoom-in, #galleria-map .ol-zoomslider-thumb {
+  background-color: rgba(66,66,66,0.5);
+}
+#galleria-map .ol-zoom-out {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#galleria-map .ol-zoom-in {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#galleria-map .ol-touch .ol-zoom .ol-zoom-out {
+  margin-top: 212px;
+}
+#galleria-map .ol-touch .ol-zoomslider {
+  top: 2.75em;
+}
+
+#galleria-map .ol-zoom-in.ol-has-tooltip:hover [role=tooltip],
+#galleria-map .ol-zoom-in.ol-has-tooltip:focus [role=tooltip] {
+  top: 3px;
+}
+
+#galleria-map .ol-zoom-out.ol-has-tooltip:hover [role=tooltip],
+#galleria-map .ol-zoom-out.ol-has-tooltip:focus [role=tooltip] {
+  top: 232px;
+}
+
 .olControlAttribution {
   right: 10px;
   bottom: 2px;

@@ -841,6 +841,7 @@ class FSGPlugin {
       // register here and print conditionally
       wp_register_script('open-layers', plugins_url('ol.js', __FILE__), array('galleria-fs'), '6.4.3', $in_footer);
       wp_register_style('open-layers', plugins_url('ol.css', __FILE__), array(), '6.4.3');
+      wp_enqueue_style('open-layers');
       wp_register_style('galleria-fs', plugins_url('galleria-fs-'.$this->options['theme'].'.css', __FILE__), array(), $fsg_ver);
       wp_enqueue_style('galleria-fs');
     }

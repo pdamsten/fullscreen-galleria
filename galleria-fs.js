@@ -209,6 +209,7 @@ open_map = function(lat, long)
           zoom: 16
         })
     });
+    fsg_map.addControl(new ol.control.ZoomSlider());
   } else {
     fsg_map.getView().setZoom(16);
     fsg_map.getView().setCenter(ol.proj.fromLonLat([long, lat]));
