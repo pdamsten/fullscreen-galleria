@@ -4,14 +4,14 @@
 Plugin Name: Fullscreen Galleria
 Plugin URI: http://petridamsten.com/
 Description: Fullscreen gallery for Wordpress
-Version: 1.6.8
+Version: 1.6.9
 Author: Petri Damstén
 Author URI: http://petridamsten.com/
 License: MIT
 
 ******************************************************************************/
 
-$fsg_ver = '1.6.8';
+$fsg_ver = '1.6.9';
 $fsg_db_key = 'fsg_plugin_settings';
 
 $fsg_sites = array(
@@ -1069,7 +1069,7 @@ class FSGPlugin {
   // Handle gallery
   function content($content)
   {
-    //error_log('content');
+    //error_log('** content **');
 
     // do not apply gallery to feed content
     if (is_feed()) {
@@ -1098,49 +1098,51 @@ class FSGPlugin {
                 'permalink' => get_permalink($post->ID).'#'.$key);
     }
 
-    #error_log('----------------------------------------------------------');
-    #error_log($content);
+    //error_log('----------------------------------------------------------');
+    //error_log($content);
     $links = $this->links($content);
-    #$this->ob_log($links);
+    //$this->ob_log($links);
 
     // Add needed data to links
     $upload_dir = wp_upload_dir();
     $media = $upload_dir['baseurl'];
-    #error_log('Upload dir: '.$media);
-    #$media = site_url();
-    #error_log('Site url: '.$media);
+    //error_log('Upload dir: '.$media);
+    $media = site_url();
+    //error_log('Site url: '.$media);
     $fsg_post = array();
     foreach ($links as $link) {
-      #error_log('Link: '.$link);
+      //error_log('Link: '.$link);
       if (strpos($link, 'data-postid') === false) { // test if link already has the data
         $href = $this->href($link);
-        #error_log('* href: '.$href);
+        //error_log('* href: '.$href);
         if (!array_key_exists($href, $images) && $this->startswith($href, $media)) {
           // We have images from other posts (include)
           $id = $this->get_attachment_id_from_src($href);
-          #error_log('* id: '.$id);
+          //error_log('* id: '.$id);
           if ($id != NULL) {
             $photos = get_posts(array('post_type' => 'attachment',
                 'post_mime_type' => 'image', 'order' => 'ASC', 'orderby' => 'menu_order ID',
                 'include' => $id));
-            #error_log('* photos: '.count($photos));
+            //error_log('* photos: '.count($photos));
             if (count($photos) > 0) {
                 $fsg_post[$href] = array('post_id' => $id, 'id' => $id, 'data' => $photos[0],
                                          'permalink' => get_permalink($id).'#0');
             }
           }
         } else if (array_key_exists($href, $images)) {
-          #error_log('* in images');
+          //error_log('* in images');
           $fsg_post[$href] = $images[$href];
         }
         if (array_key_exists($href, $fsg_post)) {
-          #error_log('* in fsg_post');
+          //error_log('* in fsg_post');
           $tmp = str_replace('<a ', '<a data-postid="fsg_post_'.$post->ID.
                              '" data-imgid="'.$fsg_post[$href]['id'].'" ', $link);
           $content = str_replace($link, $tmp, $content);
         }
       }
     }
+    ////error_log('* append json: '.$post->ID);
+    //$this->ob_log($fsg_post);
     $this->append_json('fsg_post_'.$post->ID, $fsg_post);
     return $content;
   }
