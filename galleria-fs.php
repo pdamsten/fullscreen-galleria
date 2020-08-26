@@ -250,9 +250,9 @@ class FSGPlugin {
     ),
   	'show_permalink' => array(
       'title' => 'Show Permalink',
-      'type' => 'checkbox',
-      'note' => '',
-      'default' => 'on'
+      'type' => 'combobox',
+      'default' => 'page',
+    	'items' => array('No' => 'no', 'Page' => 'page', 'Image' => 'image')
     ),
   	'show_sharing' => array(
       'title' => 'Show Sharing Buttons',
@@ -1008,12 +1008,19 @@ class FSGPlugin {
           } else {
             $map = '';
           }
-          if ($this->options['show_permalink'] && !empty($val['permalink'])) {
+          if ($this->options['show_permalink'] != 'no') {
             $layer_has_info = true;
-            $bookmark = "<div class=\"galleria-layeritem\">".
-                        "<a title=\"Permalink\" href=\"".$val['permalink']."\">".
+            if ($this->options['show_permalink'] == 'page') {
+              $permalink = $val['permalink'];
+            } else {
+              $permalink = wp_get_attachment_image_src($val['post_id'], 'full')[0];
+            }
+            if (!empty($permalink)) {
+              $bookmark = "<div class=\"galleria-layeritem\">".
+                        "<a title=\"Permalink\" href=\"".$permalink."\">".
                         "<div class=\"galleria-link-bookmark\"></div></a>".
                     "</div>";
+            }
           } else {
             $bookmark = '';
           }
