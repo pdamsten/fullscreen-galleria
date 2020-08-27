@@ -219,7 +219,7 @@ open_map = function(lat, long)
     style = new ol.style.Style({
       image: new ol.style.Icon({
         anchor: [0.5, 1.0],
-        src: '/wp-content/plugins/fullscreen-galleria/marker.png'
+        src: '/wp-content/plugins/fullscreen-galleria/marker.svg'
       })
     });
 
