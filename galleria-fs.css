@@ -60,10 +60,10 @@
   position: absolute;
   right: 4px;
   top: 4px;
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
-  background-image: url(close-mini.png);
+  background-image: url(close-mini.svg);
   background-repeat: no-repeat;
   z-index: 10000;
 }
