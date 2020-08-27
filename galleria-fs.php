@@ -334,7 +334,7 @@ class FSGPlugin {
   		</form>
       <div style="text-align: center; width: 256px; line-height: 175%;">
 
-      <img width=256 height=28 src="<?php echo plugins_url('hr.svg', __FILE__); ?>"><br>
+      <img width=256 height=28 src="<?php echo plugins_url('logo.svg', __FILE__); ?>"><br>
       Version <?php echo $fsg_ver; ?><br>
       <div style="font-size: 12pt;">
       <a href="mailto:petri.damsten@gmail.com">Petri Damstén</a><br>
