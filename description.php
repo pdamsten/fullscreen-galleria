@@ -312,7 +312,7 @@ $fsg_awards = array(
   "Hot Chili" => array(
     array('1x.com • 2015', '1x.svg', '', '72', '72', '-18', '-13'),
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
-    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020 • Photo of the Day', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Business Portrait" => array(
     array('International Color Awards • 2018 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
@@ -1022,6 +1022,7 @@ $fsg_awards = array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 4 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
+    array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Background Shadows" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1136,6 +1137,7 @@ $fsg_awards = array(
   ),
   "How I Move" => array(
     array('Neutral Density Photography Awards • 2019 • USA • ND HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PX3 • 2020 • France • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Calmness" => array(
     array('3RD INTERNATIONAL DIGITAL EXHIBITION VISION • 2019 • Finland • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -1167,6 +1169,7 @@ $fsg_awards = array(
   "Our Minds" => array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Red Gloves" => array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
