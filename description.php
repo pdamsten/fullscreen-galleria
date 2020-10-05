@@ -1136,6 +1136,8 @@ $fsg_awards = array(
     array('Neutral Density Photography Awards • 2019 • USA • ND HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "How I Move" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('Neutral Density Photography Awards • 2019 • USA • ND HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('PX3 • 2020 • France • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -1218,6 +1220,15 @@ $fsg_awards = array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Nutcase in a Spotlight" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Slaughterhouse 42" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Where are you?" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Be Quiet" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Life of Helmut" => array(
