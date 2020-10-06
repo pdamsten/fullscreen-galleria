@@ -43,6 +43,10 @@ $(window).resize(function() { // window resized
   if (galleria != undefined) {
     galleria.resize();
   }
+  galleria = $(".galleria-photolist");
+  if (galleria != undefined) {
+    list_photos();
+  }
 });
 
 fsg_set_keyboard = function(event) {
@@ -257,6 +261,7 @@ list_photos = function()
       var prev = 0;
       var max_col = 0;
 
+      $(this).html("");
       for(var i = 0; i < COLS.length; i++) {
         COLS[i] = +COLS[i];
         max_col = Math.max(COLS[i], max_col);
