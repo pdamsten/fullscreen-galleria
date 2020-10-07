@@ -38,7 +38,7 @@ $(document).ready(function() { // DOM ready
   });
 });
 
-$(window).resize(function() { // window resized
+fsg_resize = function(event) {
   var galleria = $("#galleria").data('galleria');
   if (galleria != undefined) {
     galleria.resize();
@@ -47,6 +47,14 @@ $(window).resize(function() { // window resized
   if (galleria != undefined) {
     list_photos();
   }
+}
+
+$(window).on("orientationchange", function(event) {
+  fsg_resize();
+});
+
+$(window).resize(function() { // window resized
+  fsg_resize();
 });
 
 fsg_set_keyboard = function(event) {
