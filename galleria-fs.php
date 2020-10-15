@@ -2,11 +2,11 @@
 /******************************************************************************
 
 Plugin Name: Fullscreen Galleria
-Plugin URI: http://petridamsten.com/
+Plugin URI: https://petridamsten.com/
 Description: Fullscreen gallery for Wordpress
 Version: 1.6.9
 Author: Petri Damstén
-Author URI: http://petridamsten.com/
+Author URI: https://petridamsten.com/
 License: MIT
 
 ******************************************************************************/
@@ -338,7 +338,7 @@ class FSGPlugin {
       Version <?php echo $fsg_ver; ?><br>
       <div style="font-size: 12pt;">
       <a href="mailto:petri.damsten@gmail.com">Petri Damstén</a><br>
-      <a href="http://petridamsten.com/">Website / Blog</a>
+      <a href="https://petridamsten.com/">Website / Blog</a>
     	</div>
     	</div>
   	</div>
