@@ -1171,6 +1171,7 @@ $fsg_awards = array(
   "Our Minds" => array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('3rd Fjord-Bergen • 2020 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Red Gloves" => array(
@@ -1229,7 +1230,7 @@ $fsg_awards = array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Be Quiet" => array(
-    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('One Eyeland • 2020 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
   ),
   "Life of Helmut" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
