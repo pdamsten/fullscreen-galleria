@@ -1180,6 +1180,8 @@ $fsg_awards = array(
   ),
   "The Welder" => array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('5th Nordic International Digital Circuit – Finland • 2020 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
+    array('5th Nordic International Digital Circuit – Sweden • 2020 • Sweden • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
   ),
   "Gone with a Wind" => array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1251,7 +1253,7 @@ $fsg_awards = array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "The Detective" => array(
-    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('PiART • 2020 • Curators Selection', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Rest in Peace" => array(
     array('PID Individual Portrait Competition 1 • 2020 • USA • Best Indoor', 'hm.svg', '', '72', '72', '-12', '-7'),
