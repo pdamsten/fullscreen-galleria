@@ -1026,6 +1026,7 @@ $fsg_awards = array(
   ),
   "Background Shadows" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('127th Toronto International Salon of Photography • 2020 • Canada • IAAP Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Markus - Author Portrait 1" => array(
     array('International Color Awards • 2020 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
@@ -1227,6 +1228,7 @@ $fsg_awards = array(
   ),
   "Slaughterhouse 42" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('35Awards - Horror photography contest • 2020 • Russia • Best of Contest', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Where are you?" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -1260,6 +1262,9 @@ $fsg_awards = array(
   ),
   "Xmas is Cancelled" => array(
     array('PID Individual Portrait Competition 2 • 2020 • USA • Judge\'s Choice', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Meat Cleaver" => array(
+    array('127th Toronto International Salon of Photography • 2020 • Canada • TCC Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
 );
 
