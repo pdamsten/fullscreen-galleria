@@ -17,6 +17,7 @@ $fsg_my_lenses = array(
   '70.0-200.0 mm f/2.8' => 'Nikon AF-S Nikkor 70-200mm f/2.8G ED VR II',
   '50.0 mm f/1.4' => 'Nikon AF-S Nikkor 50mm f/1.4G',
   '35.0 mm f/1.8' => 'Nikon AF-S DX Nikkor 35mm f/1.8G',
+  '35.0 mm f/1.4' => 'Sigma 35mm f/1.4 Art DG HSM',
   '18.0-200.0 mm f/3.5-5.6' => 'Nikon AF-S DX Nikkor 18-200mm f/3.5-5.6G ED VR II',
   '0.0 mm f/0' => 'Samyang 8mm f/3.5 Fisheye',
   '100.0 mm f/2.8' => 'Tokina AT-X M100 PRO D f/2.8 Macro',
