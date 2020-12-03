@@ -973,6 +973,7 @@ $fsg_awards = array(
   "Paint Swirl" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
+    array('Cross Continental Circuit • 2020 • Germany • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Rendezvous at the Station" => array(
     array('One Eyeland • 2018 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
@@ -1235,6 +1236,9 @@ $fsg_awards = array(
   ),
   "Be Quiet" => array(
     array('One Eyeland • 2020 • Picture of the Day', 'one_eyeland_pod.png', '', '82', '72', '0', '5'),
+  ),
+  "Pissed Off" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Life of Helmut" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
