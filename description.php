@@ -1240,6 +1240,9 @@ $fsg_awards = array(
   "Pissed Off" => array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Everything is Shit" => array(
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Life of Helmut" => array(
     array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
