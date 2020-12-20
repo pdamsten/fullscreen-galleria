@@ -1023,6 +1023,7 @@ $fsg_awards = array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 4 • 2019 • USA • PSA HM', 'hm_psa.png', '', '23', '72', '0', '5'),
+    array('Chromatic Awards • 2020 • International • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Background Shadows" => array(
@@ -1241,6 +1242,11 @@ $fsg_awards = array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Everything is Shit" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
+    array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Burning at Both Ends" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Life of Helmut" => array(
@@ -1263,6 +1269,9 @@ $fsg_awards = array(
   ),
   "The Detective" => array(
     array('PiART • 2020 • Curators Selection', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "Three Monkeys" => array(
+    array('PiART • 2020', 'hm.svg', '', '72', '72', '0', '5'),
   ),
   "Rest in Peace" => array(
     array('PID Individual Portrait Competition 1 • 2020 • USA • Best Indoor', 'hm.svg', '', '72', '72', '-12', '-7'),
