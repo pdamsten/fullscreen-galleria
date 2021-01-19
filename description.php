@@ -789,12 +789,12 @@ $fsg_awards = array(
   ),
   "Future Ahead" => array(
     array('1x.com • 2017', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Obsession of Light 6th Vantaa Photoclub International Salon • 2017 • Finland • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('PID Individual Portrait Competition 1 • 2018 • USA • PSA Best Male', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PiART • 2020 • Curators Selection', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('PiART • 2020 • Curators Selection', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Encounter" => array(
     array('Photographize Magazine • 2017', 'photographize.svg', '', '72', '72', '0', '5'),
