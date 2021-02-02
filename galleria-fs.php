@@ -576,9 +576,9 @@ class FSGPlugin {
     $photobox = "fsg_photobox['".$id."'] = {rows: ".$rows.", cols: ".$cols.", border: ".
                        $border.", maxtiles: ".$maxtiles.", tile: ".
                        $tile.", repeat: ".$repeat."};";
-    $this->append_json($id, $images, true);
     ++$this->photoboxid;
-    return "<div id='".$id."' class='galleria-photobox'></div><script>".$photobox."</script>";
+    return "<div id='".$id."' class='galleria-photobox'></div><script>".$photobox."</script>" .
+           $this->append_json($id, $images, true);
   }
 
   function photolist_shortcode($attr, $content = null)
@@ -601,9 +601,9 @@ class FSGPlugin {
     $id = 'fsg_photobox_'.$post->ID.'_'.$this->photoboxid;
     $photolist = "fsg_photolist['".$id."'] = {cols: '".$cols."', border: ".$border.
                  ", tile: ".$tile.", extlinks: ".$extlinks.", fixed: '".$fixed."'};";
-    $this->append_json($id, $images, true);
     ++$this->photoboxid;
-    return "<div id='".$id."' class='galleria-photolist'></div><script>".$photolist."</script>";
+    return "<div id='".$id."' class='galleria-photolist'></div><script>".$photolist."</script>" .
+           $this->append_json($id, $images, true);
   }
 
   function file2title($filename)
@@ -631,13 +631,16 @@ class FSGPlugin {
     }
     $s = pathinfo($filename, PATHINFO_FILENAME);
     $id = attachment_url_to_postid($s.'.jpg');
-    $s = wp_get_attachment_image_src($id, [200, 250])[0];
-    if ($s == '') {
-      $id = attachment_url_to_postid($ext.'.png');
-      $s = wp_get_attachment_image_src($id, [200, 250])[0];
+    $s = wp_get_attachment_image_src($id, [200, 250]);
+    if ($s != false) {
+      $s = $s[0];
       if ($s == '') {
-        $type = wp_ext2type($ext);
-        $s = wp_mime_type_icon($type);
+        $id = attachment_url_to_postid($ext.'.png');
+        $s = wp_get_attachment_image_src($id, [200, 250])[0];
+        if ($s == '') {
+          $type = wp_ext2type($ext);
+          $s = wp_mime_type_icon($type);
+        }
       }
     }
     return $s;
@@ -752,7 +755,7 @@ class FSGPlugin {
           array('post_id' => $val->ID, 'id' => 0, 'data' => $val,
                 'permalink' => get_permalink($val->ID).'#0');
     }
-    $this->append_json($id, $images);
+    $json = $this->append_json($id, $images);
     if (!empty($include)) {
       $this->used = array_merge($this->used, wp_parse_id_list($include));
     }
@@ -762,7 +765,7 @@ class FSGPlugin {
       $class = " class='".$class."'";
     }
     return "<a data-postid='".$id."' data-imgid='".$imgid."' href='".$first."'".
-           $class.">".$content."</a>";
+           $class.">".$content."</a>" . $json;
   }
 
   function fields_to_edit($form_fields, $post)
@@ -1072,7 +1075,7 @@ class FSGPlugin {
     }
     $json = rtrim($json, ",\n");
     $json .= "\n];</script>\n";
-    echo $json;
+    return $json;
   }
 
   // Handle gallery
@@ -1152,7 +1155,7 @@ class FSGPlugin {
     }
     ////error_log('* append json: '.$post->ID);
     //$this->ob_log($fsg_post);
-    $this->append_json('fsg_post_'.$post->ID, $fsg_post);
+    $content = $this->append_json('fsg_post_'.$post->ID, $fsg_post) . $content;
     return $content;
   }
 }
