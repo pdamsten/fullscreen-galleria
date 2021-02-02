@@ -1313,7 +1313,7 @@ $fsg_awards = array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "handle_with_care" => array(
+  "Handle With Care" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
 );
