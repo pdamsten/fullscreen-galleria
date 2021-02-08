@@ -35,7 +35,7 @@ $fsg_awards = array(
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2013', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Intercontinental Circuit - GaudiRfoto IV Saló Internacional de Fotografia Reu - Catalunya • 2016 • Spain • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
-    array('Nordiskt fotomästerskap • 2017 • Nordic • NSFF Gold', 'nsff_gold.png', '', '33', '72', '0', '5'),
+    array('Nordisk fotomesterskap • 2017 • Nordic • NSFF Gold', 'nsff_gold.png', '', '33', '72', '0', '5'),
     array('The AL-THANI Award for Photography • 2013 • Austria • Al-Thani Book', 'althani.jpg', '', '51', '72', '0', '5'),
     array('German International DVF-Photocup – Baden-Württemberg • 2014 • Germany • FIAP Silver', 'silver_fiap.png', '', '72', '72', '0', '5'),
     array('Obsession of Light - 2nd Vantaa Photoclub International Salon • 2013 • Finland • PSA Silver', 'silver_psa.png', '', '72', '72', '0', '5'),
@@ -174,7 +174,7 @@ $fsg_awards = array(
     array('PID Individual Creative Competition 2 • 2017 • USA • PSA Creative Judge\'s Choice', 'judgeschoice_psa_creative.png', '', '18', '72', '0', '5'),
     array('PID Individual Creative Competition End of Year • 2017 • USA • PSA medal HM', 'hm_medal_psa.png', '', '72', '72', '0', '5'),
     array('PSA PID Image of the Year 2016 Competition • 2017 • USA • PSA IOY HM', 'hm_psa_ioy.png', '', '19', '72', '0', '5'),
-    array('Nordiskt fotomästerskap • 2018 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
+    array('Nordisk fotomesterskap • 2018 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
     array('3e Salon International Photographique Le Catalan • 2014 • France • Salon HM', 'hm_lc_finger.jpg', '', '47', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -643,7 +643,7 @@ $fsg_awards = array(
     array('One Eyeland • 2016', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Portrait Circuit - HAIFA • 2017 • Israel • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('This is life 3rd International Digital salon of Photography • 2016 • Finland • NFFF Silver', 'silver_nfff.png', '', '72', '72', '0', '5'),
-    array('Nordiskt fotomästerskap • 2017 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
+    array('Nordisk fotomesterskap • 2017 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
     array('The 6th Great British Small Print Circuit - Hoylake • 2016 • GB/England • Salon HM', 'hm_hoylake_colour.jpg', '', '102', '72', '0', '5'),
     array('Equinox Three - International Salon of Fine Art Photography • 2016 • India • Avant Garde Trophy', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -837,7 +837,7 @@ $fsg_awards = array(
   ),
   "Freedom" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('Nordiskt fotomästerskap • 2018 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
+    array('Nordisk fotomesterskap • 2018 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
   ),
   "Before the Dawn" => array(
     array('The 6th Great British Small Print Circuit - Carlisle • 2017 • GB/England • HM', 'hm_gbsmallprint_monolandscape.jpg', '', '102', '72', '0', '5'),
@@ -850,7 +850,7 @@ $fsg_awards = array(
     array('1x.com • 2018', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2018', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('PID Individual Creative Competition 3 • 2018 • USA • PSA Creative HM Red', 'hm_psa_creative_red.png', '', '18', '72', '0', '5'),
-    array('Nordiskt fotomästerskap • 2019 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
+    array('Nordisk fotomesterskap • 2019 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
     array('SKsL 9. Seuracup • 2018 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('4th Nordic International Digital Circuit – Helsinki • 2019 • Finland • SDF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -1313,7 +1313,7 @@ $fsg_awards = array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Handle With Care" => array(
+  "Handle with Care" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
 );
