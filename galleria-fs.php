@@ -631,16 +631,17 @@ class FSGPlugin {
     }
     $s = pathinfo($filename, PATHINFO_FILENAME);
     $id = attachment_url_to_postid($s.'.jpg');
-    $s = wp_get_attachment_image_src($id, [200, 250]);
-    if ($s != false) {
-      $s = $s[0];
+    if ($id != 0) {
+      $s = wp_get_attachment_image_src($id, [200, 250]);
+      if ($s != false) {
+        $s = $s[0];
+      }
+    } else {
+      $id = attachment_url_to_postid($ext.'.png');
+      $s = wp_get_attachment_image_src($id, [200, 250])[0];
       if ($s == '') {
-        $id = attachment_url_to_postid($ext.'.png');
-        $s = wp_get_attachment_image_src($id, [200, 250])[0];
-        if ($s == '') {
-          $type = wp_ext2type($ext);
-          $s = wp_mime_type_icon($type);
-        }
+        $type = wp_ext2type($ext);
+        $s = wp_mime_type_icon($type);
       }
     }
     return $s;
