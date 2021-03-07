@@ -1330,6 +1330,10 @@ $fsg_awards = array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
+  "Balanced Life" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Breakthru" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
