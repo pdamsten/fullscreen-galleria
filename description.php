@@ -445,6 +445,7 @@ $fsg_awards = array(
     array('123rd Toronto International Salon of Photography • 2016 • Canada • IAAP HM', 'hm_iaap.png', '', '18', '72', '0', '5'),
     array('International Circuit 8 Marzo Fotografia – 7° Trofeo Citta di Montevarchi • 2016 • Italy • ISF HM', 'hm_isf_tyranny.jpg', '', '103', '72', '0', '5'),
     array('Uzbekistan Photo Salon • 2017 • Uzbekistan • Salon HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('SKsL 9. Seuracup • 2018 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Surrogate" => array(
     array('Pentaprism • 2015', 'pentaprism_r.svg', '', '72', '72', '0', '5'),
@@ -723,7 +724,6 @@ $fsg_awards = array(
     array('20° Gran Tour delle Colline - 34° Trofeo Arno • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 14° Trofeo Colline del Chianti • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('PX3 • 2016 • France • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('SKsL 9. Seuracup • 2018 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Light in the Dark" => array(
     array('Obsession of Light 5th Vantaa Photoclub International Salon • 2016 • Finland • FIAP Silver', 'silver_fiap.png', '', '72', '72', '0', '5'),
