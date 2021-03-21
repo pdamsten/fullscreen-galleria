@@ -4,14 +4,14 @@
 Plugin Name: Fullscreen Galleria
 Plugin URI: https://petridamsten.com/
 Description: Fullscreen gallery for Wordpress
-Version: 1.6.10
+Version: 1.6.11
 Author: Petri Damstén
 Author URI: https://petridamsten.com/
 License: MIT
 
 ******************************************************************************/
 
-$fsg_ver = '1.6.10';
+$fsg_ver = '1.6.11';
 $fsg_db_key = 'fsg_plugin_settings';
 
 $fsg_sites = array(

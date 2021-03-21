@@ -5,7 +5,7 @@ Author URI: http://petridamsten.com/
 Plugin URI: http://petridamsten.com/misc-media/
 Tags: galleria, gallery, photography, images
 Requires at least: 4.0
-Tested up to: 5.6
+Tested up to: 5.7
 Stable tag: trunk
 License: MIT
 
@@ -112,6 +112,9 @@ Tip: If you have a folder /docs/ for files and you want to add page /docs/ comme
 3. Showing map for photos that have gps coordinates
 
 == Changelog ==
+= 1.6.11 =
+* fsg_dlmngr icons fixed
+
 = 1.6.10 =
 * Fix json echoing
 * Update OpenLayers to 6.5.0
