@@ -1343,20 +1343,20 @@ $fsg_awards = array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "13 Oclock" => array(
+  "13 O'Clock" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Trust You Seek" => array(
+  "Trust you Seek" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Roles I Have To Play" => array(
+  "Roles I Have to Play" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "The Endless Rain" => array(
+  "The endless rain" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -1366,11 +1366,11 @@ $fsg_awards = array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Sound Of Silence" => array(
+  "Sound of Silence" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "The Comedy And Tragedy" => array(
+  "The Comedy and Tragedy" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
