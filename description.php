@@ -602,6 +602,7 @@ $fsg_awards = array(
     array('11° French Digital Tour - 19° Salon International de Bagnols / Marcoule • 2016 • France • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('New Year Circuit – Ruma • 2017 • Serbia • Salon HM', 'hm_kula.jpg', '', '25', '72', '0', '5'),
     array('2nd Danube Digital Circuit – Romania • 2017 • Romania • ICS HM', 'ics_hm_wf.jpg', '', '145', '72', '0', '5'),
+    array('Trierenberg Super Circuit – Graz • 2021 • Austria • OVF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Car Chase" => array(
     array('1x.com • 2016', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -724,6 +725,7 @@ $fsg_awards = array(
     array('20° Gran Tour delle Colline - 34° Trofeo Arno • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 14° Trofeo Colline del Chianti • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('PX3 • 2016 • France • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Oculus Digitale • 2021 • High End', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Light in the Dark" => array(
     array('Obsession of Light 5th Vantaa Photoclub International Salon • 2016 • Finland • FIAP Silver', 'silver_fiap.png', '', '72', '72', '0', '5'),
@@ -1303,7 +1305,7 @@ $fsg_awards = array(
   ),
   "Mental Wheel" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021 • Photo of the Day', 'piart_choice.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Waiting for the Coffin" => array(
@@ -1337,12 +1339,53 @@ $fsg_awards = array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Breakthru" => array(
+  "Angel Crusher" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "13 Oclock" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Trust You Seek" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Angel Crusher" => array(
+  "Roles I Have To Play" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "The Endless Rain" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "My Only One" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Sound Of Silence" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "The Comedy And Tragedy" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Doomsday Clock" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Preserved Heart" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Breakthru" => array(
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
 );
 
