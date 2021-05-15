@@ -1180,6 +1180,7 @@ $fsg_awards = array(
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('3rd Fjord-Bergen • 2020 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Nordisk fotomesterskap • 2021 • Nordic • NSFF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Red Gloves" => array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1200,6 +1201,7 @@ $fsg_awards = array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Nordisk fotomesterskap • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Burning at Both Ends" => array(
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
