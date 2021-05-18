@@ -985,6 +985,7 @@ $fsg_awards = array(
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('Tokyo International Foto Awards • 2018 • Japan • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2018 • Russia • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Oculus Digitale • 2021 • High End', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Hang on to Your Hat" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1322,6 +1323,7 @@ $fsg_awards = array(
   "Handle with Care" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Guillotine" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
