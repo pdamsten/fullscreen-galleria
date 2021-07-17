@@ -1358,7 +1358,7 @@ $fsg_awards = array(
   ),
   "Roles I Have to Play" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021 • Photo of the Day', 'piart_choice.svg', '', '72', '72', '-18', '-13'),
   ),
   "The endless rain" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1381,14 +1381,43 @@ $fsg_awards = array(
   "Doomsday Clock" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Preserved Heart" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Bullets Missed" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Puppet Master" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Broken Mind" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Hanging By A Thread" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Human Vs Life" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Personal Jesus" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Breakthru" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Hanging By The Thread" => array(
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
 );
