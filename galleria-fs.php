@@ -638,10 +638,14 @@ class FSGPlugin {
       }
     } else {
       $id = attachment_url_to_postid($ext.'.png');
-      $s = wp_get_attachment_image_src($id, [200, 250])[0];
-      if ($s == '') {
-        $type = wp_ext2type($ext);
-        $s = wp_mime_type_icon($type);
+      if ($id) {
+        $s = wp_get_attachment_image_src($id, [200, 250])[0];
+        if ($s == '') {
+          $type = wp_ext2type($ext);
+          $s = wp_mime_type_icon($type);
+        }
+      } else {
+        $s = wp_mime_type_icon('application/octet-stream');
       }
     }
     return $s;
