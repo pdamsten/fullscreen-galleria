@@ -1177,10 +1177,12 @@ $fsg_awards = array(
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Our Minds" => array(
+    array('International Color Awards • 2020 • USA • HM', 'intl_color_awards_winner_2017.png', '', '72', '72', '0', '5'),
     array('1x.com • 2020', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('3rd Fjord-Bergen • 2020 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Finnish Photo Awards • 2021 • Finland • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Nordisk fotomesterskap • 2021 • Nordic • NSFF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Red Gloves" => array(
@@ -1414,6 +1416,14 @@ $fsg_awards = array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Breakthru" => array(
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Education" => array(
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Spare Heads" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
