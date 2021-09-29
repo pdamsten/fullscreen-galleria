@@ -1415,17 +1415,29 @@ $fsg_awards = array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Breakthru" => array(
-    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
-  ),
   "Education" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Spare Heads" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Breakthru" => array(
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Kalajoki 4" => array(
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Raven Queen" => array(
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Orange" => array(
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Hanging By The Thread" => array(
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
