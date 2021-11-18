@@ -24,8 +24,8 @@ $fsg_sites = array(
 if (file_exists(dirname(__FILE__).'/mygear.php')) {
   include 'mygear.php';
 }
-if (file_exists(dirname(__FILE__).'/description.php')) {
-  include 'description.php';
+if (file_exists(dirname(__FILE__).'/mydescription.php')) {
+  include 'mydescription.php';
 }
 
 function fsg_remove_settings()
