@@ -24,6 +24,9 @@ $fsg_sites = array(
 if (file_exists(dirname(__FILE__).'/mygear.php')) {
   include 'mygear.php';
 }
+if (file_exists(dirname(__FILE__).'/myportfolio.php')) {
+  include 'myportfolio.php';
+}
 if (file_exists(dirname(__FILE__).'/mydescription.php')) {
   include 'mydescription.php';
 }
@@ -164,6 +167,7 @@ class FSGPlugin {
     add_shortcode('fsg_photolist', array(&$this, 'photolist_shortcode'));
     add_shortcode('fsg_link', array(&$this, 'link_shortcode'));
     add_shortcode('fsg_dlmngr', array(&$this, 'dlmngr_shortcode'));
+    add_shortcode('fsg_portfolio', array(&$this, 'portfolio_shortcode'));
     add_action('admin_init', array(&$this, 'admin_init'));
     add_action('admin_menu', array(&$this, 'admin_menu'));
     register_uninstall_hook(__FILE__, 'fsg_remove_settings');
@@ -710,6 +714,19 @@ class FSGPlugin {
     }
     $html .= '</div>';
     return $html;
+  }
+
+  function portfolio_shortcode($attr, $content = null)
+  {
+    global $post;
+    global $fsg_my_portfolio;
+
+    if (isset($fsg_my_portfolio)) {
+      $content = "";
+    } else {
+      $content = "Portfolio content not found.";
+    }
+    return $content;
   }
 
   function link_shortcode($attr, $content = null)
