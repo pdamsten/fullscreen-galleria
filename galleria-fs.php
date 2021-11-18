@@ -719,10 +719,18 @@ class FSGPlugin {
   function portfolio_shortcode($attr, $content = null)
   {
     global $post;
-    global $fsg_my_portfolio;
+    global $fsg_portfolio;
+    global $wp;
 
-    if (isset($fsg_my_portfolio)) {
-      $content = "";
+    if (isset($fsg_portfolio) && array_key_exists($wp->request, $fsg_portfolio)) {
+      $shortcode = sprintf(
+        '[fsg_photolist tile="%d" cols="%d" border="%d" include="%s" extlinks="%s" fixed="%s"]',
+        $fsg_portfolio[$wp->request]['tile'], $fsg_portfolio[$wp->request]['cols'],
+        $fsg_portfolio[$wp->request]['border'], $fsg_portfolio[$wp->request]['include'],
+        $fsg_portfolio[$wp->request]['extlinks'], $fsg_portfolio[$wp->request]['fixed']);
+      $content = $fsg_portfolio['HEADER'];
+      $content .= do_shortcode($shortcode);
+      $content .= $fsg_portfolio['FOOTER'];
     } else {
       $content = "Portfolio content not found.";
     }
