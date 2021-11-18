@@ -724,7 +724,7 @@ class FSGPlugin {
 
     if (isset($fsg_portfolio) && array_key_exists($wp->request, $fsg_portfolio)) {
       $shortcode = sprintf(
-        '[fsg_photolist tile="%d" cols="%d" border="%d" include="%s" extlinks="%s" fixed="%s"]',
+        '[fsg_photolist tile="%d" cols="%s" border="%d" include="%s" extlinks="%s" fixed="%s"]',
         $fsg_portfolio[$wp->request]['tile'], $fsg_portfolio[$wp->request]['cols'],
         $fsg_portfolio[$wp->request]['border'], $fsg_portfolio[$wp->request]['include'],
         $fsg_portfolio[$wp->request]['extlinks'], $fsg_portfolio[$wp->request]['fixed']);
