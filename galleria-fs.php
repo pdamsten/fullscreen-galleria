@@ -168,6 +168,7 @@ class FSGPlugin {
     add_shortcode('fsg_link', array(&$this, 'link_shortcode'));
     add_shortcode('fsg_dlmngr', array(&$this, 'dlmngr_shortcode'));
     add_shortcode('fsg_portfolio', array(&$this, 'portfolio_shortcode'));
+    add_shortcode('fsg_include', array(&$this, 'include_shortcode'));
     add_action('admin_init', array(&$this, 'admin_init'));
     add_action('admin_menu', array(&$this, 'admin_menu'));
     register_uninstall_hook(__FILE__, 'fsg_remove_settings');
@@ -583,6 +584,24 @@ class FSGPlugin {
     ++$this->photoboxid;
     return "<div id='".$id."' class='galleria-photobox'></div><script>".$photobox."</script>" .
            $this->append_json($id, $images, true);
+  }
+
+  function include_shortcode($attr, $content = null)
+  {
+    global $post;
+
+    extract(shortcode_atts(array(
+      'file'       => '',
+    ), $attr));
+
+    if ($file != '') {
+      $ext = pathinfo($file, PATHINFO_EXTENSION);
+      if ($ext == 'html') {
+        return file_get_contents(ABSPATH.$file);
+      } else if ($ext == 'txt') {
+        // convert txt2html
+      }
+    }
   }
 
   function photolist_shortcode($attr, $content = null)
