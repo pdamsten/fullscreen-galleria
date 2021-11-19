@@ -47,7 +47,7 @@ $fsg_portfolio = array(
     'tile' => 90,
     'cols' => '3,2',
     'border' => 3,
-    'include' => '7315,7293,7311,7290,7279,7305,7299,7285',
+    'include' => '7315,7299,7305,7293,7311,7290,7285,7279',
     'extlinks' => 'false',
     'fixed' => 'height',
   ),
@@ -61,7 +61,7 @@ $fsg_portfolio = array(
   ),
   'portfolio/dark-photos' => array(
     'tile' => 90,
-    'cols' => '5',
+    'cols' => '4',
     'border' => 3,
     'include' => '6390,4681,4642,4218,2290,3304,4367,627,3298,2443,490,3479,1485,2188,3455,1658,976,903,769',
     'extlinks' => 'false',
@@ -173,7 +173,7 @@ $fsg_portfolio = array(
   ),
   'portfolio/life-of-helmut' => array(
     'tile' => 90,
-    'cols' => '5',
+    'cols' => '3',
     'border' => 3,
     'include' => '5140,3745,3643,3645,3644,3646,3651,3648,3647,3649,3650,3652,3653,362,3654,3655,3658,3656,361,360,32,363,3657',
     'extlinks' => 'false',
