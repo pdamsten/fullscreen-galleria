@@ -45,9 +45,9 @@ $fsg_portfolio = array(
   ),
   'portfolio/the-schoolhouse' => array(
     'tile' => 90,
-    'cols' => '3,2',
+    'cols' => '2',
     'border' => 3,
-    'include' => '7315,7299,7305,7293,7311,7290,7285,7279',
+    'include' => '7315,7299,7305,7293,7290,7285,7279,7311',
     'extlinks' => 'false',
     'fixed' => 'height',
   ),
