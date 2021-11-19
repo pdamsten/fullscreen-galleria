@@ -21,7 +21,7 @@ $fsg_portfolio = array(
   ),
   'portfolio/masculinity' => array(
     'tile' => 90,
-    'cols' => '3',
+    'cols' => '2',
     'border' => 3,
     'include' => '5279,5184,5261,5240,5263,5262,5239,5278',
     'extlinks' => 'false',
