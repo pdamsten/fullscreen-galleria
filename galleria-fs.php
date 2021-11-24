@@ -61,12 +61,13 @@ class FSGPlugin {
   function get_attachment_id_from_src($src)
   {
 		global $wpdb;
+    //error_log('* id for: '.$src);
 		$id = $wpdb->get_var("SELECT ID FROM {$wpdb->posts} WHERE guid='$src'");
     if ($id == NULL) {
       $upload_dir = wp_upload_dir();
       $media = $upload_dir['baseurl'];
       $src = str_replace($media, "%", $src);
-      #error_log('* id null. trying: '.$src);
+      //error_log('* id null. trying: '.$src);
   		$id = $wpdb->get_var("SELECT ID FROM {$wpdb->posts} WHERE guid LIKE '$src'");
     }
     return $id;
@@ -92,6 +93,15 @@ class FSGPlugin {
     return '';
   }
 
+  function clean_url($url)
+  {
+    # remove wp servers from the href
+    $url = preg_replace("/i\d\.wp\..*?\//i", "", $url);
+    # remove any parameters from the href
+    $url = preg_replace("/\?.*/i", "", $url);
+    return $url;
+  }
+
   function href($str)
   {
     $href = $this->tagarg($str, 'href');
@@ -101,8 +111,9 @@ class FSGPlugin {
       if (strrpos($bloginfo, "localhost") !== FALSE) {
         $href = str_replace(array(".org", ".net", ".com"), ".localhost", $href);
       }
+      $href = str_replace("https", "http", $href);
     }
-    return $href;
+    return $this->clean_url($href);
   }
 
   function links($content)
@@ -1167,9 +1178,7 @@ class FSGPlugin {
     // Add needed data to links
     $upload_dir = wp_upload_dir();
     $media = $upload_dir['baseurl'];
-    //error_log('Upload dir: '.$media);
-    $media = site_url();
-    //error_log('Site url: '.$media);
+    //error_log('Media: '.$media);
     $fsg_post = array();
     foreach ($links as $link) {
       //error_log('Link: '.$link);
@@ -1198,12 +1207,14 @@ class FSGPlugin {
           //error_log('* in fsg_post');
           $tmp = str_replace('<a ', '<a data-postid="fsg_post_'.$post->ID.
                              '" data-imgid="'.$fsg_post[$href]['id'].'" ', $link);
+          //error_log($link);
+          //error_log($tmp);
           $content = str_replace($link, $tmp, $content);
         }
       }
     }
-    ////error_log('* append json: '.$post->ID);
-    //$this->ob_log($fsg_post);
+    //error_log('* append json: '.$post->ID);
+    //$this->ob_log($images);
     $content = $this->append_json('fsg_post_'.$post->ID, $fsg_post) . $content;
     return $content;
   }
