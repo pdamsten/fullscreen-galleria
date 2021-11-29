@@ -1014,6 +1014,7 @@ $fsg_awards = array(
   "The Scream" => array(
     array('1x.com • 2019', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('6th Nordic International Digital Circuit – Finland • 2021 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "The Man and the Rose" => array(
     array('Fstoppers • 2019 • Photo of the Day', 'fstoppers.png', '', '82', '72', '0', '5'),
@@ -1312,6 +1313,8 @@ $fsg_awards = array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021 • Photo of the Day', 'piart_choice.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('6th Nordic International Digital Circuit – Norway • 2021 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
+    array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2021 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Waiting for the Coffin" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1417,13 +1420,32 @@ $fsg_awards = array(
   ),
   "Education" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021 • Photo of the Day', 'piart_choice.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('6th Nordic International Digital Circuit – Norway • 2021 • Norway • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Spare Heads" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Raven Queen" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Orange" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('6th Nordic International Digital Circuit – Sweden • 2021 • Sweden • ICS HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('6th Nordic International Digital Circuit – Finland • 2021 • Finland • SDF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
+  ),
+  "We Are Gonna Get You" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Dance Of Death" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Breakthru" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
@@ -1432,15 +1454,18 @@ $fsg_awards = array(
   "Kalajoki 4" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Raven Queen" => array(
+  "The Gathering" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Orange" => array(
+  "Out Of The Crapper" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Hanging By The Thread" => array(
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Dark Room" => array(
+    array('Neutral Density Photography Awards • 2021 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Nordiskt Fotomästerskap - kollektioner • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
 );
 
