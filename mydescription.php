@@ -1409,6 +1409,7 @@ $fsg_awards = array(
   "Hanging by a Thread" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Human vs Life" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1459,9 +1460,6 @@ $fsg_awards = array(
   ),
   "Out of the Crapper" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
-  ),
-  "Hanging By The Thread" => array(
-    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "The Dark Room" => array(
     array('Neutral Density Photography Awards • 2021 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
