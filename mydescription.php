@@ -1406,11 +1406,11 @@ $fsg_awards = array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Hanging By A Thread" => array(
+  "Hanging by a Thread" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Human Vs Life" => array(
+  "Human vs Life" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
@@ -1440,11 +1440,11 @@ $fsg_awards = array(
     array('6th Nordic International Digital Circuit – Sweden • 2021 • Sweden • ICS HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('6th Nordic International Digital Circuit – Finland • 2021 • Finland • SDF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
-  "We Are Gonna Get You" => array(
+  "We are gonna get you" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Dance Of Death" => array(
+  "Dance of Death" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Breakthru" => array(
@@ -1457,7 +1457,7 @@ $fsg_awards = array(
   "The Gathering" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Out Of The Crapper" => array(
+  "Out of the Crapper" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Hanging By The Thread" => array(
