@@ -1448,6 +1448,10 @@ $fsg_awards = array(
   "Dance of Death" => array(
     array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
+  "End Of Excitement" => array(
+    array('1x.com • 2021', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Breakthru" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -1460,6 +1464,12 @@ $fsg_awards = array(
   ),
   "Out of the Crapper" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Freddy Krueger Mask" => array(
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Wallet" => array(
+    array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "The Dark Room" => array(
     array('Neutral Density Photography Awards • 2021 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
