@@ -1183,6 +1183,7 @@ $fsg_awards = array(
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('3rd Fjord-Bergen • 2020 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('35Awards - 6th 35AWARDS • 2020 • Russia • Top 100 conceptual photo nomination', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Finnish Photo Awards • 2021 • Finland • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Nordisk fotomesterskap • 2021 • Nordic • NSFF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
