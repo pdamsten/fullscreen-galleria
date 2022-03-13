@@ -1462,7 +1462,7 @@ $fsg_awards = array(
   "Dance of Death" => array(
     array('1x.com • 2021 • Awarded', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
-  "End Of Excitement" => array(
+  "End of Excitement" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2021 • Awarded', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -1473,7 +1473,7 @@ $fsg_awards = array(
   "Kalajoki 4" => array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Freddy Krueger Mask" => array(
+  "Freddy Krueger mask" => array(
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Wallet" => array(
@@ -1487,10 +1487,10 @@ $fsg_awards = array(
   "Fury" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Time Has Come" => array(
+  "Time has come" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Skull And The Book" => array(
+  "Skull and the Book" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
 );
