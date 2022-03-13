@@ -1486,6 +1486,7 @@ $fsg_awards = array(
   ),
   "Fury" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Time has come" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
