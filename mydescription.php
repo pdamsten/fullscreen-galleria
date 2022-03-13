@@ -1481,6 +1481,7 @@ $fsg_awards = array(
   ),
   "The Dark Room" => array(
     array('Neutral Density Photography Awards • 2021 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('New York Photography Awards • 2021 • USA • Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Nordiskt Fotomästerskap - kollektioner • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Fury" => array(
