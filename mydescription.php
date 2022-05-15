@@ -1433,6 +1433,7 @@ $fsg_awards = array(
     array('1x.com • 2021 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Nordisk fotomesterskap • 2022 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
   ),
   "Raven Queen" => array(
     array('1x.com • 2021 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
@@ -1509,7 +1510,7 @@ $fsg_awards = array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Shadow of a Hat" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
   "Over the Shoulder" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
