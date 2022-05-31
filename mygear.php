@@ -27,6 +27,7 @@ $fsg_my_lenses = array(
   'xxx' => 'Nikon AF Fisheye-Nikkor 16mm f/2.8D',
   '1CA00976' => 'Fujifilm GF 35-70mm f4.5-5.6 WR',
   'GF35-70mmF4.5-5.6 WR' => 'Fujifilm GF 35-70mm f4.5-5.6 WR',
+  '35-70mm f/4.5-5.6' => 'Fujifilm GF 35-70mm f4.5-5.6 WR',
   'iPhone 13 Pro back triple camera 9mm f/2.8' => 'Telephoto camera 9mm f/2.8',
   'iPhone 13 Pro back triple camera 1.57mm f/1.8' => 'Ultra Wide camera 1.57mm f/1.8',
   'iPhone 13 Pro back triple camera 5.7mm f/1.5' => 'Wide camera 5.7mm f/1.5',
