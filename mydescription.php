@@ -1530,7 +1530,7 @@ $fsg_awards = array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Freddy Vs Jason" => array(
+  "Freddy vs Jason" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Pate #11" => array(
