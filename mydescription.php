@@ -1414,7 +1414,7 @@ $fsg_awards = array(
   ),
   "Hanging by a Thread" => array(
     array('1x.com • 2021 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2021 • Photo of the Day', 'piart_choice.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Human vs Life" => array(
@@ -1489,6 +1489,7 @@ $fsg_awards = array(
   "The Dark Room" => array(
     array('Neutral Density Photography Awards • 2021 • USA • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('New York Photography Awards • 2021 • USA • Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('ONE EYELAND AWARDS • 2021 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Nordiskt Fotomästerskap - kollektioner • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2022 • Russia • Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
