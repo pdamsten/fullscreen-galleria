@@ -1214,6 +1214,7 @@ $fsg_awards = array(
     array('1x.com • 2020 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Scandinavian International Exhibition of Photography - Creative • 2022 • Sweden • GPU Silver', 'silver_gpu.png', '', '86', '72', '0', '5'),
   ),
   "Three Monkeys" => array(
     array('1x.com • 2020 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
@@ -1319,6 +1320,7 @@ $fsg_awards = array(
     array('6th Nordic International Digital Circuit – Norway • 2021 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('International Color Awards • 2021 • USA • 2nd Place - Merit of Excellence', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2021 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Finnish Photo Awards • 2022 • Finland • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Waiting for the Coffin" => array(
     array('1x.com • 2021 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
