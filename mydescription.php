@@ -1492,6 +1492,7 @@ $fsg_awards = array(
     array('ONE EYELAND AWARDS • 2021 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Nordiskt Fotomästerskap - kollektioner • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2022 • Russia • Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('European Photography Awards • 2022 • Europe • Platinium Winner', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Fury" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
