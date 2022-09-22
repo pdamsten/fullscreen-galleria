@@ -758,9 +758,9 @@ class FSGPlugin {
         $fsg_portfolio[$wp->request]['tile'], $fsg_portfolio[$wp->request]['cols'],
         $fsg_portfolio[$wp->request]['border'], $fsg_portfolio[$wp->request]['include'],
         $fsg_portfolio[$wp->request]['extlinks'], $fsg_portfolio[$wp->request]['fixed']);
-      $content = $fsg_portfolio['HEADER'];
+      $content = $fsg_portfolio[$wp->request]['header'];
       $content .= do_shortcode($shortcode);
-      $content .= $fsg_portfolio['FOOTER'];
+      $content .= $fsg_portfolio[$wp->request]['footer'];
     } else {
       $content = "Portfolio content not found.";
     }
