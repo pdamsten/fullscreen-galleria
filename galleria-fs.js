@@ -354,7 +354,8 @@ list_photos = function()
             var $a = $('<a data-postid="' + ID + '" data-imgid="' + imgid + '" href="' + img + '">');
             $($a).click(fsg_show_galleria);
           }
-          var $img = $('<img style="left: ' + imgx + 'px; top: ' + imgy + 'px;" width="' + box +
+          var d = 'animation-delay: ' + i /20 +'s; ';
+          var $img = $('<img style="'+ d +'left: ' + imgx + 'px; top: ' + imgy + 'px;" width="' + box +
           '" src="' + img + '">');
           $a.append($img);
           $(this).append($a);
