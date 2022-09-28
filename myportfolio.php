@@ -9,7 +9,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/the-dark-room' => array(
     'tile' => 90,
@@ -19,7 +19,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/masculinity' => array(
     'tile' => 90,
@@ -29,7 +29,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/imperfect' => array(
     'tile' => 90,
@@ -39,7 +39,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/how-i-move' => array(
     'tile' => 90,
@@ -49,7 +49,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/the-schoolhouse' => array(
     'tile' => 90,
@@ -59,7 +59,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/humour' => array(
     'tile' => 90,
@@ -69,7 +69,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/dark-photos' => array(
     'tile' => 90,
@@ -79,7 +79,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/slaughterhouse-42' => array(
     'tile' => 90,
@@ -89,7 +89,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/how-i-met-death-and-became-friends-with-him' => array(
     'tile' => 90,
@@ -99,7 +99,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/highlander' => array(
     'tile' => 90,
@@ -109,7 +109,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/viking' => array(
     'tile' => 90,
@@ -119,7 +119,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/joker' => array(
     'tile' => 90,
@@ -129,7 +129,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/black-widow' => array(
     'tile' => 90,
@@ -139,7 +139,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/the-woman-with-the-red-coat' => array(
     'tile' => 90,
@@ -149,7 +149,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/story-of-a-vampire' => array(
     'tile' => 90,
@@ -159,7 +159,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/broken-doll' => array(
     'tile' => 90,
@@ -169,7 +169,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/relationship' => array(
     'tile' => 90,
@@ -179,7 +179,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/the-gym' => array(
     'tile' => 90,
@@ -189,7 +189,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/inner-monster' => array(
     'tile' => 90,
@@ -199,7 +199,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/taking-a-dump' => array(
     'tile' => 90,
@@ -209,7 +209,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/life-of-helmut' => array(
     'tile' => 90,
@@ -219,7 +219,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/nocturnal-awakenings' => array(
     'tile' => 90,
@@ -229,7 +229,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/life-of-an-artist' => array(
     'tile' => 90,
@@ -239,7 +239,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/birds-and-branches' => array(
     'tile' => 90,
@@ -249,7 +249,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/hands' => array(
     'tile' => 90,
@@ -259,7 +259,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio/finland-in-infrared' => array(
     'tile' => 90,
@@ -269,7 +269,7 @@ $fsg_portfolio = array(
     'extlinks' => 'false',
     'fixed' => 'height',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/portfolio/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
   'portfolio' => array(
     'tile' => 90,
@@ -279,7 +279,7 @@ $fsg_portfolio = array(
     'extlinks' => 'true',
     'fixed' => 'width',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
-    'footer' => '<div id="back-button"><a title="Go back" href="/"><img src="/media/back-button.svg"></a></div></div></div>',
+    'footer' => '</div></div>',
   ),
 );
 ?>
