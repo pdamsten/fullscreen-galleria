@@ -251,12 +251,22 @@ open_map = function(lat, long)
  }
 }
 
+generate_small_cols = function(cols)
+{
+  var small = [];
+  for (c in cols) {
+    var v = Math.floor(cols[c] / 2);
+    small.push(v);
+    small.push((cols[c] % 2.0 == 0) ? v : v + 1);
+  }
+  return small;
+}
+
 list_photos = function()
 {
   $(".galleria-photolist").each(function() {
       var ID = $(this).attr("id");
       var BORDER = fsg_photolist[ID]['border'];
-      var COLS = fsg_photolist[ID]['cols'].split(',');
       var TILE = fsg_photolist[ID]['tile'];
       var EXTLINKS = fsg_photolist[ID]['extlinks'];
       var FIXED = fsg_photolist[ID]['fixed'];
@@ -268,29 +278,31 @@ list_photos = function()
       var imgy = 0;
       var prev = 0;
       var max_col = 0;
+      var COLS = fsg_photolist[ID]['cols'].split(',');
+      var SMALLCOLS = ('smallcols' in fsg_photolist[ID]) ? 
+          fsg_photolist[ID]['smallcols'].split(',') : generate_small_cols(COLS);
+      COLS = (width <= 750) ? SMALLCOLS : COLS;
 
       $(this).html("");
-      for(var i = 0; i < COLS.length; i++) {
+      for(i in COLS) {
         COLS[i] = +COLS[i];
         max_col = Math.max(COLS[i], max_col);
       }
 
       if (FIXED == 'width') {
-        box = (width - BORDER) / COLS - BORDER;
+        box = (width - BORDER) / max_col - BORDER;
         if (box < TILE) {
-          COLS = Math.floor(width / (TILE + BORDER));
           box = TILE;
         }
-        left = (width - (COLS * (box + BORDER)) + BORDER) / 2;
+        left = (width - (max_col * (box + BORDER)) + BORDER) / 2;
       } // TODO: TILE for FIXED == 'height'
-      //console.log(max_col, COLS);
 
       var col_bottoms = new Array(max_col);
       col_bottoms.fill(0);
 
       var row = 0;
       var pic = 0;
-      for (var i = 0; i < fsg_json[ID].length; ++i) {
+      for (i in fsg_json[ID]) {
           var img = fsg_json[ID][i]['image'];
           var imgid = fsg_json[ID][i]['id'];
           var w = fsg_json[ID][i]['full'][1];
@@ -346,6 +358,7 @@ list_photos = function()
           }
 
           imgy = col_bottoms[mini];
+          //console.log(imgy, mini, box, w, h, BORDER, (box / w) * h + BORDER);
           col_bottoms[mini] += (box / w) * h + BORDER;
 
           if (EXTLINKS) {
@@ -355,6 +368,7 @@ list_photos = function()
             $($a).click(fsg_show_galleria);
           }
           var d = 'animation-delay: ' + i /20 +'s; ';
+          //console.log(row, pic, columns, imgx, imgy);
           var $img = $('<img style="'+ d +'left: ' + imgx + 'px; top: ' + imgy + 'px;" width="' + box +
           '" src="' + img + '">');
           $a.append($img);
@@ -362,8 +376,9 @@ list_photos = function()
 
           if (pic == columns - 1) {
             ++row;
-            for (var j = pic; j < max_col; ++j) {
-              col_bottoms[j] = col_bottoms[pic - 1];
+            for (var j = pic + 1; j < max_col; ++j) {
+              col_bottoms[j] = col_bottoms[pic];
+              //console.log('xx', col_bottoms[j], j, col_bottoms[pic], pic, max_col);
             }
             pic = 0;
           } else {
