@@ -884,10 +884,18 @@ class FSGPlugin {
     return $post;
   }
 
-  function enqueue_scripts()
+  function file_version($fname)
   {
     global $fsg_ver;
+    $v = filectime($fname);
+    $s = $fsg_ver.'-'.sprintf('%08x', $v);
+    return $s;
+  }
+
+  function enqueue_scripts()
+  {
     global $post;
+    $plugin_dir = WP_PLUGIN_DIR . '/fullscreen-galleria';
 
     if (!$this->options['load_on_demand'] ||
         !is_singular() ||
@@ -899,13 +907,16 @@ class FSGPlugin {
       $in_footer = !$this->options['load_in_header'];
 
       wp_enqueue_script('galleria', plugins_url('galleria-1.6.1.min.js', __FILE__), array('jquery'), '1.6.1', $in_footer);
-      wp_enqueue_script('galleria-fs', plugins_url('galleria-fs.js', __FILE__), array('galleria'), $fsg_ver, $in_footer);
-      wp_enqueue_script('galleria-fs-theme', plugins_url('galleria-fs-theme.js', __FILE__), array('galleria-fs'), $fsg_ver, $in_footer);
+      $v = $this->file_version($plugin_dir.'/galleria-fs.js');
+      wp_enqueue_script('galleria-fs', plugins_url('galleria-fs.js', __FILE__), array('galleria'), $v, $in_footer);
+      $v = $this->file_version($plugin_dir.'/galleria-fs-theme.js');
+      wp_enqueue_script('galleria-fs-theme', plugins_url('galleria-fs-theme.js', __FILE__), array('galleria-fs'), $v, $in_footer);
       // register here and print conditionally
       wp_register_script('open-layers', plugins_url('ol.js', __FILE__), array('galleria-fs'), '6.5.0', $in_footer);
       wp_register_style('open-layers', plugins_url('ol.css', __FILE__), array(), '6.5.0');
       wp_enqueue_style('open-layers');
-      wp_register_style('galleria-fs', plugins_url('galleria-fs-'.$this->options['theme'].'.css', __FILE__), array(), $fsg_ver);
+      $v = $this->file_version($plugin_dir.'/galleria-fs-'.$this->options['theme'].'.css');
+      wp_register_style('galleria-fs', plugins_url('galleria-fs-'.$this->options['theme'].'.css', __FILE__), array(), $v);
       wp_enqueue_style('galleria-fs');
     }
   }
