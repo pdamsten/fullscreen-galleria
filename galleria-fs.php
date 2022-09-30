@@ -45,8 +45,6 @@ class FSGPlugin {
   protected $firstpostid = -1;
   protected $used = array();
   protected $share_img_url = '';
-  protected $validchars = 'uYn6yzcXhHIALrZ8DRdVwBSGkmsxqQJg2j9ObUM5v73NaWlCtK0ipPf14EFoTe';
-
 
   // Helper functions
 
@@ -888,11 +886,13 @@ class FSGPlugin {
 
   function int2base($n, $b)
   {
+    $validchars = 'uYn6yzcXhHIALrZ8DRdVwBSGkmsxqQJg2j9ObUM5v73NaWlCtK0ipPf14EFoTe';
+
     if ($n == 0) return [0];
 
     $result = '';
     while ($n) {
-      $result .= $this->validchars[$n % $b];
+      $result .= $validchars[$n % $b];
       $n = floor($n / $b);
     }
     return $result;
