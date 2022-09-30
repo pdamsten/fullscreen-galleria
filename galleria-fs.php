@@ -45,6 +45,8 @@ class FSGPlugin {
   protected $firstpostid = -1;
   protected $used = array();
   protected $share_img_url = '';
+  protected $validchars = 'uYn6yzcXhHIALrZ8DRdVwBSGkmsxqQJg2j9ObUM5v73NaWlCtK0ipPf14EFoTe';
+
 
   // Helper functions
 
@@ -884,12 +886,22 @@ class FSGPlugin {
     return $post;
   }
 
+  function int2base($n, $b)
+  {
+    if ($n == 0) return [0];
+
+    $result = '';
+    while ($n) {
+      $result .= $this->validchars[$n % $b];
+      $n = floor($n / $b);
+    }
+    return $result;
+  }
+
   function file_version($fname)
   {
     global $fsg_ver;
-    $v = filectime($fname);
-    $s = $fsg_ver.'-'.sprintf('%08x', $v);
-    return $s;
+    return $fsg_ver.'-'.$this->int2base(filectime($fname), 62);
   }
 
   function enqueue_scripts()
