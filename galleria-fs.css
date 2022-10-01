@@ -429,6 +429,9 @@
     display: block;
 }
 
+/* download manager */
+
+
 .galleria-dm-file {
   display: inline-block;
   margin: 20px;
@@ -451,11 +454,12 @@
   transform: translate(-50%, -50%);
 }
 .galleria-dm {
-  display: inline-block;
+  width: 90vw;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
   margin: 0;
   padding: 0;
-  width: auto;
-  max-width: 1200px;
   text-align: center;
 }
 .galleria-dm h2 {
@@ -464,4 +468,5 @@
 .galleria-dm div, .galleria-dm-name {
   text-align: center;
   margin: 10px;
+  font-size: 80%;
 }

@@ -928,7 +928,10 @@ class FSGPlugin {
       wp_register_style('open-layers', plugins_url('ol.css', __FILE__), array(), '6.5.0');
       wp_enqueue_style('open-layers');
       $v = $this->file_version($plugin_dir.'/galleria-fs-'.$this->options['theme'].'.css');
-      wp_register_style('galleria-fs', plugins_url('galleria-fs-'.$this->options['theme'].'.css', __FILE__), array(), $v);
+      wp_register_style('galleria-fs-clr', plugins_url('galleria-fs-'.$this->options['theme'].'.css', __FILE__), array(), $v);
+      wp_enqueue_style('galleria-fs-clr');
+      $v = $this->file_version($plugin_dir.'/galleria-fs.css');
+      wp_register_style('galleria-fs', plugins_url('galleria-fs.css', __FILE__), array(), $v);
       wp_enqueue_style('galleria-fs');
     }
   }
