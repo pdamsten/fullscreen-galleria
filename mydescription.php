@@ -1492,7 +1492,7 @@ $fsg_awards = array(
     array('ONE EYELAND AWARDS • 2021 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Nordiskt Fotomästerskap - kollektioner • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2022 • Russia • Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('European Photography Awards • 2022 • Europe • Platinium Winner', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('European Photography Awards • 2022 • Europe • Category Winner', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Fury" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1534,11 +1534,30 @@ $fsg_awards = array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "From The Darkness I Will Rise" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Kari-Transportation" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Kari-Portrait" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Freddy vs Jason" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Pate #11" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Self-Portrait" => array(
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Fly" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
 );
