@@ -985,6 +985,7 @@ $fsg_awards = array(
   "Imperfect" => array(
     array('Int\'l photography awards • 2018 • USA • HM', 'ipa_seal_2016.png', '', '68', '72', '0', '5'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('Nordiskt Fotomästerskap - kollektioner • 2022 • Nordic • NFFF Bronze', 'bronze_nfff.png', '', '72', '72', '0', '5'),
     array('Tokyo International Foto Awards • 2018 • Japan • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2018 • Russia • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Oculus Digitale • 2021 • High End', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -1548,17 +1549,18 @@ $fsg_awards = array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Self-Portrait" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Fly" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Freddy vs Jason" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Pate #11" => array(
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-  ),
-  "The Fly" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
