@@ -1544,17 +1544,25 @@ $fsg_awards = array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Kari-Portrait" => array(
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('1x.com • 2022 • Pick of The Week in Portrait', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Self-Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "The Fly" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Black Tears" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Fool For A King" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Freddy vs Jason" => array(
@@ -1562,6 +1570,12 @@ $fsg_awards = array(
   ),
   "Pate #11" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "St. Olafs Castle" => array(
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Kuopio Harbour" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
 );
