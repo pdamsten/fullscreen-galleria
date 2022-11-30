@@ -1517,6 +1517,7 @@ $fsg_awards = array(
   ),
   "Shadow of a Hat" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('7th Nordic International Digital Circuit – Sweden • 2022 • Sweden • RSF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Over the Shoulder" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
@@ -1551,11 +1552,14 @@ $fsg_awards = array(
   "Self-Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('7th Nordic International Digital Circuit – Denmark • 2022 • Denmark • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('7th Nordic International Digital Circuit – Finland • 2022 • Finland • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Fly" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('7th Nordic International Digital Circuit – Finland • 2022 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "Black Tears" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
@@ -1564,6 +1568,15 @@ $fsg_awards = array(
   "Fool For A King" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Henna-Portrait" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Henna-Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Sari-Portrait" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Freddy vs Jason" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
