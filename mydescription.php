@@ -1536,7 +1536,7 @@ $fsg_awards = array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "From The Darkness I Will Rise" => array(
+  "From the Darkness I will Rise" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
@@ -1549,7 +1549,7 @@ $fsg_awards = array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('1x.com • 2022 • Pick of The Week in Portrait', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
-  "Self-Portrait" => array(
+  "Self-portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('7th Nordic International Digital Circuit – Denmark • 2022 • Denmark • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -1565,7 +1565,7 @@ $fsg_awards = array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Fool For A King" => array(
+  "Fool for a King" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
