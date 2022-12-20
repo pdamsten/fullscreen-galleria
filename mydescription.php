@@ -1102,15 +1102,18 @@ $fsg_awards = array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Jake - Portrait" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Jake - Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Olli - Transportation" => array(
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Lauri - Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "The Finnish View" => array(
@@ -1540,13 +1543,10 @@ $fsg_awards = array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
-  "How I Move: Kari-Transportation" => array(
+  "How I Move: Kari - Transportation" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "How I Move: Kari-Portrait" => array(
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  "How I Move: Kari - Portrait" => array(
     array('1x.com • 2022 • Pick of The Week in Portrait', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Self-portrait" => array(
@@ -1583,37 +1583,28 @@ $fsg_awards = array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "How I Move: Jake-Portrait" => array(
+  "How I Move: Katja - Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
-  "How I Move: Jake-Transportation" => array(
+  "How I Move: Laura - Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
-  "How I Move: Katja-Portrait" => array(
+  "How I Move: Laura - Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Lauri - Portrait" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Markku - Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
-  "How I Move: Laura-Portrait" => array(
+  "How I Move: Markku - Transportation" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
-  "How I Move: Laura-Transportation" => array(
+  "How I Move: Markus - Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
-  "How I Move: Lauri-Portrait" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-  ),
-  "How I Move: Lauri-Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-  ),
-  "How I Move: Markku-Portrait" => array(
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-  ),
-  "How I Move: Markku-Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-  ),
-  "How I Move: Markus-Portrait" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-  ),
-  "How I Move: Matti-Portrait" => array(
+  "How I Move: Matti - Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Freddy vs Jason" => array(
@@ -1621,6 +1612,13 @@ $fsg_awards = array(
   ),
   "Pate #11" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Kari-Portrait" => array(
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Kari-Transportation" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "St. Olafs Castle" => array(
