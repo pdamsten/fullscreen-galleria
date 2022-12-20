@@ -1525,8 +1525,9 @@ $fsg_awards = array(
   "Over the Shoulder" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Welcome To My Dream World" => array(
+  "Welcome to my dreamworld" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Freddy Portrait 2" => array(
@@ -1610,9 +1611,6 @@ $fsg_awards = array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Freddy vs Jason" => array(
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-  ),
-  "Welcome to my dreamworld" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Pate #11" => array(
