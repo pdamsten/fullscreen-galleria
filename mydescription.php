@@ -1578,6 +1578,44 @@ $fsg_awards = array(
   "How I Move: Sari-Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
+  "Group Yopparai" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Jake-Portrait" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Jake-Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Katja-Portrait" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Laura-Portrait" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Laura-Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Lauri-Portrait" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Lauri-Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Markku-Portrait" => array(
+    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Markku-Transportation" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Markus-Portrait" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "How I Move: Matti-Portrait" => array(
+    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
   "Freddy vs Jason" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
