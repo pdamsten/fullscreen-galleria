@@ -1617,6 +1617,15 @@ $fsg_awards = array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "Rare Exports" => array(
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Pilot" => array(
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "Welder" => array(
+    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
   "St. Olaf's Castle" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
