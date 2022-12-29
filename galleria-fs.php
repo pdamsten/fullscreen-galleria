@@ -748,19 +748,25 @@ class FSGPlugin {
 
   function portfolio_shortcode($attr, $content = null)
   {
-    global $post;
     global $fsg_portfolio;
     global $wp;
 
     if (isset($fsg_portfolio) && array_key_exists($wp->request, $fsg_portfolio)) {
-      $shortcode = sprintf(
-        '[fsg_photolist tile="%d" cols="%s" border="%d" include="%s" extlinks="%s" fixed="%s"]',
-        $fsg_portfolio[$wp->request]['tile'], $fsg_portfolio[$wp->request]['cols'],
-        $fsg_portfolio[$wp->request]['border'], $fsg_portfolio[$wp->request]['include'],
-        $fsg_portfolio[$wp->request]['extlinks'], $fsg_portfolio[$wp->request]['fixed']);
       $content = $fsg_portfolio[$wp->request]['header'];
-      $content .= do_shortcode($shortcode);
+      $includes = explode(";", $fsg_portfolio[$wp->request]['include']);
+      foreach ($includes as $i => $include) {
+        $shortcode = sprintf(
+          '[fsg_photolist tile="%d" cols="%s" border="%d" include="%s" extlinks="%s" fixed="%s"]',
+          $fsg_portfolio[$wp->request]['tile'], $fsg_portfolio[$wp->request]['cols'],
+          $fsg_portfolio[$wp->request]['border'], $include,
+          $fsg_portfolio[$wp->request]['extlinks'], $fsg_portfolio[$wp->request]['fixed']);
+        $content .= do_shortcode($shortcode);
+        if ($i < count($includes) - 1) { // not last item
+          $content .= $fsg_portfolio[$wp->request]['spacer'];
+        }
+      }
       $content .= $fsg_portfolio[$wp->request]['footer'];
+      error_log($content);
     } else {
       $content = "Portfolio content not found.";
     }
