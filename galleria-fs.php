@@ -402,6 +402,38 @@ class FSGPlugin {
 
   // Rest of the plugin
 
+  function xmpData($fname) 
+  {
+    $xml = ''; 
+    $buffer = '';
+    if ($fp = fopen($fname, 'rb')) {
+      $size = filesize($fname);
+      $pos = ftell($fp);
+      while ($pos < $size && $pos < 1048576) {
+        $buffer .= fread($fp, 65536);
+        if (($endpos = strpos($buffer, '</x:xmpmeta>')) !== false ) {
+          if (($startpos = strpos($buffer, '<x:xmpmeta')) !== false) {
+              $xml = substr($buffer, $startpos, $endpos - $startpos + 12);
+          }
+          break;
+        }
+      }
+      fclose($fp);
+    }
+    return $xml;
+  }
+  
+  function fullInfo($fname)
+  {
+    $x = $this->xmpData($fname);
+    if (preg_match('/pdplus:FullInfo[>"=]+(.*)[<"]+/i', $x, $matches) > 0) {
+      error_log($matches[1]);
+      return $matches[1];
+    }
+    error_log($x);
+    return "";
+  }
+
   function exifv($s)
   {
     $e = explode('/', $s);
@@ -511,6 +543,7 @@ class FSGPlugin {
 
   function add_additional_metadata($meta, $file, $sourceImageType)
   {
+    $meta['info'] = $this->fullInfo($file);
     if (is_callable('exif_read_data')) {
       $exif = @exif_read_data($file);
       if (!empty($exif['GPSLatitude'])) {
