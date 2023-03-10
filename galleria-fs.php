@@ -426,7 +426,7 @@ class FSGPlugin {
   function fullInfo($fname)
   {
     $x = $this->xmpData($fname);
-    if (preg_match('/pdplus:FullInfo[>"=]+(.*)[<"]+/i', $x, $matches) > 0) {
+    if (preg_match('/pdplus:FullInfo[>"=]+(.*?)[<"]+/i', $x, $matches) > 0) {
       error_log($matches[1]);
       return $matches[1];
     }
