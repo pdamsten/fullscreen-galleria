@@ -1723,7 +1723,7 @@ $fsg_awards = array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
-  "Portrait In Darkness" => array(
+  "Portrait in Darkness" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
