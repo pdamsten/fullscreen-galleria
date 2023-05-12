@@ -722,6 +722,7 @@ $fsg_awards = array(
     array('Fine Art Photography Awards • 2017 • Great Britain • Nominee', 'fapa-nominee.png', '', '52', '72', '0', '5'),
     array('International Photographer of the Year • 2018 • GB • HM', 'ipoty_2017_hm.png', '', '93', '72', '0', '5'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('Nordiskt Fotomästerskap – bildspel • 2023 • Nordic • NSFF Gold', 'nsff_gold.png', '', '33', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 34° Trofeo Arno • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 14° Trofeo Colline del Chianti • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('PX3 • 2016 • France • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -771,7 +772,6 @@ $fsg_awards = array(
   "Future Ahead" => array(
     array('1x.com • 2017 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022 • Photo of the Day', 'piart_choice.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022 • Photo of the Day', 'piart_choice.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Obsession of Light 6th Vantaa Photoclub International Salon • 2017 • Finland • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
     array('SKsL 8. Seuracup • 2017 • Finland • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -789,7 +789,6 @@ $fsg_awards = array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('4th Nordic International Digital Circuit – Malmö • 2019 • Sweden • PSA Gold', 'gold_psa.png', '', '72', '72', '0', '5'),
     array('Trierenberg Super Circuit-Linz • 2022 • Austria • Salon Bronze', 'bronze.svg', '', '72', '72', '0', '5'),
-    array('Trierenberg Super Circuit-Linz • 2022 • Austria • Salon Bronze', 'bronze.svg', '', '72', '72', '0', '5'),
     array('4th Nordic International Digital Circuit – Copenhagen • 2019 • Denmark • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('124th Toronto International Salon of Photography • 2017 • Canada • CAPA HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
@@ -804,6 +803,7 @@ $fsg_awards = array(
   "Skeleton in the Closet" => array(
     array('1x.com • 2017 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Nordiskt Fotomästerskap • 2023 • Nordic • NSFF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Radar Tower" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -988,7 +988,6 @@ $fsg_awards = array(
     array('Int\'l photography awards • 2018 • USA • HM', 'ipa_seal_2016.png', '', '68', '72', '0', '5'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('Nordiskt Fotomästerskap - kollektioner • 2022 • Nordic • NFFF Bronze', 'bronze_nfff.png', '', '72', '72', '0', '5'),
-    array('Nordiskt Fotomästerskap - kollektioner • 2022 • Nordic • NFFF Bronze', 'bronze_nfff.png', '', '72', '72', '0', '5'),
     array('Tokyo International Foto Awards • 2018 • Japan • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2018 • Russia • Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Oculus Digitale • 2021 • High End', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -1106,21 +1105,17 @@ $fsg_awards = array(
   ),
   "How I Move: Jake - Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Jake - Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Olli - Transportation" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Lauri - Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2019', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -1223,10 +1218,10 @@ $fsg_awards = array(
     array('Nordiskt Fotomästerskap • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Burning at Both Ends" => array(
+    array('International Color Awards • 2023 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
     array('1x.com • 2020 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('Scandinavian International Exhibition of Photography - Creative • 2022 • Sweden • GPU Silver', 'silver_gpu.png', '', '86', '72', '0', '5'),
     array('Scandinavian International Exhibition of Photography - Creative • 2022 • Sweden • GPU Silver', 'silver_gpu.png', '', '86', '72', '0', '5'),
   ),
   "Three Monkeys" => array(
@@ -1333,7 +1328,6 @@ $fsg_awards = array(
     array('6th Nordic International Digital Circuit – Norway • 2021 • Norway • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('International Color Awards • 2021 • USA • 2nd Place - Merit of Excellence', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2021 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('Finnish Photo Awards • 2022 • Finland • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Finnish Photo Awards • 2022 • Finland • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Waiting for the Coffin" => array(
@@ -1450,7 +1444,6 @@ $fsg_awards = array(
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('Nordiskt Fotomästerskap • 2022 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
-    array('Nordiskt Fotomästerskap • 2022 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
   ),
   "Raven Queen" => array(
     array('1x.com • 2021 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
@@ -1508,248 +1501,188 @@ $fsg_awards = array(
     array('Nordiskt Fotomästerskap - kollektioner • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Moscow International Foto Awards • 2022 • Russia • Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('European Photography Awards • 2022 • Europe • Category Winner', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('Moscow International Foto Awards • 2022 • Russia • Gold', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('European Photography Awards • 2022 • Europe • Category Winner', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Fury" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Time has come" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Skull and the Book" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Chair in the Corridor" => array(
     array('Fstoppers • 2022 • Photo of the Day', 'fstoppers.png', '', '82', '72', '0', '5'),
-    array('Fstoppers • 2022 • Photo of the Day', 'fstoppers.png', '', '82', '72', '0', '5'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Katana Triptych" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Shadow of a Hat" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('7th Nordic International Digital Circuit-Sweden • 2022 • Sweden • RSF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('7th Nordic International Digital Circuit-Sweden • 2022 • Sweden • RSF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Over the Shoulder" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Welcome to my dreamworld" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Freddy Portrait 2" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Freddy Portrait 1" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "From the Darkness I will Rise" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Kari - Transportation" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Kari - Portrait" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('1x.com • 2022 • Pick of The Week in Portrait', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('1x.com • 2022 • Pick of The Week in Portrait', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Self-portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('7th Nordic International Digital Circuit-Denmark • 2022 • Denmark • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('7th Nordic International Digital Circuit-Finland • 2022 • Finland • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('7th Nordic International Digital Circuit-Denmark • 2022 • Denmark • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('7th Nordic International Digital Circuit-Finland • 2022 • Finland • ISF HM', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Fly" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('7th Nordic International Digital Circuit-Finland • 2022 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
     array('7th Nordic International Digital Circuit-Finland • 2022 • Finland • FIAP HM', 'hm_fiap.png', '', '20', '72', '0', '5'),
   ),
   "Black Tears" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Fool for a King" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Henna - Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Henna - Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Sari - Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Group Yopparai" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Katja - Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Laura - Portrait" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Laura - Transportation" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Lauri - Portrait" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Markku - Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Markku - Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Markus - Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Matti - Portrait" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Pilot" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('Nordiskt Fotomästerskap • 2023 • Nordic • NFFF Bronze', 'bronze_nfff.png', '', '72', '72', '0', '5'),
   ),
   "Welder" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Rare Exports" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Niko - Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Niko - Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Petri - Portrait" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Petri - Transportation" => array(
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "How I Move: Olli - Portrait" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "Portrait in Darkness" => array(
     array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022', '1x.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "The Beard" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
-    array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
   ),
   "Freddy vs Jason" => array(
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
   ),
   "Pate #11" => array(
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "St. Olaf's Castle" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Kuopio Harbour" => array(
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Necessary Evil" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "The King" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Clown" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Diversity" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
+  ),
+  "End Of Exitement" => array(
+    array('International Color Awards • 2023 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
   ),
 );
 
