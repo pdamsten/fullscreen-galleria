@@ -803,7 +803,7 @@ $fsg_awards = array(
   "Skeleton in the Closet" => array(
     array('1x.com • 2017 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('Nordiskt Fotomästerskap • 2023 • Nordic • NSFF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Nordiskt Fotomästerskap • 2023 • Nordic • NSFF Silver', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Radar Tower" => array(
     array('One Eyeland • 2017', 'one_eyeland.png', '', '83', '72', '0', '5'),
@@ -1194,7 +1194,7 @@ $fsg_awards = array(
     array('ONE EYELAND – World\'s Top 10 Fine Art Photographers • 2020 • India • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('35Awards - 6th 35AWARDS • 2020 • Russia • Top 100 conceptual photo nomination', 'hm.svg', '', '72', '72', '-12', '-7'),
     array('Finnish Photo Awards • 2021 • Finland • Finalist', 'hm.svg', '', '72', '72', '-12', '-7'),
-    array('Nordiskt Fotomästerskap • 2021 • Nordic • NSFF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Nordiskt Fotomästerskap • 2021 • Nordic • NSFF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "The Red Gloves" => array(
     array('1x.com • 2020 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
@@ -1215,7 +1215,7 @@ $fsg_awards = array(
     array('1x.com • 2020 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2020', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('Nordiskt Fotomästerskap • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
+    array('Nordiskt Fotomästerskap • 2021 • Nordic • SDF Bronze', 'hm.svg', '', '72', '72', '-12', '-7'),
   ),
   "Burning at Both Ends" => array(
     array('International Color Awards • 2023 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
@@ -1443,7 +1443,7 @@ $fsg_awards = array(
     array('1x.com • 2021 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2021', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2021', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('Nordiskt Fotomästerskap • 2022 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
+    array('Nordiskt Fotomästerskap • 2022 • Nordic • NFFF HM', 'nfff_hm.png', '', '51', '72', '0', '5'),
   ),
   "Raven Queen" => array(
     array('1x.com • 2021 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
@@ -1619,7 +1619,7 @@ $fsg_awards = array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2022', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2022', 'one_eyeland.png', '', '83', '72', '0', '5'),
-    array('Nordiskt Fotomästerskap • 2023 • Nordic • NFFF Bronze', 'bronze_nfff.png', '', '72', '72', '0', '5'),
+    array('Nordiskt Fotomästerskap • 2023 • Nordic • NFFF Bronze', 'bronze_nfff.png', '', '72', '72', '0', '5'),
   ),
   "Welder" => array(
     array('1x.com • 2022 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
