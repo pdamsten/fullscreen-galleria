@@ -1681,6 +1681,26 @@ $fsg_awards = array(
   "Diversity" => array(
     array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
+  "In The Corner" => array(
+    array('Fstoppers • 2023 • Photo of the Day', 'fstoppers.png', '', '82', '72', '0', '5'),
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Punching Bag Alley" => array(
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Ringside Thoughts" => array(
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Punch" => array(
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Kuopio Fighter Club" => array(
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "End Of Exitement" => array(
     array('International Color Awards • 2023 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
   ),
