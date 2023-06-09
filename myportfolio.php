@@ -25,9 +25,9 @@ $fsg_portfolio = array(
   ),
   'portfolio/peculiar-events' => array(
     'tile' => 90,
-    'cols' => '2',
+    'cols' => '3',
     'border' => 3,
-    'include' => '7920,8104,8102,8103',
+    'include' => '7920,8268,8258,8104,8102,8103',
     'header' => '<div class="portfolio-div"><div class="portfolio-pics">',
     'spacer' => '',
     'footer' => '</div></div>',
