@@ -106,10 +106,10 @@ class FSGPlugin {
   {
     $href = $this->tagarg($str, 'href');
     if (WP_DEBUG) {
-      // Make localhost copy work in DEBUG mode
+      // Make local copy work in DEBUG mode
       $bloginfo = get_bloginfo('url');
-      if (strrpos($bloginfo, "localhost") !== FALSE) {
-        $href = str_replace(array(".org", ".net", ".com"), ".localhost", $href);
+      if (strrpos($bloginfo, "local") !== FALSE) {
+        $href = str_replace(array(".org", ".net", ".com"), ".local", $href);
       }
       $href = str_replace("https", "http", $href);
     }
