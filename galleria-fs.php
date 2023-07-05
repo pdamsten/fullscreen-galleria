@@ -45,6 +45,7 @@ class FSGPlugin {
   protected $firstpostid = -1;
   protected $used = array();
   protected $share_img_url = '';
+  protected $defaults = array();
 
   // Helper functions
 
