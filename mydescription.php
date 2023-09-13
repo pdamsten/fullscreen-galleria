@@ -1687,18 +1687,51 @@ $fsg_awards = array(
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "The Punch" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
   "Punching Bag Alley" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "Ringside Thoughts" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "The Punch" => array(
+  "Kuopio Fighter Club" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Kuopio Fighter Club" => array(
+  "Two Graves" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Red Raven" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Eternal Sleep" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move Mikko-Portrait" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Silencer" => array(
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Silencer 2" => array(
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "The Silencer Alt" => array(
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "End Of Exitement" => array(
