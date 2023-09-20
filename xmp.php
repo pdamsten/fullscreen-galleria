@@ -11,7 +11,12 @@ License: MIT
 
 class XMPMetadata {
   protected $xml = [];
-
+  
+  private function limit($value)
+  {
+    return substr($value, 0, 64);
+  }
+  
   function __construct($fname = null) 
   {
     if ($fname) {
@@ -96,7 +101,7 @@ class XMPMetadata {
       if (($startpos = strpos($xml, $key.'="')) !== false) {
         $startpos += strlen($key) + 2;
         if (($endpos = strpos($xml, '"', $startpos)) !== false) {
-          return substr($xml, $startpos, $endpos - $startpos);
+          return substr($xml, $startpos, min($endpos - $startpos, 256));
         }
       }
       if (($startpos = strpos($xml, $key.'>')) !== false) {
@@ -112,12 +117,14 @@ class XMPMetadata {
             $s = str_replace('</rdf:li>', '|', $s);
             $s = trim($s, " \n\r\t\v\x00|");
             $s = preg_replace("/\s*\|\s*/m", '|', $s);
-            return explode('|', $s);
+            $a = explode('|', $s);
+            $a = array_map(array($this, 'limit'), $a);
+            return $a;
           }
         } else if ($xdef !== false) {
           $startpos = $xdef + 11;
           if (($endpos = strpos($xml, '<', $startpos)) !== false) {
-            return substr($xml, $startpos, $endpos - $startpos);
+            return substr($xml, $startpos, min($endpos - $startpos, 256));
           }
         }
       }
@@ -131,5 +138,5 @@ if (isset($argv) && isset($argv[0]) && realpath($argv[0]) === __FILE__) {
   $xml = new XMPMetadata($argv[1]);
   echo($xml->value('exif:Photo.BodySerialNumber'));
   echo($xml->value('dc:title'));
-  echo($xml->value('dc:subject'));
+  var_dump($xml->value('dc:subject'));
 }
