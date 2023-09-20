@@ -50,19 +50,22 @@ class XMPMetadata {
 
   function gps_to_degrees($value)
   {
-    if (is_string($value)) {
-      $value = explode(' ', $value);
+    if (!empty($value)) {
+      if (is_string($value)) {
+        $value = explode(' ', $value);
+      }
+      if (count($value) > 0) {
+        $d = $this->str_to_float($value[0]);
+      }
+      if (count($value) > 1) {
+        $m = $this->str_to_float($value[1]);
+      }
+      if (count($value) > 2) {
+        $s = $this->str_to_float($value[2]);
+      }
+      return $d + ($m / 60.0) + ($s / 3600.0);
     }
-    if (count($value) > 0) {
-      $d = $this->str_to_float($value[0]);
-    }
-    if (count($value) > 1) {
-      $m = $this->str_to_float($value[1]);
-    }
-    if (count($value) > 2) {
-      $s = $this->str_to_float($value[2]);
-    }
-    return $d + ($m / 60.0) + ($s / 3600.0);
+    return 0.0;
   }
   
   function calc_gps($gps, $ref)
@@ -101,17 +104,17 @@ class XMPMetadata {
         $bag = strpos($xml, '<rdf:Bag>', $startpos);
         $xdef = strpos($xml, 'x-default">', $startpos);
 
-        if ($bag < $xdef) {
+        if ($bag < $xdef && $bag !== false) {
           $startpos = $bag + 9;
           if (($endpos = strpos($xml, '</rdf:Bag>', $startpos)) !== false) {
             $s = substr($xml, $startpos, $endpos - $startpos);
             $s = str_replace('<rdf:li>', '', $s);
             $s = str_replace('</rdf:li>', '|', $s);
             $s = trim($s, " \n\r\t\v\x00|");
-            $s = preg_replace("/\s*\|\s*/m", ', ', $s);
-            return $s;
+            $s = preg_replace("/\s*\|\s*/m", '|', $s);
+            return explode('|', $s);
           }
-        } else {
+        } else if ($xdef !== false) {
           $startpos = $xdef + 11;
           if (($endpos = strpos($xml, '<', $startpos)) !== false) {
             return substr($xml, $startpos, $endpos - $startpos);
@@ -119,6 +122,7 @@ class XMPMetadata {
         }
       }
     }
+    return '';
   }
 
 }
