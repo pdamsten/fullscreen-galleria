@@ -36,21 +36,54 @@ class XMPMetadata {
     }
   }
 
+  function str_to_float($value)
+  {
+    $a = explode('/', $value);
+    if (count($a) < 1) {
+      return 0.0;
+    }
+    if (count($a) < 2) {
+      return floatval($a[0]);
+    }
+    return floatval($a[0]) / floatval($a[1]);
+  }
+
+  function gps_to_degrees($value)
+  {
+    if (is_string($value)) {
+      $value = explode(' ', $value);
+    }
+    if (count($value) > 0) {
+      $d = $this->str_to_float($value[0]);
+    }
+    if (count($value) > 1) {
+      $m = $this->str_to_float($value[1]);
+    }
+    if (count($value) > 2) {
+      $s = $this->str_to_float($value[2]);
+    }
+    return $d + ($m / 60.0) + ($s / 3600.0);
+  }
+  
   function calc_gps($gps, $ref)
   {
-    return '';
+    $val = $this->gps_to_degrees($gps);
+    if ($ref == 'S' || $ref == 'W') {
+      $val *= -1;
+    }
+    return $val;
   }
 
   function longitude()
   {
-    return $this->calc_gps($xml->value('exif:GPSInfo.GPSLongitude'), 
-                           $xml->value('exif:GPSInfo.GPSLongitudeRef'));
+    return $this->calc_gps($this->value('exif:GPSInfo.GPSLongitude'), 
+                           $this->value('exif:GPSInfo.GPSLongitudeRef'));
   }
 
   function latitude()
   {
-    return $this->calc_gps($xml->value('exif:GPSInfo.GPSLatitude'), 
-                           $xml->value('exif:GPSInfo.GPSLatitudeRef'));
+    return $this->calc_gps($this->value('exif:GPSInfo.GPSLatitude'), 
+                           $this->value('exif:GPSInfo.GPSLatitudeRef'));
   }
 
   function value($key)
