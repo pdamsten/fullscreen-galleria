@@ -31,6 +31,8 @@ if (file_exists(dirname(__FILE__).'/mydescription.php')) {
   include 'mydescription.php';
 }
 
+include 'xmp.php';
+
 function fsg_remove_settings()
 {
   global $fsg_db_key;
@@ -403,38 +405,6 @@ class FSGPlugin {
 
   // Rest of the plugin
 
-  function xmpData($fname) 
-  {
-    $xml = ''; 
-    $buffer = '';
-    if ($fp = fopen($fname, 'rb')) {
-      $size = filesize($fname);
-      $pos = ftell($fp);
-      while ($pos < $size && $pos < 1048576) {
-        $buffer .= fread($fp, 65536);
-        if (($endpos = strpos($buffer, '</x:xmpmeta>')) !== false ) {
-          if (($startpos = strpos($buffer, '<x:xmpmeta')) !== false) {
-              $xml = substr($buffer, $startpos, $endpos - $startpos + 12);
-          }
-          break;
-        }
-      }
-      fclose($fp);
-    }
-    return $xml;
-  }
-  
-  function fullInfo($fname)
-  {
-    $x = $this->xmpData($fname);
-    if (preg_match('/pdplus:FullInfo[>"=]+(.*?)[<"]+/i', $x, $matches) > 0) {
-      error_log($matches[1]);
-      return $matches[1];
-    }
-    error_log($x);
-    return "";
-  }
-
   function exifv($s)
   {
     $e = explode('/', $s);
@@ -544,31 +514,55 @@ class FSGPlugin {
 
   function add_additional_metadata($meta, $file, $sourceImageType)
   {
-    $meta['info'] = $this->fullInfo($file);
+    $xml = new XMPMetadata($file);
+    #error_log($xml->value('exif:Photo.BodySerialNumber'));
+    $meta['longitude'] = $xml->longitude();
+    $meta['latitude'] = $xml->latitude();
+    $meta['info'] = '';
+    $meta["aperture"] = $xml->value('exif:Photo.FNumber');
+    $meta["credit"] = $xml->value('cc:attributionName');
+    $meta["camera"] = $xml->value('exif:Image.Model');
+    $meta["caption"] = $xml->value('exif:Image.ImageDescription');
+    $meta["created_timestamp"] = $xml->value('xmp:CreateDate');
+    $meta ["copyright"] = $xml->value('exif:Image.Copyright');
+    $meta["focal_length"] = $xml->value('exif:Photo.FocalLength');
+    $meta["iso"] = $xml->value('exif:Photo.ISOSpeedRatings');
+    $meta["shutter_speed"] = $xml->value('exif:Photo.ExposureTime');
+    $meta["title"] = $xml->value('dc:title');
+    $meta["orientation"] = $xml->value('exif:Image.Orientation');
+    $meta["keywords"] = $xml->value('dc:subject');
+    $this->ob_log($meta);
+
     if (is_callable('exif_read_data')) {
       $exif = @exif_read_data($file);
-      if (!empty($exif['GPSLatitude'])) {
-        $lat = $this->gps_to_degrees($exif['GPSLatitude']);
-      }
-      if (!empty($exif['GPSLongitude'])) {
-        $long = $this->gps_to_degrees($exif['GPSLongitude']);
-      }
-      if (!empty($exif['GPSLatitudeRef'])) {
-        if ($exif['GPSLatitudeRef'] == 'S') {
-          $lat *= -1;
+      if (empty($meta['latitude'])) {
+        if (!empty($exif['GPSLatitude'])) {
+          $lat = $this->gps_to_degrees($exif['GPSLatitude']);
+        }
+        if (!empty($exif['GPSLatitudeRef'])) {
+          if ($exif['GPSLatitudeRef'] == 'S') {
+            $lat *= -1;
+          }
+        }
+        if (isset($lat)) {
+          $meta['latitude'] = $lat;
         }
       }
-      if (!empty($exif['GPSLongitudeRef'])) {
-        if ($exif['GPSLongitudeRef'] == 'W') {
-          $long *= -1;
+
+      if (empty($meta['longitude'])) {
+        if (!empty($exif['GPSLongitude'])) {
+          $long = $this->gps_to_degrees($exif['GPSLongitude']);
+        }
+        if (!empty($exif['GPSLongitudeRef'])) {
+          if ($exif['GPSLongitudeRef'] == 'W') {
+            $long *= -1;
+          }
+        }
+        if (isset($long)) {
+          $meta['longitude'] = $long;
         }
       }
-      if (isset($long)) {
-        $meta['longitude'] = $long;
-      }
-      if (isset($lat)) {
-        $meta['latitude'] = $lat;
-      }
+
       if (empty($meta['info'])) {
         $meta['info'] = $this->camera_info($exif);
       }
