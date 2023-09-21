@@ -489,36 +489,32 @@ class FSGPlugin {
   function add_additional_metadata($meta, $file, $sourceImageType)
   {
     $xmp = new XMPMetadata($file);
-    $meta['longitude'] = $xmp->longitude();
-    $meta['latitude'] = $xmp->latitude();
-    $meta['info'] = $xmp->value('exif:Image.ImageHistory');
-    $meta["aperture"] = $xmp->value('exif:Photo.FNumber');
-    $meta["credit"] = $xmp->value('cc:attributionName');
-    $meta["camera"] = $xmp->value('exif:Image.Model');
-    $meta["caption"] = $xmp->value('exif:Image.ImageDescription');
-    $meta["created_timestamp"] = $xmp->value('xmp:CreateDate');
-    $meta["copyright"] = $xmp->value('exif:Image.Copyright');
-    $meta["focal_length"] = $xmp->value('exif:Photo.FocalLength');
-    $meta["iso"] = $xmp->value('exif:Photo.ISOSpeedRatings');
-    $meta["shutter_speed"] = $xmp->value('exif:Photo.ExposureTime');
-    $meta["title"] = $xmp->value('dc:title');
-    $meta["orientation"] = $xmp->value('exif:Image.Orientation');
-    $meta["keywords"] = $xmp->value('dc:subject');
-    $this->ob_log($meta);
+    if (empty($meta['longitude'])) $meta['longitude'] = $xmp->longitude();
+    if (empty($meta['latitude'])) $meta['latitude'] = $xmp->latitude();
+    if (empty($meta['info'])) $meta['info'] = $xmp->value('exif:Image.ImageHistory');
+    if (empty($meta["aperture"])) $meta["aperture"] = $xmp->value('exif:Photo.FNumber');
+    if (empty($meta["credit"] )) $meta["credit"] = $xmp->value('cc:attributionName');
+    if (empty($meta["camera"])) $meta["camera"] = $xmp->value('exif:Image.Model');
+    if (empty($meta["caption"])) $meta["caption"] = $xmp->value('exif:Image.ImageDescription');
+    if (empty($meta["created_timestamp"])) $meta["created_timestamp"] = 
+                                                $xmp->value('xmp:CreateDate');
+    if (empty($meta["copyright"])) $meta["copyright"] = $xmp->value('exif:Image.Copyright');
+    if (empty($meta["focal_length"])) $meta["focal_length"] = $xmp->value('exif:Photo.FocalLength');
+    if (empty($meta["iso"])) $meta["iso"] = $xmp->value('exif:Photo.ISOSpeedRatings');
+    if (empty($meta["shutter_speed"])) $meta["shutter_speed"] = 
+                                            $xmp->value('exif:Photo.ExposureTime');
+    if (empty($meta["title"])) $meta["title"] = $xmp->value('dc:title');
+    if (empty($meta["orientation"])) $meta["orientation"] = $xmp->value('exif:Image.Orientation');
+    if (empty($meta["keywords"])) $meta["keywords"] = $xmp->value('dc:subject');
 
     if (is_callable('exif_read_data')) {
       $exif = @exif_read_data($file);
-      if (empty($meta['latitude'])) {
-        $meta['latitude'] = $xmp->calc_gps($exif['GPSLatitude'], $exif['GPSLatitudeRef']);
-      }
+      if (empty($meta['latitude'])) $meta['latitude'] = $xmp->calc_gps($exif['GPSLatitude'], 
+                                                                       $exif['GPSLatitudeRef']);
 
-      if (empty($meta['longitude'])) {
-        $meta['longitude'] = $xmp->calc_gps($exif['GPSLongitude'], $exif['GPSLongitudeRef']);
-      }
-
-      if (empty($meta['info'])) {
-        $meta['info'] = $this->camera_info($exif);
-      }
+      if (empty($meta['longitude'])) $meta['longitude'] = $xmp->calc_gps($exif['GPSLongitude'], 
+                                                                         $exif['GPSLongitudeRef']);
+      if (empty($meta['info'])) $meta['info'] = $this->camera_info($exif);
     } else {
       error_log('Cannot read exif. exif_read_data not callable.');
     }
