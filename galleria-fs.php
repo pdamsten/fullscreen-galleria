@@ -491,7 +491,7 @@ class FSGPlugin {
     $xmp = new XMPMetadata($file);
     if (empty($meta['longitude'])) $meta['longitude'] = $xmp->longitude();
     if (empty($meta['latitude'])) $meta['latitude'] = $xmp->latitude();
-    if (empty($meta['info'])) $meta['info'] = $xmp->value('exif:Image.ImageHistory');
+    if (empty($meta['info'])) $meta['info'] = $xmp->value('pdplus:FullInfo');
     if (empty($meta["aperture"])) $meta["aperture"] = $xmp->value('exif:Photo.FNumber');
     if (empty($meta["credit"] )) $meta["credit"] = $xmp->value('cc:attributionName');
     if (empty($meta["camera"])) $meta["camera"] = $xmp->value('exif:Image.Model');
@@ -506,18 +506,9 @@ class FSGPlugin {
     if (empty($meta["title"])) $meta["title"] = $xmp->value('dc:title');
     if (empty($meta["orientation"])) $meta["orientation"] = $xmp->value('exif:Image.Orientation');
     if (empty($meta["keywords"])) $meta["keywords"] = $xmp->value('dc:subject');
+    if (empty($meta['square-pos'])) $meta['square-pos'] = $xmp->value('pdplus:SquarePosition');
+    if (empty($meta['hero-pos'])) $meta['hero-pos'] = $xmp->value('pdplus:HeroPosition');
 
-    if (is_callable('exif_read_data')) {
-      $exif = @exif_read_data($file);
-      if (empty($meta['latitude'])) $meta['latitude'] = $xmp->calc_gps($exif['GPSLatitude'], 
-                                                                       $exif['GPSLatitudeRef']);
-
-      if (empty($meta['longitude'])) $meta['longitude'] = $xmp->calc_gps($exif['GPSLongitude'], 
-                                                                         $exif['GPSLongitudeRef']);
-      if (empty($meta['info'])) $meta['info'] = $this->camera_info($exif);
-    } else {
-      error_log('Cannot read exif. exif_read_data not callable.');
-    }
     return $meta;
   }
 
