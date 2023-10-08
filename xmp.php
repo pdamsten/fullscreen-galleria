@@ -107,9 +107,10 @@ class XMPMetadata {
       if (($startpos = strpos($xml, $key.'>')) !== false) {
         $startpos += strlen($key) + 1;
         $bag = strpos($xml, '<rdf:Bag>', $startpos);
-        $xdef = strpos($xml, 'x-default">', $startpos);
+        $xdef = strpos($xml, 'x-default', $startpos);
+        $end = strpos($xml, '</'.$key.'>', $startpos);
 
-        if ($bag < $xdef && $bag !== false) {
+        if ($bag !== false && $bag < $end) {
           $startpos = $bag + 9;
           if (($endpos = strpos($xml, '</rdf:Bag>', $startpos)) !== false) {
             $s = substr($xml, $startpos, $endpos - $startpos);
@@ -121,11 +122,13 @@ class XMPMetadata {
             $a = array_map(array($this, 'limit'), $a);
             return $a;
           }
-        } else if ($xdef !== false) {
+        } else if ($xdef !== false && $xdef < $end) {
           $startpos = $xdef + 11;
           if (($endpos = strpos($xml, '<', $startpos)) !== false) {
             return substr($xml, $startpos, min($endpos - $startpos, 256));
-          }
+          } 
+        } else if ($end !== false) {
+          return substr($xml, $startpos, min($end - $startpos, 256));
         }
       }
     }
