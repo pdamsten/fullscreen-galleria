@@ -722,7 +722,6 @@ $fsg_awards = array(
     array('Fine Art Photography Awards • 2017 • Great Britain • Nominee', 'fapa-nominee.png', '', '52', '72', '0', '5'),
     array('International Photographer of the Year • 2018 • GB • HM', 'ipoty_2017_hm.png', '', '93', '72', '0', '5'),
     array('PiART • 2020', 'piart.svg', '', '72', '72', '-18', '-13'),
-    array('Nordiskt Fotomästerskap // bildspel • 2023 • Nordic • NSFF Gold', 'nsff_gold.png', '', '33', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 34° Trofeo Arno • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('20° Gran Tour delle Colline - 14° Trofeo Colline del Chianti • 2016 • Italy • IUP HM', 'hm_iup.png', '', '22', '72', '0', '5'),
     array('PX3 • 2016 • France • HM', 'hm.svg', '', '72', '72', '-12', '-7'),
@@ -1725,6 +1724,23 @@ $fsg_awards = array(
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
+  "How I Move Timo-Portrait" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move Timo-Transportation" => array(
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Leather And Chrome" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move Jussi-Portrait" => array(
+    array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+  ),
   "The Silencer" => array(
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
@@ -1733,6 +1749,9 @@ $fsg_awards = array(
   ),
   "The Silencer Alt" => array(
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "Boxer" => array(
+    array('Nordiskt Fotomästerskap // kollektioner • 2023 • Nordic • NFFF Gold', 'gold_nfff.png', '', '72', '72', '0', '5'),
   ),
   "End Of Exitement" => array(
     array('International Color Awards • 2023 • USA • Nominee', 'intl_color_awards_nominee_2017.png', '', '72', '72', '0', '5'),
