@@ -1680,7 +1680,7 @@ $fsg_awards = array(
   "Diversity" => array(
     array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
-  "In The Corner" => array(
+  "In the Corner" => array(
     array('Fstoppers • 2023 • Photo of the Day', 'fstoppers.png', '', '82', '72', '0', '5'),
     array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
@@ -1719,27 +1719,33 @@ $fsg_awards = array(
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "How I Move Mikko-Portrait" => array(
+  "How I Move: Mikko - Portrait" => array(
     array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "How I Move Timo-Portrait" => array(
+  "How I Move: Timo - Portrait" => array(
     array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "How I Move Timo-Transportation" => array(
+  "How I Move: Timo - Transportation" => array(
     array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "Leather And Chrome" => array(
+  "Leather and Chrome" => array(
     array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
-  "How I Move Jussi-Portrait" => array(
+  "How I Move: Jussi - Portrait" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Jussi - Transportation" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "The Silencer" => array(
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
