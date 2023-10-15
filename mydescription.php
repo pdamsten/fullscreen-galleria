@@ -1739,13 +1739,16 @@ $fsg_awards = array(
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Jussi - Portrait" => array(
-    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
+    array('1x.com • 2023 • Awarded', '1x-awarded.svg', '', '72', '72', '-18', '-13'),
     array('PiART • 2023', 'piart.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
   ),
   "How I Move: Jussi - Transportation" => array(
     array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
+  ),
+  "How I Move: Johanna - Transportation" => array(
+    array('1x.com • 2023', '1x.svg', '', '72', '72', '-18', '-13'),
   ),
   "The Silencer" => array(
     array('One Eyeland • 2023', 'one_eyeland.png', '', '83', '72', '0', '5'),
