@@ -84,18 +84,6 @@ Adds link to group of images. eg. [fsg_link class="btn" include="112,113,114,115
 * **orderby** - See wordpress doc for all the options (default is post__in)
 * **postid** - use photos of this post. (no default)
 
-= fsg_dlmngr keyword =
-
-Show files in docs folder. eg. [fsg_dlmngr class="btn" path="/docs/"]
-
-* **title** - Page title
-* **path** - Path to glob
-* **filter** - File filter eg. "*.{pdf,svg}"
-* **order** - ASC or DESC (default is ASC)
-* **orderby** - filename | filesize | title | time
-
-Tip: If you have a folder /docs/ for files and you want to add page /docs/ comment out the #RewriteCond %{REQUEST_FILENAME} !-d in wp /.htaccess file to do that.
-
 = keyboard shortcuts =
 
 * esc - closes map/gallery
@@ -112,6 +100,12 @@ Tip: If you have a folder /docs/ for files and you want to add page /docs/ comme
 3. Showing map for photos that have gps coordinates
 
 == Changelog ==
+= 1.6.12 =
+* fsg_dlmngr removed
+* Use xmp for metadata
+* Portfolio groups
+* fixes
+
 = 1.6.11 =
 * fsg_dlmngr icons fixed
 
