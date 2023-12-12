@@ -553,6 +553,13 @@ class FSGPlugin {
       'include'    => '',
     ), $attr));
 
+    $rows = absint($rows);
+    $cols = absint($cols);
+    $border = absint($border);
+    $maxtiles = absint($maxtiles);
+    $tile = absint($tile);
+    $repeat = sanitize_key($repeat);
+
     $images = $this->photo_images($post, $postid, $order, $orderby, $include);
     $id = 'fsg_photobox_'.$post->ID.'_'.$this->photoboxid;
     $photobox = "fsg_photobox['".$id."'] = {rows: ".$rows.", cols: ".$cols.", border: ".
@@ -578,6 +585,12 @@ class FSGPlugin {
       'orderby'    => 'post__in',
       'include'    => '',
     ), $attr));
+
+    $cols = absint($cols);
+    $border = absint($border);
+    $tile = absint($tile);
+    $extlinks = sanitize_key($extlinks);
+    $fixed = sanitize_key($fixed);
 
     $images = $this->photo_images($post, $postid, $order, $orderby, $include);
     $id = 'fsg_photobox_'.$post->ID.'_'.$this->photoboxid;
@@ -608,7 +621,7 @@ class FSGPlugin {
         }
       }
       $content .= $fsg_portfolio[$wp->request]['footer'];
-      error_log($content);
+      #error_log($content);
     } else {
       $content = "Portfolio content not found.";
     }
@@ -626,6 +639,8 @@ class FSGPlugin {
       'orderby'    => 'post__in',
       'postid'     => '',
     ), $attr));
+
+    $class = sanitize_key($class);
 
     if (!empty($postid)) {
 		  $photos = get_children(array('post_parent' => $postid, 'post_status' => 'inherit',
